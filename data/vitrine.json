@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-10-20 22:07",
+ "generated": "2026-10-20 22:09",
  "champion": {
   "since": "2026-10-20",
   "base": "Qwen/Qwen3.5-4B",
@@ -354,7 +354,7 @@
   }
  ],
  "tokens": {
-  "matthew": 192297,
+  "matthew": 234078,
   "school": 205816
  },
  "showcase": [
@@ -367,7 +367,7 @@
     "2026-10-20": {
      "chosen": "browser_control",
      "ok": true,
-     "ms": 1767
+     "ms": 1222
     }
    }
   },
@@ -380,7 +380,7 @@
     "2026-10-20": {
      "chosen": "close_camera",
      "ok": true,
-     "ms": 854
+     "ms": 342
     }
    }
   },
@@ -393,7 +393,7 @@
     "2026-10-20": {
      "chosen": "code_helper",
      "ok": true,
-     "ms": 1753
+     "ms": 1265
     }
    }
   },
@@ -406,7 +406,7 @@
     "2026-10-20": {
      "chosen": "code_studio",
      "ok": true,
-     "ms": 1585
+     "ms": 1015
     }
    }
   },
@@ -419,7 +419,7 @@
     "2026-10-20": {
      "chosen": "computer_control",
      "ok": true,
-     "ms": 1521
+     "ms": 805
     }
    }
   },
@@ -432,7 +432,7 @@
     "2026-10-20": {
      "chosen": "computer_settings",
      "ok": true,
-     "ms": 1094
+     "ms": 495
     }
    }
   },
@@ -445,7 +445,7 @@
     "2026-10-20": {
      "chosen": "desktop_control",
      "ok": true,
-     "ms": 1039
+     "ms": 1072
     }
    }
   },
@@ -458,7 +458,7 @@
     "2026-10-20": {
      "chosen": "file_controller",
      "ok": true,
-     "ms": 1458
+     "ms": 913
     }
    }
   },
@@ -471,7 +471,7 @@
     "2026-10-20": {
      "chosen": "file_processor",
      "ok": true,
-     "ms": 1248
+     "ms": 578
     }
    }
   },
@@ -484,7 +484,7 @@
     "2026-10-20": {
      "chosen": "flight_finder",
      "ok": true,
-     "ms": 1929
+     "ms": 1397
     }
    }
   },
@@ -497,7 +497,7 @@
     "2026-10-20": {
      "chosen": "game_updater",
      "ok": true,
-     "ms": 1622
+     "ms": 1102
     }
    }
   },
@@ -510,7 +510,7 @@
     "2026-10-20": {
      "chosen": "manage_monitor",
      "ok": true,
-     "ms": 1165
+     "ms": 622
     }
    }
   },
@@ -523,7 +523,7 @@
     "2026-10-20": {
      "chosen": "open_app",
      "ok": true,
-     "ms": 1047
+     "ms": 1025
     }
    }
   },
@@ -536,7 +536,7 @@
     "2026-10-20": {
      "chosen": "recall_memory",
      "ok": true,
-     "ms": 919
+     "ms": 462
     }
    }
   },
@@ -549,7 +549,7 @@
     "2026-10-20": {
      "chosen": "reminder",
      "ok": true,
-     "ms": 1580
+     "ms": 980
     }
    }
   },
@@ -562,7 +562,7 @@
     "2026-10-20": {
      "chosen": "repository_review",
      "ok": true,
-     "ms": 1391
+     "ms": 907
     }
    }
   },
@@ -575,7 +575,7 @@
     "2026-10-20": {
      "chosen": "save_memory",
      "ok": true,
-     "ms": 1393
+     "ms": 859
     }
    }
   },
@@ -588,7 +588,7 @@
     "2026-10-20": {
      "chosen": "screen_process",
      "ok": true,
-     "ms": 1217
+     "ms": 735
     }
    }
   },
@@ -601,7 +601,7 @@
     "2026-10-20": {
      "chosen": "send_message",
      "ok": true,
-     "ms": 1303
+     "ms": 973
     }
    }
   },
@@ -614,7 +614,7 @@
     "2026-10-20": {
      "chosen": "shutdown",
      "ok": true,
-     "ms": 832
+     "ms": 367
     }
    }
   },
@@ -627,7 +627,7 @@
     "2026-10-20": {
      "chosen": "system_status",
      "ok": true,
-     "ms": 894
+     "ms": 322
     }
    }
   },
@@ -640,7 +640,7 @@
     "2026-10-20": {
      "chosen": "undo",
      "ok": true,
-     "ms": 853
+     "ms": 459
     }
    }
   },
@@ -653,7 +653,7 @@
     "2026-10-20": {
      "chosen": "usage_report",
      "ok": true,
-     "ms": 750
+     "ms": 347
     }
    }
   }
