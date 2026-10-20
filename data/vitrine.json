@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-10-21 01:04",
+ "generated": "2026-10-21 01:38",
  "champion": {
   "since": "2026-10-20",
   "base": "Qwen/Qwen3.5-4B",
@@ -23,301 +23,387 @@
   {
    "id": "system_status",
    "label": "État du PC",
+   "label_en": "PC status",
    "domain": "Système",
+   "learned_on": "2026-10-20",
    "examples": 6,
    "accuracy": null
   },
   {
    "id": "screen_process",
    "label": "Lire l'écran",
+   "label_en": "Read the screen",
    "domain": "Système",
+   "learned_on": "2026-10-20",
    "examples": 2,
    "accuracy": null
   },
   {
    "id": "close_camera",
    "label": "Fermer la caméra",
+   "label_en": "Close camera",
    "domain": "Système",
+   "learned_on": "2026-10-20",
    "examples": 6,
    "accuracy": 1.0
   },
   {
    "id": "manage_monitor",
    "label": "Écrans",
+   "label_en": "Displays",
    "domain": "Système",
+   "learned_on": "2026-10-20",
    "examples": 6,
    "accuracy": null
   },
   {
    "id": "shutdown",
    "label": "S'éteindre",
+   "label_en": "Shut down",
    "domain": "Système",
+   "learned_on": "2026-10-20",
    "examples": 6,
    "accuracy": 1.0
   },
   {
    "id": "save_memory",
    "label": "Retenir",
+   "label_en": "Remember",
    "domain": "Mémoire",
+   "learned_on": "2026-10-20",
    "examples": 6,
    "accuracy": 0.917
   },
   {
    "id": "recall_memory",
    "label": "Se souvenir",
+   "label_en": "Recall",
    "domain": "Mémoire",
+   "learned_on": "2026-10-20",
    "examples": 5,
    "accuracy": null
   },
   {
    "id": "undo",
    "label": "Annuler",
+   "label_en": "Undo",
    "domain": "Bureau",
+   "learned_on": "2026-10-20",
    "examples": 2,
    "accuracy": null
   },
   {
    "id": "browser_control",
    "label": "Navigateur",
+   "label_en": "Browser",
    "domain": "Bureau",
+   "learned_on": "2026-10-20",
    "examples": 6,
    "accuracy": 0.5
   },
   {
    "id": "code_helper",
    "label": "Aide au code",
+   "label_en": "Code helper",
    "domain": "Code",
+   "learned_on": "2026-10-20",
    "examples": 3,
    "accuracy": 0.833
   },
   {
    "id": "code_studio",
    "label": "Code Studio",
+   "label_en": "Code Studio",
    "domain": "Code",
+   "learned_on": "2026-10-20",
    "examples": 6,
    "accuracy": 0.833
   },
   {
    "id": "computer_control",
    "label": "Souris et clavier",
+   "label_en": "Mouse and keyboard",
    "domain": "Bureau",
+   "learned_on": "2026-10-20",
    "examples": 4,
    "accuracy": 1.0
   },
   {
    "id": "computer_settings",
    "label": "Réglages du PC",
+   "label_en": "PC settings",
    "domain": "Système",
+   "learned_on": "2026-10-20",
    "examples": 6,
    "accuracy": null
   },
   {
    "id": "desktop_control",
    "label": "Bureau Windows",
+   "label_en": "Windows desktop",
    "domain": "Bureau",
+   "learned_on": "2026-10-20",
    "examples": 4,
    "accuracy": null
   },
   {
    "id": "file_controller",
    "label": "Fichiers",
+   "label_en": "Files",
    "domain": "Bureau",
+   "learned_on": "2026-10-20",
    "examples": 6,
    "accuracy": 0.75
   },
   {
    "id": "file_processor",
    "label": "Lire un document",
+   "label_en": "Read a document",
    "domain": "Bureau",
+   "learned_on": "2026-10-20",
    "examples": 5,
    "accuracy": null
   },
   {
    "id": "flight_finder",
    "label": "Vols",
+   "label_en": "Flights",
    "domain": "Infos",
+   "learned_on": "2026-10-20",
    "examples": 6,
    "accuracy": 0.875
   },
   {
    "id": "game_updater",
    "label": "Mises à jour de jeux",
+   "label_en": "Game updates",
    "domain": "Système",
+   "learned_on": "2026-10-20",
    "examples": 5,
    "accuracy": null
   },
   {
    "id": "open_app",
    "label": "Ouvrir une appli",
+   "label_en": "Open an app",
    "domain": "Bureau",
+   "learned_on": "2026-10-20",
    "examples": 6,
    "accuracy": 1.0
   },
   {
    "id": "reminder",
    "label": "Rappels",
+   "label_en": "Reminders",
    "domain": "Communication",
+   "learned_on": "2026-10-20",
    "examples": 6,
    "accuracy": null
   },
   {
    "id": "repository_review",
    "label": "Revue de dépôt",
+   "label_en": "Repo review",
    "domain": "Code",
+   "learned_on": "2026-10-20",
    "examples": 6,
    "accuracy": null
   },
   {
    "id": "send_message",
    "label": "Envoyer un message",
+   "label_en": "Send a message",
    "domain": "Communication",
+   "learned_on": "2026-10-20",
    "examples": 6,
    "accuracy": 0.917
   },
   {
    "id": "usage_report",
    "label": "Consommation",
+   "label_en": "Usage",
    "domain": "Noyau",
+   "learned_on": "2026-10-20",
    "examples": 2,
    "accuracy": null
   },
   {
    "id": "weather_report",
    "label": "Météo",
+   "label_en": "Weather",
    "domain": "Infos",
+   "learned_on": "2026-10-21",
    "examples": 6,
    "accuracy": null
   },
   {
    "id": "web_search",
    "label": "Recherche web",
+   "label_en": "Web search",
    "domain": "Infos",
+   "learned_on": "2026-10-21",
    "examples": 6,
    "accuracy": null
   },
   {
    "id": "youtube_video",
    "label": "YouTube",
+   "label_en": "YouTube",
    "domain": "Infos",
+   "learned_on": "2026-10-21",
    "examples": 4,
    "accuracy": null
   },
   {
    "id": "briefing",
    "label": "Briefing du matin",
+   "label_en": "Morning briefing",
    "domain": "Infos",
+   "learned_on": "2026-10-21",
    "examples": 2,
    "accuracy": null
   },
   {
    "id": "capabilities",
    "label": "Ses capacités",
+   "label_en": "Its capabilities",
    "domain": "Noyau",
+   "learned_on": null,
    "examples": 0,
    "accuracy": null
   },
   {
    "id": "forget_about",
    "label": "Oublier",
+   "label_en": "Forget",
    "domain": "Mémoire",
+   "learned_on": null,
    "examples": 0,
    "accuracy": null
   },
   {
    "id": "goals",
    "label": "Objectifs",
+   "label_en": "Goals",
    "domain": "Mémoire",
+   "learned_on": null,
    "examples": 0,
    "accuracy": null
   },
   {
    "id": "recall_episodes",
    "label": "Conversations passées",
+   "label_en": "Past conversations",
    "domain": "Mémoire",
+   "learned_on": null,
    "examples": 0,
    "accuracy": null
   },
   {
    "id": "self_state",
    "label": "État intérieur",
+   "label_en": "Inner state",
    "domain": "Mémoire",
+   "learned_on": null,
    "examples": 0,
    "accuracy": null
   },
   {
    "id": "extensions",
    "label": "Extensions",
+   "label_en": "Extensions",
    "domain": "Noyau",
+   "learned_on": null,
    "examples": 0,
    "accuracy": null
   },
   {
    "id": "local_health_check",
    "label": "Diagnostic",
+   "label_en": "Diagnostics",
    "domain": "Système",
+   "learned_on": null,
    "examples": 0,
    "accuracy": null
   },
   {
    "id": "incidents",
    "label": "Incidents",
+   "label_en": "Incidents",
    "domain": "Noyau",
+   "learned_on": null,
    "examples": 0,
    "accuracy": null
   },
   {
    "id": "open_itinerary",
    "label": "Itinéraire",
+   "label_en": "Directions",
    "domain": "Infos",
+   "learned_on": null,
    "examples": 0,
    "accuracy": null
   },
   {
    "id": "matthew",
    "label": "Apprendre",
+   "label_en": "Learning",
    "domain": "Noyau",
+   "learned_on": null,
    "examples": 0,
    "accuracy": null
   },
   {
    "id": "mcp",
    "label": "Connecteurs MCP",
+   "label_en": "MCP connectors",
    "domain": "Noyau",
+   "learned_on": null,
    "examples": 0,
    "accuracy": null
   },
   {
    "id": "meeting",
    "label": "Réunions",
+   "label_en": "Meetings",
    "domain": "Communication",
+   "learned_on": null,
    "examples": 0,
    "accuracy": null
   },
   {
    "id": "pilot",
    "label": "Pilote du PC",
+   "label_en": "PC pilot",
    "domain": "Bureau",
+   "learned_on": null,
    "examples": 0,
    "accuracy": null
   },
   {
    "id": "portable",
    "label": "Mode clé USB",
+   "label_en": "USB-stick mode",
    "domain": "Noyau",
+   "learned_on": null,
    "examples": 0,
    "accuracy": null
   },
   {
    "id": "quotas",
    "label": "Quotas",
+   "label_en": "Quotas",
    "domain": "Noyau",
+   "learned_on": null,
    "examples": 0,
    "accuracy": null
   },
   {
    "id": "skills",
    "label": "Compétences",
+   "label_en": "Skills",
    "domain": "Noyau",
+   "learned_on": null,
    "examples": 0,
    "accuracy": null
   }
@@ -367,7 +453,7 @@
   }
  ],
  "tokens": {
-  "matthew": 283037,
+  "matthew": 631988,
   "school": 361988
  },
  "showcase": [
@@ -380,12 +466,14 @@
     "2026-10-20": {
      "chosen": "browser_control",
      "ok": true,
-     "ms": 1222
+     "ms": 1222,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "browser_control",
      "ok": true,
-     "ms": 5110
+     "ms": 1753,
+     "answer": null
     }
    }
   },
@@ -398,12 +486,14 @@
     "2026-10-20": {
      "chosen": "close_camera",
      "ok": true,
-     "ms": 342
+     "ms": 342,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "close_camera",
      "ok": true,
-     "ms": 839
+     "ms": 2636,
+     "answer": null
     }
    }
   },
@@ -416,12 +506,14 @@
     "2026-10-20": {
      "chosen": "code_helper",
      "ok": true,
-     "ms": 1265
+     "ms": 1265,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "code_helper",
      "ok": true,
-     "ms": 1770
+     "ms": 2371,
+     "answer": null
     }
    }
   },
@@ -434,12 +526,14 @@
     "2026-10-20": {
      "chosen": "code_studio",
      "ok": true,
-     "ms": 1015
+     "ms": 1015,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "code_studio",
      "ok": true,
-     "ms": 1605
+     "ms": 1996,
+     "answer": null
     }
    }
   },
@@ -452,12 +546,14 @@
     "2026-10-20": {
      "chosen": "computer_control",
      "ok": true,
-     "ms": 805
+     "ms": 805,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "computer_control",
      "ok": true,
-     "ms": 2013
+     "ms": 2541,
+     "answer": null
     }
    }
   },
@@ -470,12 +566,14 @@
     "2026-10-20": {
      "chosen": "computer_settings",
      "ok": true,
-     "ms": 495
+     "ms": 495,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "computer_settings",
      "ok": true,
-     "ms": 2219
+     "ms": 2003,
+     "answer": null
     }
    }
   },
@@ -488,12 +586,14 @@
     "2026-10-20": {
      "chosen": "desktop_control",
      "ok": true,
-     "ms": 1072
+     "ms": 1072,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "desktop_control",
      "ok": true,
-     "ms": 2037
+     "ms": 2581,
+     "answer": null
     }
    }
   },
@@ -506,12 +606,14 @@
     "2026-10-20": {
      "chosen": "file_controller",
      "ok": true,
-     "ms": 913
+     "ms": 913,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "file_controller",
      "ok": true,
-     "ms": 1518
+     "ms": 2371,
+     "answer": null
     }
    }
   },
@@ -524,12 +626,14 @@
     "2026-10-20": {
      "chosen": "file_processor",
      "ok": true,
-     "ms": 578
+     "ms": 578,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "file_processor",
      "ok": true,
-     "ms": 1306
+     "ms": 2790,
+     "answer": null
     }
    }
   },
@@ -542,12 +646,14 @@
     "2026-10-20": {
      "chosen": "flight_finder",
      "ok": true,
-     "ms": 1397
+     "ms": 1397,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "flight_finder",
      "ok": true,
-     "ms": 1987
+     "ms": 2871,
+     "answer": null
     }
    }
   },
@@ -560,12 +666,14 @@
     "2026-10-20": {
      "chosen": "game_updater",
      "ok": true,
-     "ms": 1102
+     "ms": 1102,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "game_updater",
      "ok": true,
-     "ms": 1697
+     "ms": 2941,
+     "answer": null
     }
    }
   },
@@ -578,12 +686,14 @@
     "2026-10-20": {
      "chosen": "manage_monitor",
      "ok": true,
-     "ms": 622
+     "ms": 622,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "manage_monitor",
      "ok": true,
-     "ms": 1183
+     "ms": 1499,
+     "answer": null
     }
    }
   },
@@ -596,12 +706,14 @@
     "2026-10-20": {
      "chosen": "open_app",
      "ok": true,
-     "ms": 1025
+     "ms": 1025,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "open_app",
      "ok": true,
-     "ms": 1080
+     "ms": 2011,
+     "answer": null
     }
    }
   },
@@ -614,12 +726,14 @@
     "2026-10-20": {
      "chosen": "recall_memory",
      "ok": true,
-     "ms": 462
+     "ms": 462,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "recall_memory",
      "ok": true,
-     "ms": 924
+     "ms": 1751,
+     "answer": null
     }
    }
   },
@@ -632,12 +746,14 @@
     "2026-10-20": {
      "chosen": "reminder",
      "ok": true,
-     "ms": 980
+     "ms": 980,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "reminder",
      "ok": true,
-     "ms": 1604
+     "ms": 2488,
+     "answer": null
     }
    }
   },
@@ -650,12 +766,14 @@
     "2026-10-20": {
      "chosen": "repository_review",
      "ok": true,
-     "ms": 907
+     "ms": 907,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "repository_review",
      "ok": true,
-     "ms": 1451
+     "ms": 2242,
+     "answer": null
     }
    }
   },
@@ -668,12 +786,14 @@
     "2026-10-20": {
      "chosen": "save_memory",
      "ok": true,
-     "ms": 859
+     "ms": 859,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "save_memory",
      "ok": true,
-     "ms": 1418
+     "ms": 1594,
+     "answer": null
     }
    }
   },
@@ -686,12 +806,14 @@
     "2026-10-20": {
      "chosen": "screen_process",
      "ok": true,
-     "ms": 735
+     "ms": 735,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "screen_process",
      "ok": true,
-     "ms": 1236
+     "ms": 1971,
+     "answer": null
     }
    }
   },
@@ -704,12 +826,14 @@
     "2026-10-20": {
      "chosen": "send_message",
      "ok": true,
-     "ms": 973
+     "ms": 973,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "send_message",
      "ok": true,
-     "ms": 1331
+     "ms": 2003,
+     "answer": null
     }
    }
   },
@@ -722,12 +846,14 @@
     "2026-10-20": {
      "chosen": "shutdown",
      "ok": true,
-     "ms": 367
+     "ms": 367,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "shutdown",
      "ok": true,
-     "ms": 851
+     "ms": 2032,
+     "answer": null
     }
    }
   },
@@ -740,12 +866,14 @@
     "2026-10-20": {
      "chosen": "system_status",
      "ok": true,
-     "ms": 322
+     "ms": 322,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "system_status",
      "ok": true,
-     "ms": 892
+     "ms": 1662,
+     "answer": null
     }
    }
   },
@@ -758,12 +886,14 @@
     "2026-10-20": {
      "chosen": "undo",
      "ok": true,
-     "ms": 459
+     "ms": 459,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "undo",
      "ok": true,
-     "ms": 873
+     "ms": 1554,
+     "answer": null
     }
    }
   },
@@ -776,12 +906,14 @@
     "2026-10-20": {
      "chosen": "usage_report",
      "ok": true,
-     "ms": 347
+     "ms": 347,
+     "answer": null
     },
     "2026-10-21": {
      "chosen": "usage_report",
      "ok": true,
-     "ms": 802
+     "ms": 1731,
+     "answer": null
     }
    }
   },
@@ -790,28 +922,168 @@
    "request": "Fais‑moi le briefing pour aujourd’hui, s’il te plaît.",
    "target": "briefing",
    "heldout": false,
-   "results": {}
+   "results": {
+    "2026-10-21": {
+     "chosen": "briefing",
+     "ok": true,
+     "ms": 1881,
+     "answer": null
+    }
+   }
   },
   {
    "id": "94073b3f",
    "request": "Quel sera le climat à Nice la semaine prochaine ?",
    "target": "weather_report",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-10-21": {
+     "chosen": "weather_report",
+     "ok": true,
+     "ms": 1282,
+     "answer": null
+    }
+   }
   },
   {
    "id": "0bd57779",
    "request": "Quel est le prix du nouveau MacBook Air M2 chez Apple Store France ?",
    "target": "web_search",
    "heldout": false,
-   "results": {}
+   "results": {
+    "2026-10-21": {
+     "chosen": "web_search",
+     "ok": true,
+     "ms": 2257,
+     "answer": null
+    }
+   }
   },
   {
    "id": "17d1c96b",
    "request": "Pouvez‑vous me donner les informations de la vidéo https://www.youtube.com/watch?v=dQw4w9WgXcQ ?",
    "target": "youtube_video",
    "heldout": false,
-   "results": {}
+   "results": {
+    "2026-10-21": {
+     "chosen": "youtube_video",
+     "ok": true,
+     "ms": 3001,
+     "answer": null
+    }
+   }
+  },
+  {
+   "id": "032c1719",
+   "request": "Hey, tu es quel modèle d’assistant ?",
+   "target": "__chat__",
+   "heldout": true,
+   "results": {
+    "2026-10-21": {
+     "chosen": null,
+     "ok": true,
+     "ms": 2168,
+     "answer": "Je ne sais pas encore m'en occuper, désolé."
+    }
+   }
+  },
+  {
+   "id": "23f2bdf8",
+   "request": "Tu penses que les chats sont mignons ?",
+   "target": "__chat__",
+   "heldout": true,
+   "results": {
+    "2026-10-21": {
+     "chosen": "recall_memory",
+     "ok": false,
+     "ms": 2129,
+     "answer": null
+    }
+   }
+  },
+  {
+   "id": "4c9194c5",
+   "request": "Donne-moi ton avis sur la météo aujourd’hui.",
+   "target": "__chat__",
+   "heldout": true,
+   "results": {
+    "2026-10-21": {
+     "chosen": "recall_memory",
+     "ok": false,
+     "ms": 1588,
+     "answer": null
+    }
+   }
+  },
+  {
+   "id": "74ede442",
+   "request": "Je trouve que la météo est sympa aujourd’hui.",
+   "target": "__chat__",
+   "heldout": true,
+   "results": {
+    "2026-10-21": {
+     "chosen": "recall_memory",
+     "ok": false,
+     "ms": 1495,
+     "answer": null
+    }
+   }
+  },
+  {
+   "id": "1e5c1699",
+   "request": "Réservez des billets de train pour Paris‑Lyon demain matin.",
+   "target": "__none__",
+   "heldout": true,
+   "results": {
+    "2026-10-21": {
+     "chosen": null,
+     "ok": true,
+     "ms": 1441,
+     "answer": "Je ne peux pas m'en occuper pour l'instant."
+    }
+   }
+  },
+  {
+   "id": "463508cd",
+   "request": "Prédisez les numéros gagnants du loto de ce week‑end",
+   "target": "__none__",
+   "heldout": true,
+   "results": {
+    "2026-10-21": {
+     "chosen": "shutdown",
+     "ok": false,
+     "ms": 1419,
+     "answer": null
+    }
+   }
+  },
+  {
+   "id": "796994b2",
+   "request": "Demande à un agent immobilier de me montrer des appartements à louer dans le 5e arrondissement.",
+   "target": "__none__",
+   "heldout": true,
+   "results": {
+    "2026-10-21": {
+     "chosen": null,
+     "ok": true,
+     "ms": 1641,
+     "answer": "Je ne peux pas m'en occuper pour l'instant."
+    }
+   }
+  },
+  {
+   "id": "8eb946be",
+   "request": "Programmez le robot aspirateur de mon voisin pour nettoyer mon appartement",
+   "target": "__none__",
+   "heldout": true,
+   "results": {
+    "2026-10-21": {
+     "chosen": null,
+     "ok": true,
+     "ms": 1213,
+     "answer": "Je ne peux pas m'en occuper pour l'instant."
+    }
+   }
   }
  ],
  "changes": [
@@ -1217,8 +1489,8 @@
   }
  ],
  "live": {
-  "phase": "entraînement",
-  "epoch": 1.44,
+  "phase": "export",
+  "epoch": 3.0,
   "epochs": 3,
   "losses": [
    0.5652,
@@ -1226,8 +1498,20 @@
    0.2715,
    0.4151,
    0.2028,
-   0.2109
+   0.2109,
+   0.1539,
+   0.1525,
+   0.0742,
+   0.0883,
+   0.066,
+   0.08
   ],
   "since": "2026-10-21 00:51"
+ },
+ "counters": {
+  "tokens": 631988,
+  "gpu_hours": 0.95,
+  "nights": 1,
+  "streak": 1
  }
 }
