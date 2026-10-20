@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-10-21 00:31",
+ "generated": "2026-10-21 00:51",
  "champion": {
   "since": "2026-10-20",
   "base": "Qwen/Qwen3.5-4B",
@@ -16,8 +16,8 @@
  },
  "coverage": {
   "tools_total": 43,
-  "tools_covered": 23,
-  "examples": 116
+  "tools_covered": 27,
+  "examples": 134
  },
  "tools": [
   {
@@ -185,28 +185,28 @@
    "id": "weather_report",
    "label": "Météo",
    "domain": "Infos",
-   "examples": 0,
+   "examples": 6,
    "accuracy": null
   },
   {
    "id": "web_search",
    "label": "Recherche web",
    "domain": "Infos",
-   "examples": 0,
+   "examples": 6,
    "accuracy": null
   },
   {
    "id": "youtube_video",
    "label": "YouTube",
    "domain": "Infos",
-   "examples": 0,
+   "examples": 4,
    "accuracy": null
   },
   {
    "id": "briefing",
    "label": "Briefing du matin",
    "domain": "Infos",
-   "examples": 0,
+   "examples": 2,
    "accuracy": null
   },
   {
@@ -368,7 +368,7 @@
  ],
  "tokens": {
   "matthew": 283037,
-  "school": 251254
+  "school": 361988
  },
  "showcase": [
   {
@@ -784,6 +784,34 @@
      "ms": 802
     }
    }
+  },
+  {
+   "id": "2888b433",
+   "request": "Fais‑moi le briefing pour aujourd’hui, s’il te plaît.",
+   "target": "briefing",
+   "heldout": false,
+   "results": {}
+  },
+  {
+   "id": "94073b3f",
+   "request": "Quel sera le climat à Nice la semaine prochaine ?",
+   "target": "weather_report",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "0bd57779",
+   "request": "Quel est le prix du nouveau MacBook Air M2 chez Apple Store France ?",
+   "target": "web_search",
+   "heldout": false,
+   "results": {}
+  },
+  {
+   "id": "17d1c96b",
+   "request": "Pouvez‑vous me donner les informations de la vidéo https://www.youtube.com/watch?v=dQw4w9WgXcQ ?",
+   "target": "youtube_video",
+   "heldout": false,
+   "results": {}
   }
  ],
  "changes": [
@@ -1188,5 +1216,15 @@
    "area": "Interface"
   }
  ],
- "live": null
+ "live": {
+  "phase": "entraînement",
+  "epoch": 0.98,
+  "epochs": 3,
+  "losses": [
+   0.2793,
+   0.3364,
+   0.1937
+  ],
+  "since": "2026-10-21 00:51"
+ }
 }

@@ -206,8 +206,8 @@ async function startScene() {
 
   const scene = new THREE.Scene();
   scene.background = new THREE.Color(0x030810);
-  scene.fog = new THREE.Fog(0x050b16, 34, 110);
-  const camera = new THREE.PerspectiveCamera(45, 1, 0.1, 400);
+  scene.fog = new THREE.Fog(0x02040a, 60, 190);
+  const camera = new THREE.PerspectiveCamera(45, 1, 0.1, 1200);
   camera.position.set(small ? 0 : 10, small ? 18 : 15, small ? 32 : 27);
   const controls = new OrbitControls(camera, renderer.domElement);
   controls.enableDamping = true; controls.enablePan = false;
@@ -222,25 +222,69 @@ async function startScene() {
   new RGBELoader().load("assets/sky/night_1k.hdr", (hdr) => {
     hdr.mapping = THREE.EquirectangularReflectionMapping;
     scene.environment = pmrem.fromEquirectangular(hdr).texture;
-    scene.background = hdr;
-    // Luminance médiane mesurée 0,48 (un crépuscule) : ramenée à ~0,02 pour une nuit
-    // profonde ; les étoiles (p99 ≈ 6) restent visibles.
-    scene.backgroundIntensity = 0.045;
-    scene.environmentIntensity = 0.3;
+    // Le HDR (luminance médiane mesurée 0,48) n'éclaire plus qu'en douce ; le fond est l'espace.
+    scene.environmentIntensity = 0.22;
   });
-  scene.add(new THREE.HemisphereLight(0x6fa8ff, 0x0b1018, 0.35));
-  const moon = new THREE.DirectionalLight(0xbcd8ff, 1.4);
-  moon.position.set(-14, 22, 10);
-  scene.add(moon);
+  scene.add(new THREE.HemisphereLight(0x8fb4ff, 0x05070c, 0.3));
+  const tex = new THREE.TextureLoader();
+  const sky = tex.load("assets/space/2k_stars_milky_way.jpg", (t) => {
+    t.mapping = THREE.EquirectangularReflectionMapping; t.colorSpace = THREE.SRGBColorSpace;
+    scene.background = t; scene.backgroundIntensity = 0.85;
+  });
+  // Le Soleil : une lumière blanche franche, comme sur la Lune (pas d'atmosphère).
+  const SUN_DIR = new THREE.Vector3(0.75, 0.32, -0.58).normalize();
+  const sunLight = new THREE.DirectionalLight(0xfff4e0, 2.6);
+  sunLight.position.copy(SUN_DIR).multiplyScalar(60);
+  scene.add(sunLight);
+  const sunGlow = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTexture(THREE, "#fff6dc"), color: 0xffffff,
+    transparent: true, blending: THREE.AdditiveBlending, depthWrite: false, fog: false }));
+  sunGlow.position.copy(SUN_DIR).multiplyScalar(700); sunGlow.scale.setScalar(160);
+  scene.add(sunGlow);
   const coreLight = new THREE.PointLight(0x5fe3ff, 40, 26, 1.6);
   coreLight.position.set(0, 4.2, 0);
   scene.add(coreLight);
 
   // Sol lunaire.
-  const ground = new THREE.Mesh(new THREE.CircleGeometry(220, 96),
-    new THREE.MeshStandardMaterial({ color: 0x1a222c, roughness: 0.96, metalness: 0.05 }));
-  ground.rotation.x = -Math.PI / 2;
+  const MOON_R = 170;
+  // Ce qui est posé suit la courbure de la Lune : le sol descend de r² / 2R au rayon r.
+  const drop = (x, z) => (x * x + z * z) / (2 * MOON_R);
+  const moonMap = tex.load("assets/space/2k_moon.jpg", (t) => { t.colorSpace = THREE.SRGBColorSpace; });
+  moonMap.wrapS = moonMap.wrapT = THREE.RepeatWrapping; moonMap.repeat.set(6, 3); moonMap.anisotropy = 8;
+  const ground = new THREE.Mesh(new THREE.SphereGeometry(MOON_R, 160, 96),
+    new THREE.MeshStandardMaterial({ map: moonMap, color: 0x9aa0aa, roughness: 0.97, metalness: 0.0 }));
+  // Tournée pour que la base se pose sur l'équateur de la texture (pas sur le pôle, où elle se pince).
+  ground.rotation.x = Math.PI / 2;
+  ground.position.y = -MOON_R + 0.01;
   scene.add(ground);
+
+  // Les planètes, tout autour : elles défilent quand la caméra tourne.
+  const planets = [];
+  const planet = (file, r, pos, spin, extra = {}) => {
+    const m = new THREE.Mesh(new THREE.SphereGeometry(r, 64, 48),
+      new THREE.MeshStandardMaterial({ map: tex.load(`assets/space/${file}`, (t) => { t.colorSpace = THREE.SRGBColorSpace; }),
+        roughness: 1, metalness: 0, fog: false, ...extra }));
+    m.position.set(...pos); m.rotation.z = 0.35; scene.add(m);
+    planets.push([m, spin]);
+    return m;
+  };
+  // Placées dans la bande de ciel visible : à 15 m au-dessus d'une Lune de rayon 170,
+  // l'horizon plonge de ~24° ; une planète doit être entre ~-22° et -4° vue de la caméra.
+  const earth = planet("2k_earth_daymap.jpg", 24, [-40, -58, -290], 0.02);       // lever de Terre, droit devant (Apollo 8)
+  const clouds = new THREE.Mesh(new THREE.SphereGeometry(24.35, 64, 48),
+    new THREE.MeshStandardMaterial({ map: tex.load("assets/space/2k_earth_clouds.jpg"), transparent: true, opacity: 0.55,
+      depthWrite: false, fog: false }));
+  earth.add(clouds); planets.push([clouds, 0.028]);
+  earth.add(atmosphere(THREE, 25.4, 0x6fb4ff));
+  planet("2k_mars.jpg", 7, [-280, -28, 90], 0.03);
+  const saturn = planet("2k_saturn.jpg", 20, [290, -38, 60], 0.025);
+  const ringGeo = new THREE.RingGeometry(26, 46, 128);
+  const rp = ringGeo.attributes.position, uv = ringGeo.attributes.uv, v3 = new THREE.Vector3();
+  for (let i = 0; i < rp.count; i++) { v3.fromBufferAttribute(rp, i); uv.setXY(i, (v3.length() - 26) / 20, 0.5); }
+  const ring = new THREE.Mesh(ringGeo, new THREE.MeshBasicMaterial({ map: tex.load("assets/space/2k_saturn_ring_alpha.png"),
+    side: THREE.DoubleSide, transparent: true, opacity: 0.9, fog: false, depthWrite: false }));
+  ring.rotation.x = -Math.PI / 2.4; saturn.add(ring);
+  planet("2k_jupiter.jpg", 34, [120, -60, 370], 0.04);
+  planet("2k_neptune.jpg", 9, [-200, -42, 260], 0.03);
   const grid = new THREE.PolarGridHelper(13, 24, 6, 96, 0x2a7d9c, 0x123446);
   grid.position.y = 0.02; grid.material.transparent = true; grid.material.opacity = 0.45; scene.add(grid);
 
@@ -262,7 +306,7 @@ async function startScene() {
     box.setFromObject(inner); box.getCenter(mid);
     inner.position.set(-mid.x, -box.min.y, -mid.z);
     const o = new THREE.Group(); o.add(inner);
-    o.scale.setScalar(s); o.position.set(x, y, z); o.rotation.y = rotY;
+    o.scale.setScalar(s); o.position.set(x, y - drop(x, z), z); o.rotation.y = rotY;
     scene.add(o);
     return o;
   };
@@ -270,13 +314,17 @@ async function startScene() {
     if (m.isMesh) { m.material = m.material.clone(); m.material.color.multiplyScalar(f); }
   });
 
-  // Paysage : cratères, rochers, cristaux, en dehors du cercle de la base.
+  const GREY = new THREE.Color(0x8d929b);
+  const lunar = (obj) => obj && obj.traverse((m) => {
+    if (m.isMesh) { m.material = m.material.clone(); m.material.color.lerp(GREY, 0.75); }
+  });
+  // Paysage : cratères, rochers, cristaux, en dehors du cercle de la base (posés sur la courbure).
   let seed = 7;
   const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
   for (let i = 0; i < 26; i++) {
     const a = rnd() * Math.PI * 2, r = 16 + rnd() * 22;
     const kind = ["crater", "craterLarge", "rock_largeA", "rocks_smallA", "rock_crystals", "rock_crystalsLargeA", "meteor"][i % 7];
-    place(kind, Math.cos(a) * r, Math.sin(a) * r, 1.6 + rnd() * 2.4, rnd() * 6.28);
+    lunar(place(kind, Math.cos(a) * r, Math.sin(a) * r, 1.6 + rnd() * 2.4, rnd() * 6.28));
   }
 
   // Le centre : la plateforme, Matthew au-dessus.
@@ -334,10 +382,10 @@ async function startScene() {
       if (!learned) dim(pod, 0.3);
       const col = !learned ? new THREE.Color(0x33475a) : t.accuracy == null ? CYAN.clone() : AMBER.clone().lerp(GREEN, t.accuracy);
       const beacon = new THREE.Mesh(beaconGeo, new THREE.MeshBasicMaterial({ color: col.clone().multiplyScalar(learned ? 2.2 : 0.8) }));
-      beacon.position.set(x, 2.1, z);
+      beacon.position.set(x, 2.1 - drop(x, z), z);
       scene.add(beacon);
       const el = document.createElement("div"); el.className = "lbl-tool" + (learned ? "" : " off"); el.textContent = t.label;
-      const lo = new CSS2DObject(el); lo.position.set(x, 2.65, z); scene.add(lo);
+      const lo = new CSS2DObject(el); lo.position.set(x, 2.65 - drop(x, z), z); scene.add(lo);
       const hit = new THREE.Mesh(new THREE.SphereGeometry(0.75, 8, 8), new THREE.MeshBasicMaterial({ visible: false }));
       hit.position.copy(beacon.position); hit.userData.tool = t.id; scene.add(hit); hits.push(hit);
       stations.set(t.id, { mesh: beacon, el, base: beacon.material.color.clone() });
@@ -420,7 +468,8 @@ async function startScene() {
       shell.rotation.y += dt * 0.15; shell.rotation.x += dt * 0.05;
       core.position.y = CORE_Y + Math.sin(t * 1.2) * 0.12;
       for (const s of spinners) s.rotation.y += dt * 0.25;
-      if (rover) { const a = t * 0.08; rover.position.set(Math.cos(a) * 15.5, 0, Math.sin(a) * 15.5); rover.rotation.y = -a; }
+      for (const [m, sp] of planets) m.rotation.y += dt * sp;
+      if (rover) { const a = t * 0.08; rover.position.set(Math.cos(a) * 15.5, -drop(15.5, 0), Math.sin(a) * 15.5); rover.rotation.y = -a; }
       if (ship) { const a = -t * 0.15; ship.position.set(Math.cos(a) * 21, 9 + Math.sin(t * 0.7) * 0.8, Math.sin(a) * 21); ship.rotation.y = -a + Math.PI; }
     }
     for (const s of stations.values()) { s.mesh.material.color.lerp(s.base, 0.04); s.mesh.scale.lerp(ONE, 0.08); }
@@ -443,6 +492,24 @@ async function startScene() {
   })();
 
   return { fire, focus, onPick: (cb) => (pickCb = cb) };
+}
+
+function glowTexture(THREE, color) {
+  const c = document.createElement("canvas"); c.width = c.height = 128;
+  const g = c.getContext("2d"), grd = g.createRadialGradient(64, 64, 0, 64, 64, 64);
+  grd.addColorStop(0, color); grd.addColorStop(0.2, color + "aa"); grd.addColorStop(1, "transparent");
+  g.fillStyle = grd; g.fillRect(0, 0, 128, 128);
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace;
+  return t;
+}
+
+function atmosphere(THREE, r, color) {
+  return new THREE.Mesh(new THREE.SphereGeometry(r, 64, 48), new THREE.ShaderMaterial({
+    uniforms: { uColor: { value: new THREE.Color(color) } },
+    vertexShader: `varying vec3 vN; varying vec3 vV; void main(){ vec4 mv = modelViewMatrix*vec4(position,1.); vN = normalize(normalMatrix*normal); vV = normalize(-mv.xyz); gl_Position = projectionMatrix*mv; }`,
+    fragmentShader: `uniform vec3 uColor; varying vec3 vN; varying vec3 vV; void main(){ float f = pow(1.-max(dot(vN,vV),0.), 3.); gl_FragColor = vec4(uColor, f*.9); }`,
+    transparent: true, blending: THREE.AdditiveBlending, depthWrite: false, side: THREE.BackSide,
+  }));
 }
 
 // ── Rejeu de l'examen ────────────────────────────────────────────────────────
