@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-10-20 21:47",
+ "generated": "2026-10-20 22:07",
  "champion": {
   "since": "2026-10-20",
   "base": "Qwen/Qwen3.5-4B",
@@ -49,8 +49,8 @@
    "accuracy": null
   },
   {
-   "id": "shutdown_jarvis",
-   "label": "Arrêt de JARVIS",
+   "id": "shutdown",
+   "label": "S'éteindre",
    "domain": "Système",
    "examples": 6,
    "accuracy": 1.0
@@ -177,7 +177,7 @@
   {
    "id": "usage_report",
    "label": "Consommation",
-   "domain": "JARVIS",
+   "domain": "Noyau",
    "examples": 2,
    "accuracy": null
   },
@@ -212,7 +212,7 @@
   {
    "id": "capabilities",
    "label": "Ses capacités",
-   "domain": "JARVIS",
+   "domain": "Noyau",
    "examples": 0,
    "accuracy": null
   },
@@ -247,7 +247,7 @@
   {
    "id": "extensions",
    "label": "Extensions",
-   "domain": "JARVIS",
+   "domain": "Noyau",
    "examples": 0,
    "accuracy": null
   },
@@ -261,7 +261,7 @@
   {
    "id": "incidents",
    "label": "Incidents",
-   "domain": "JARVIS",
+   "domain": "Noyau",
    "examples": 0,
    "accuracy": null
   },
@@ -274,15 +274,15 @@
   },
   {
    "id": "matthew",
-   "label": "Apprendre à Matthew",
-   "domain": "JARVIS",
+   "label": "Apprendre",
+   "domain": "Noyau",
    "examples": 0,
    "accuracy": null
   },
   {
    "id": "mcp",
    "label": "Connecteurs MCP",
-   "domain": "JARVIS",
+   "domain": "Noyau",
    "examples": 0,
    "accuracy": null
   },
@@ -303,21 +303,21 @@
   {
    "id": "portable",
    "label": "Mode clé USB",
-   "domain": "JARVIS",
+   "domain": "Noyau",
    "examples": 0,
    "accuracy": null
   },
   {
    "id": "quotas",
    "label": "Quotas",
-   "domain": "JARVIS",
+   "domain": "Noyau",
    "examples": 0,
    "accuracy": null
   },
   {
    "id": "skills",
    "label": "Compétences",
-   "domain": "JARVIS",
+   "domain": "Noyau",
    "examples": 0,
    "accuracy": null
   }
@@ -329,7 +329,7 @@
   "Communication",
   "Mémoire",
   "Code",
-  "JARVIS",
+  "Noyau",
   "Autres"
  ],
  "history": [
@@ -354,7 +354,7 @@
   }
  ],
  "tokens": {
-  "matthew": 150516,
+  "matthew": 192297,
   "school": 205816
  },
  "showcase": [
@@ -367,7 +367,7 @@
     "2026-10-20": {
      "chosen": "browser_control",
      "ok": true,
-     "ms": 1192
+     "ms": 1767
     }
    }
   },
@@ -380,7 +380,7 @@
     "2026-10-20": {
      "chosen": "close_camera",
      "ok": true,
-     "ms": 855
+     "ms": 854
     }
    }
   },
@@ -393,7 +393,7 @@
     "2026-10-20": {
      "chosen": "code_helper",
      "ok": true,
-     "ms": 1773
+     "ms": 1753
     }
    }
   },
@@ -406,7 +406,7 @@
     "2026-10-20": {
      "chosen": "code_studio",
      "ok": true,
-     "ms": 990
+     "ms": 1585
     }
    }
   },
@@ -419,7 +419,7 @@
     "2026-10-20": {
      "chosen": "computer_control",
      "ok": true,
-     "ms": 1525
+     "ms": 1521
     }
    }
   },
@@ -432,7 +432,7 @@
     "2026-10-20": {
      "chosen": "computer_settings",
      "ok": true,
-     "ms": 498
+     "ms": 1094
     }
    }
   },
@@ -445,7 +445,7 @@
     "2026-10-20": {
      "chosen": "desktop_control",
      "ok": true,
-     "ms": 1050
+     "ms": 1039
     }
    }
   },
@@ -458,7 +458,7 @@
     "2026-10-20": {
      "chosen": "file_controller",
      "ok": true,
-     "ms": 1482
+     "ms": 1458
     }
    }
   },
@@ -471,7 +471,7 @@
     "2026-10-20": {
      "chosen": "file_processor",
      "ok": true,
-     "ms": 604
+     "ms": 1248
     }
    }
   },
@@ -497,7 +497,7 @@
     "2026-10-20": {
      "chosen": "game_updater",
      "ok": true,
-     "ms": 1123
+     "ms": 1622
     }
    }
   },
@@ -510,7 +510,7 @@
     "2026-10-20": {
      "chosen": "manage_monitor",
      "ok": true,
-     "ms": 632
+     "ms": 1165
     }
    }
   },
@@ -523,7 +523,7 @@
     "2026-10-20": {
      "chosen": "open_app",
      "ok": true,
-     "ms": 1031
+     "ms": 1047
     }
    }
   },
@@ -536,7 +536,7 @@
     "2026-10-20": {
      "chosen": "recall_memory",
      "ok": true,
-     "ms": 471
+     "ms": 919
     }
    }
   },
@@ -549,7 +549,7 @@
     "2026-10-20": {
      "chosen": "reminder",
      "ok": true,
-     "ms": 981
+     "ms": 1580
     }
    }
   },
@@ -562,7 +562,7 @@
     "2026-10-20": {
      "chosen": "repository_review",
      "ok": true,
-     "ms": 897
+     "ms": 1391
     }
    }
   },
@@ -575,7 +575,7 @@
     "2026-10-20": {
      "chosen": "save_memory",
      "ok": true,
-     "ms": 785
+     "ms": 1393
     }
    }
   },
@@ -588,7 +588,7 @@
     "2026-10-20": {
      "chosen": "screen_process",
      "ok": true,
-     "ms": 670
+     "ms": 1217
     }
    }
   },
@@ -601,20 +601,20 @@
     "2026-10-20": {
      "chosen": "send_message",
      "ok": true,
-     "ms": 1283
+     "ms": 1303
     }
    }
   },
   {
    "id": "7a7a83d8",
    "request": "C’est tout pour aujourd’hui, éteins‑toi.",
-   "target": "shutdown_jarvis",
+   "target": "shutdown",
    "heldout": true,
    "results": {
     "2026-10-20": {
-     "chosen": "shutdown_jarvis",
+     "chosen": "shutdown",
      "ok": true,
-     "ms": 828
+     "ms": 832
     }
    }
   },
@@ -627,7 +627,7 @@
     "2026-10-20": {
      "chosen": "system_status",
      "ok": true,
-     "ms": 301
+     "ms": 894
     }
    }
   },
@@ -640,7 +640,7 @@
     "2026-10-20": {
      "chosen": "undo",
      "ok": true,
-     "ms": 460
+     "ms": 853
     }
    }
   },
@@ -653,9 +653,411 @@
     "2026-10-20": {
      "chosen": "usage_report",
      "ok": true,
-     "ms": 298
+     "ms": 750
     }
    }
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-20",
+   "title": "Vitrine publique de Matthew : la regarder apprendre, en lecture seule",
+   "area": "IA"
+  },
+  {
+   "date": "2026-10-20",
+   "title": "Matthew : notre propre modèle, entraîné et promu chaque nuit",
+   "area": "IA"
+  },
+  {
+   "date": "2026-10-20",
+   "title": "changement d ehud ajout de la planète terre",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-10-17",
+   "title": "Portable : auto-réparation, intégrité, batterie, historique, éjection sûre",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-17",
+   "title": "Portable : continuité d'identité + preuve du zéro-trace",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-17",
+   "title": "Matthew portable : clé USB nomade, zéro-trace, animée, multi-clés",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Sonde incidents : vérifier l'effacement d'un vrai nom de fichier, pas du marqueur",
+   "area": "Fiabilité"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Extensions : installer, examiner, restaurer des plugins en sachant ce qu'ils font",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Incidents réels : Matthew compte ses vraies erreurs, Night Shift les affiche",
+   "area": "Fiabilité"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Briefing quotidien : agenda, rappels, sujets suivis sans doublon, à l'heure choisie",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Allègement : opencv-python-headless (même cv2, sans le Qt embarqué)",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Réunion : l'aide en direct affiche une réponse quand on te pose une question",
+   "area": "Voix"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Quotas : un registre commun, et des secours quand Gemini est épuisé",
+   "area": "Fiabilité"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Quotas gratuits : le quota du jour attend minuit, le pilote commence par les Flash-Lite",
+   "area": "Fiabilité"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Pilote : écran verrouillé → arrêt immédiat, sans appel au modèle",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Pilote universel : Matthew prend la main sur n'importe quelle application",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Copilote de réunion : il entend la visio, quelle que soit l'application",
+   "area": "Voix"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Night Shift : la passe sans tâche ne perd plus la mémoire, et les patchs passent enfin",
+   "area": "Fiabilité"
+  },
+  {
+   "date": "2026-10-15",
+   "title": "Night Shift : trois passes par nuit, chacune sur un problème différent",
+   "area": "Fiabilité"
+  },
+  {
+   "date": "2026-10-15",
+   "title": "Windows : cognition et offline ne plantent plus quand leur sortie est un pipe",
+   "area": "IA"
+  },
+  {
+   "date": "2026-10-15",
+   "title": "README : une page courte, une bannière et deux graphes",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-15",
+   "title": "Windows et Linux : toutes les suites vertes sur les deux",
+   "area": "Fiabilité"
+  },
+  {
+   "date": "2026-10-15",
+   "title": "Contexte : une voix sans sortie ni client est différée, jamais « livrée »",
+   "area": "IA"
+  },
+  {
+   "date": "2026-10-15",
+   "title": "HUD : plus aucune trace de l'ancienne interface",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-10-14",
+   "title": "Night Shift : meilleur.idee.md devient l'état (fait, reste à faire), v1 retirée",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-14",
+   "title": "Night Shift : phase 2, pas de doublon et clé absente des journaux — prouvés",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-14",
+   "title": "Night Shift : un bon correctif n'est plus rejeté pour des chemins ruff",
+   "area": "Fiabilité"
+  },
+  {
+   "date": "2026-10-14",
+   "title": "Night Shift : réancrer les diffs du modèle (leçon du premier vrai run)",
+   "area": "Fiabilité"
+  },
+  {
+   "date": "2026-10-14",
+   "title": "Night Shift, phases 4 et 5 : mesurer si Matthew s'améliore, réveiller le PC",
+   "area": "Fiabilité"
+  },
+  {
+   "date": "2026-10-14",
+   "title": "Night Shift, phase 3 : la mémoire et le backlog",
+   "area": "Fiabilité"
+  },
+  {
+   "date": "2026-10-14",
+   "title": "Night Shift, phase 2 : une seule tâche IA par nuit, prouvée par les suites",
+   "area": "Fiabilité"
+  },
+  {
+   "date": "2026-10-14",
+   "title": "meilleur.idee.md : phase 1 validée, avec ses preuves",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-14",
+   "title": "Night Shift : clientdesktop mesurable sous Linux, premier run consigné",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-14",
+   "title": "Night Shift, phase 1 : le veilleur de nuit, sans IA",
+   "area": "Fiabilité"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "ajout d'un changement drastique",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Robustesse, relais hors-ligne, MCP et skills",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "HUD : onglet USAGE — les économies tiennent-elles, quels outils échouent",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Une seule mémoire, commune à tous les PC",
+   "area": "IA"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Graphe : point de retour V1 et clé TLS après le nettoyage de l'historique",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Graphe : états recalculés en fin de session (11/11 suites, 17/17 sondes réelles)",
+   "area": "Fiabilité"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Ménage : 15 imports inutilisés retirés",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Cognition : preuve et rappel par le sens (embeddings locaux)",
+   "area": "IA"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Objectifs : le budget compte ce que Matthew fait, pas seulement ce qu'il déclare",
+   "area": "IA"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Rappels : Matthew les livre lui-même (HUD, téléphone, voix)",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "main : /api/wake réveille Matthew, interruption à la voix en option",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Cognition : « name » trouve « name: Teddy » (rappel non déterministe corrigé)",
+   "area": "IA"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "evallab : corpus et graphes en LF, la « dérive » du corpus legacy n'était que des CRLF",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Vérification réelle des outils : le graphe dit ce qui a été prouvé",
+   "area": "Fiabilité"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Corrige repositoryreview (client fermé) et YouTube trending (page supprimée)",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Tokens : contexte Live plafonné, outils allégés, briefing en titres seuls",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Graphe des capacités : Matthew connaît et montre ce qu'il sait faire",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Retire l'avatar : visage 3D, presence/, setpresence, visage Android",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Cognition phases 7-8 : autonomie contrôlée, oubli par sujet, évaluation",
+   "area": "IA"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Cognition phase 6 et panneau ESPRIT : modèle de soi, calibration, revue au HUD",
+   "area": "IA"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Cognition phase 5 : objectifs persistants, approuvés par l'utilisateur",
+   "area": "IA"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Cognition phases 3-4 : moteur émotionnel, réflexion citée, second avis",
+   "area": "IA"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Cognition phases 1-2 : constitution, journal d'événements, mémoire avec provenance",
+   "area": "IA"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "Réduit les coûts de tokens Gemini",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "Ajoute le support Linux au client Matthew",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-10",
+   "title": "Code Studio : Windows Sandbox, Pyright, et retouches depuis le HUD",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-10",
+   "title": "Selftest client : les controles du HUD (25-33) tournent de nouveau",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-10-10",
+   "title": "Code Studio : un verdict merite, un vrai navigateur et l'apercu automatique",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-10",
+   "title": "HUD : WebEngine demarre proprement, et les JSON avec BOM se lisent",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-10-09",
+   "title": "Fait coder le Code Studio avec Groq",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-09",
+   "title": "Ajoute Matthew Code Studio, l'atelier de developpement local",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-09",
+   "title": "Ajoute le diagnostic de l'avatar",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-10-09",
+   "title": "Ajoute le diagnostic de sante local",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-10-09",
+   "title": "Ajoute l'ouverture locale des itineraires",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-09",
+   "title": "Ameliore l'etat de connexion du mode local",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-10-09",
+   "title": "ajout des redme a jour",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-09",
+   "title": "Nettoyage : code mort de l'ancienne architecture et dependances",
+   "area": "Système"
+  },
+  {
+   "date": "2026-10-09",
+   "title": "Client desktop : le HUD remplace le panneau, une seule interface",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-10-09",
+   "title": "HUD : une interface holographique pour Matthew, en ligne comme en local",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "Deploiement : le nombre d'etapes d'install.sh s'affiche juste",
+   "area": "Système"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "Audit : ce que Matthew fait sur PC et ce qui en arrive sur Android",
+   "area": "Système"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "Labo (ui) : les etats se lisent sur l'accueil, lien monte par l'app elle-meme",
+   "area": "Système"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "Deploiement : ce PC peut remettre Oracle a jour seul",
+   "area": "Système"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "Labo : tourne sur une seconde machine, et teste les etats a l'ecran",
+   "area": "Système"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "Visage mobile : le cercle devient le cadre du visage",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "Depot : gradlew.bat renormalise (CRLF dans l'index malgre eol=crlf)",
+   "area": "Interface"
   }
  ]
 }
