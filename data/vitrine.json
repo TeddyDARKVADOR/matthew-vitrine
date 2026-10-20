@@ -1,0 +1,661 @@
+{
+ "schema": "matthew.vitrine/1",
+ "name": "Matthew",
+ "generated": "2026-10-20 21:47",
+ "champion": {
+  "since": "2026-10-20",
+  "base": "Qwen/Qwen3.5-4B",
+  "score": {
+   "composite": 0.852,
+   "tool_name": 1.0,
+   "tool_args": 0.792,
+   "irrelevance": 0.5,
+   "valid": 1.0,
+   "latency_p50": 1.094
+  }
+ },
+ "coverage": {
+  "tools_total": 43,
+  "tools_covered": 23,
+  "examples": 116
+ },
+ "tools": [
+  {
+   "id": "system_status",
+   "label": "État du PC",
+   "domain": "Système",
+   "examples": 6,
+   "accuracy": null
+  },
+  {
+   "id": "screen_process",
+   "label": "Lire l'écran",
+   "domain": "Système",
+   "examples": 2,
+   "accuracy": null
+  },
+  {
+   "id": "close_camera",
+   "label": "Fermer la caméra",
+   "domain": "Système",
+   "examples": 6,
+   "accuracy": 1.0
+  },
+  {
+   "id": "manage_monitor",
+   "label": "Écrans",
+   "domain": "Système",
+   "examples": 6,
+   "accuracy": null
+  },
+  {
+   "id": "shutdown_jarvis",
+   "label": "Arrêt de JARVIS",
+   "domain": "Système",
+   "examples": 6,
+   "accuracy": 1.0
+  },
+  {
+   "id": "save_memory",
+   "label": "Retenir",
+   "domain": "Mémoire",
+   "examples": 6,
+   "accuracy": 0.917
+  },
+  {
+   "id": "recall_memory",
+   "label": "Se souvenir",
+   "domain": "Mémoire",
+   "examples": 5,
+   "accuracy": null
+  },
+  {
+   "id": "undo",
+   "label": "Annuler",
+   "domain": "Bureau",
+   "examples": 2,
+   "accuracy": null
+  },
+  {
+   "id": "browser_control",
+   "label": "Navigateur",
+   "domain": "Bureau",
+   "examples": 6,
+   "accuracy": 0.5
+  },
+  {
+   "id": "code_helper",
+   "label": "Aide au code",
+   "domain": "Code",
+   "examples": 3,
+   "accuracy": 0.833
+  },
+  {
+   "id": "code_studio",
+   "label": "Code Studio",
+   "domain": "Code",
+   "examples": 6,
+   "accuracy": 0.833
+  },
+  {
+   "id": "computer_control",
+   "label": "Souris et clavier",
+   "domain": "Bureau",
+   "examples": 4,
+   "accuracy": 1.0
+  },
+  {
+   "id": "computer_settings",
+   "label": "Réglages du PC",
+   "domain": "Système",
+   "examples": 6,
+   "accuracy": null
+  },
+  {
+   "id": "desktop_control",
+   "label": "Bureau Windows",
+   "domain": "Bureau",
+   "examples": 4,
+   "accuracy": null
+  },
+  {
+   "id": "file_controller",
+   "label": "Fichiers",
+   "domain": "Bureau",
+   "examples": 6,
+   "accuracy": 0.75
+  },
+  {
+   "id": "file_processor",
+   "label": "Lire un document",
+   "domain": "Bureau",
+   "examples": 5,
+   "accuracy": null
+  },
+  {
+   "id": "flight_finder",
+   "label": "Vols",
+   "domain": "Infos",
+   "examples": 6,
+   "accuracy": 0.875
+  },
+  {
+   "id": "game_updater",
+   "label": "Mises à jour de jeux",
+   "domain": "Système",
+   "examples": 5,
+   "accuracy": null
+  },
+  {
+   "id": "open_app",
+   "label": "Ouvrir une appli",
+   "domain": "Bureau",
+   "examples": 6,
+   "accuracy": 1.0
+  },
+  {
+   "id": "reminder",
+   "label": "Rappels",
+   "domain": "Communication",
+   "examples": 6,
+   "accuracy": null
+  },
+  {
+   "id": "repository_review",
+   "label": "Revue de dépôt",
+   "domain": "Code",
+   "examples": 6,
+   "accuracy": null
+  },
+  {
+   "id": "send_message",
+   "label": "Envoyer un message",
+   "domain": "Communication",
+   "examples": 6,
+   "accuracy": 0.917
+  },
+  {
+   "id": "usage_report",
+   "label": "Consommation",
+   "domain": "JARVIS",
+   "examples": 2,
+   "accuracy": null
+  },
+  {
+   "id": "weather_report",
+   "label": "Météo",
+   "domain": "Infos",
+   "examples": 0,
+   "accuracy": null
+  },
+  {
+   "id": "web_search",
+   "label": "Recherche web",
+   "domain": "Infos",
+   "examples": 0,
+   "accuracy": null
+  },
+  {
+   "id": "youtube_video",
+   "label": "YouTube",
+   "domain": "Infos",
+   "examples": 0,
+   "accuracy": null
+  },
+  {
+   "id": "briefing",
+   "label": "Briefing du matin",
+   "domain": "Infos",
+   "examples": 0,
+   "accuracy": null
+  },
+  {
+   "id": "capabilities",
+   "label": "Ses capacités",
+   "domain": "JARVIS",
+   "examples": 0,
+   "accuracy": null
+  },
+  {
+   "id": "forget_about",
+   "label": "Oublier",
+   "domain": "Mémoire",
+   "examples": 0,
+   "accuracy": null
+  },
+  {
+   "id": "goals",
+   "label": "Objectifs",
+   "domain": "Mémoire",
+   "examples": 0,
+   "accuracy": null
+  },
+  {
+   "id": "recall_episodes",
+   "label": "Conversations passées",
+   "domain": "Mémoire",
+   "examples": 0,
+   "accuracy": null
+  },
+  {
+   "id": "self_state",
+   "label": "État intérieur",
+   "domain": "Mémoire",
+   "examples": 0,
+   "accuracy": null
+  },
+  {
+   "id": "extensions",
+   "label": "Extensions",
+   "domain": "JARVIS",
+   "examples": 0,
+   "accuracy": null
+  },
+  {
+   "id": "local_health_check",
+   "label": "Diagnostic",
+   "domain": "Système",
+   "examples": 0,
+   "accuracy": null
+  },
+  {
+   "id": "incidents",
+   "label": "Incidents",
+   "domain": "JARVIS",
+   "examples": 0,
+   "accuracy": null
+  },
+  {
+   "id": "open_itinerary",
+   "label": "Itinéraire",
+   "domain": "Infos",
+   "examples": 0,
+   "accuracy": null
+  },
+  {
+   "id": "matthew",
+   "label": "Apprendre à Matthew",
+   "domain": "JARVIS",
+   "examples": 0,
+   "accuracy": null
+  },
+  {
+   "id": "mcp",
+   "label": "Connecteurs MCP",
+   "domain": "JARVIS",
+   "examples": 0,
+   "accuracy": null
+  },
+  {
+   "id": "meeting",
+   "label": "Réunions",
+   "domain": "Communication",
+   "examples": 0,
+   "accuracy": null
+  },
+  {
+   "id": "pilot",
+   "label": "Pilote du PC",
+   "domain": "Bureau",
+   "examples": 0,
+   "accuracy": null
+  },
+  {
+   "id": "portable",
+   "label": "Mode clé USB",
+   "domain": "JARVIS",
+   "examples": 0,
+   "accuracy": null
+  },
+  {
+   "id": "quotas",
+   "label": "Quotas",
+   "domain": "JARVIS",
+   "examples": 0,
+   "accuracy": null
+  },
+  {
+   "id": "skills",
+   "label": "Compétences",
+   "domain": "JARVIS",
+   "examples": 0,
+   "accuracy": null
+  }
+ ],
+ "domains": [
+  "Système",
+  "Bureau",
+  "Infos",
+  "Communication",
+  "Mémoire",
+  "Code",
+  "JARVIS",
+  "Autres"
+ ],
+ "history": [
+  {
+   "date": "2026-10-20",
+   "score": {
+    "composite": 0.852,
+    "tool_name": 1.0,
+    "tool_args": 0.792,
+    "irrelevance": 0.5,
+    "valid": 1.0,
+    "latency_p50": 1.094
+   },
+   "promoted": true,
+   "examples": 153
+  }
+ ],
+ "cycles": [
+  {
+   "date": "2026-10-20",
+   "outcome": "nouveau champion"
+  }
+ ],
+ "tokens": {
+  "matthew": 150516,
+  "school": 205816
+ },
+ "showcase": [
+  {
+   "id": "15103ccb",
+   "request": "Fais défiler la page Wikipédia de la Tour Eiffel vers le bas de 800 pixels.",
+   "target": "browser_control",
+   "heldout": true,
+   "results": {
+    "2026-10-20": {
+     "chosen": "browser_control",
+     "ok": true,
+     "ms": 1192
+    }
+   }
+  },
+  {
+   "id": "2159cc56",
+   "request": "C'est creepy, désactive la caméra maintenant.",
+   "target": "close_camera",
+   "heldout": true,
+   "results": {
+    "2026-10-20": {
+     "chosen": "close_camera",
+     "ok": true,
+     "ms": 855
+    }
+   }
+  },
+  {
+   "id": "e16fd3c9",
+   "request": "Modifie le programme C:\\Projet\\app.js pour qu'il utilise le port 8081 au lieu de 8080 et ajoute un log qui indique le démarrage du serveur.",
+   "target": "code_helper",
+   "heldout": true,
+   "results": {
+    "2026-10-20": {
+     "chosen": "code_helper",
+     "ok": true,
+     "ms": 1773
+    }
+   }
+  },
+  {
+   "id": "0a77222d",
+   "request": "Je veux modifier le projet \"BlogSite\" pour ajouter une page de contact et un formulaire qui envoie un email.",
+   "target": "code_studio",
+   "heldout": true,
+   "results": {
+    "2026-10-20": {
+     "chosen": "code_studio",
+     "ok": true,
+     "ms": 990
+    }
+   }
+  },
+  {
+   "id": "582748ef",
+   "request": "Fais défiler la page vers le bas trois fois.",
+   "target": "computer_control",
+   "heldout": true,
+   "results": {
+    "2026-10-20": {
+     "chosen": "computer_control",
+     "ok": true,
+     "ms": 1525
+    }
+   }
+  },
+  {
+   "id": "0522e93c",
+   "request": "Peux-tu ouvrir le Gestionnaire des tâches, j'ai besoin de voir ce qui tourne.",
+   "target": "computer_settings",
+   "heldout": false,
+   "results": {
+    "2026-10-20": {
+     "chosen": "computer_settings",
+     "ok": true,
+     "ms": 498
+    }
+   }
+  },
+  {
+   "id": "52d9a841",
+   "request": "Quel est le nombre de fichiers et l'espace utilisé sur mon bureau aujourd'hui ?",
+   "target": "desktop_control",
+   "heldout": false,
+   "results": {
+    "2026-10-20": {
+     "chosen": "desktop_control",
+     "ok": true,
+     "ms": 1050
+    }
+   }
+  },
+  {
+   "id": "62c0ec8b",
+   "request": "Écris le texte suivant dans le fichier notes.txt sur le bureau : « N’oublie pas la réunion à 15 h ».",
+   "target": "file_controller",
+   "heldout": true,
+   "results": {
+    "2026-10-20": {
+     "chosen": "file_controller",
+     "ok": true,
+     "ms": 1482
+    }
+   }
+  },
+  {
+   "id": "47aa7a29",
+   "request": "J’ai téléchargé une archive zip, liste tout ce qu’il y a dedans.",
+   "target": "file_processor",
+   "heldout": false,
+   "results": {
+    "2026-10-20": {
+     "chosen": "file_processor",
+     "ok": true,
+     "ms": 604
+    }
+   }
+  },
+  {
+   "id": "b634428b",
+   "request": "J’ai besoin d’un vol de Toulouse vers Rome le 12 juillet, un seul passager, en première classe, et que les meilleures offres soient enregistrées.",
+   "target": "flight_finder",
+   "heldout": true,
+   "results": {
+    "2026-10-20": {
+     "chosen": "flight_finder",
+     "ok": true,
+     "ms": 1929
+    }
+   }
+  },
+  {
+   "id": "39236d4a",
+   "request": "Programme la mise à jour de tous mes jeux à 2h du matin, et n'oublie pas de redémarrer le PC après.",
+   "target": "game_updater",
+   "heldout": false,
+   "results": {
+    "2026-10-20": {
+     "chosen": "game_updater",
+     "ok": true,
+     "ms": 1123
+    }
+   }
+  },
+  {
+   "id": "20236d0d",
+   "request": "Peux-tu arrêter le suivi des actualités sportives, s'il te plaît ?",
+   "target": "manage_monitor",
+   "heldout": false,
+   "results": {
+    "2026-10-20": {
+     "chosen": "manage_monitor",
+     "ok": true,
+     "ms": 632
+    }
+   }
+  },
+  {
+   "id": "00212d91",
+   "request": "Active le lecteur VLC pour visionner le film que j’ai téléchargé hier.",
+   "target": "open_app",
+   "heldout": true,
+   "results": {
+    "2026-10-20": {
+     "chosen": "open_app",
+     "ok": true,
+     "ms": 1031
+    }
+   }
+  },
+  {
+   "id": "0349c347",
+   "request": "J’aimerais connaître la dernière fois que j’ai utilisé l’application Notion.",
+   "target": "recall_memory",
+   "heldout": false,
+   "results": {
+    "2026-10-20": {
+     "chosen": "recall_memory",
+     "ok": true,
+     "ms": 471
+    }
+   }
+  },
+  {
+   "id": "4c54e8a4",
+   "request": "Rappelle‑moi d’appeler Marie demain à 14h30 pour préparer le dîner.",
+   "target": "reminder",
+   "heldout": false,
+   "results": {
+    "2026-10-20": {
+     "chosen": "reminder",
+     "ok": true,
+     "ms": 981
+    }
+   }
+  },
+  {
+   "id": "12e5fbbb",
+   "request": "Hey, j’ai besoin d’un mode inspect : montre‑moi où sont stockées les clés API dans le repo du serveur web, et indique les lignes concernées.",
+   "target": "repository_review",
+   "heldout": false,
+   "results": {
+    "2026-10-20": {
+     "chosen": "repository_review",
+     "ok": true,
+     "ms": 897
+    }
+   }
+  },
+  {
+   "id": "09694412",
+   "request": "Je m’appelle Léa Dupont.",
+   "target": "save_memory",
+   "heldout": true,
+   "results": {
+    "2026-10-20": {
+     "chosen": "save_memory",
+     "ok": true,
+     "ms": 785
+    }
+   }
+  },
+  {
+   "id": "0a0ea01c",
+   "request": "Qu’est-ce qu’on voit sur mon écran principal maintenant ?",
+   "target": "screen_process",
+   "heldout": false,
+   "results": {
+    "2026-10-20": {
+     "chosen": "screen_process",
+     "ok": true,
+     "ms": 670
+    }
+   }
+  },
+  {
+   "id": "36eb8e73",
+   "request": "Peux‑tu envoyer à mon frère Sam le texte « Bon voyage » via Telegram ?",
+   "target": "send_message",
+   "heldout": true,
+   "results": {
+    "2026-10-20": {
+     "chosen": "send_message",
+     "ok": true,
+     "ms": 1283
+    }
+   }
+  },
+  {
+   "id": "7a7a83d8",
+   "request": "C’est tout pour aujourd’hui, éteins‑toi.",
+   "target": "shutdown_jarvis",
+   "heldout": true,
+   "results": {
+    "2026-10-20": {
+     "chosen": "shutdown_jarvis",
+     "ok": true,
+     "ms": 828
+    }
+   }
+  },
+  {
+   "id": "480041b2",
+   "request": "Hey, peux-tu me dire quel est le taux d'utilisation du CPU en ce moment ?",
+   "target": "system_status",
+   "heldout": false,
+   "results": {
+    "2026-10-20": {
+     "chosen": "system_status",
+     "ok": true,
+     "ms": 301
+    }
+   }
+  },
+  {
+   "id": "053b8b80",
+   "request": "Liste ce que tu peux annuler, je veux voir les actions récentes.",
+   "target": "undo",
+   "heldout": false,
+   "results": {
+    "2026-10-20": {
+     "chosen": "undo",
+     "ok": true,
+     "ms": 460
+    }
+   }
+  },
+  {
+   "id": "b021f01b",
+   "request": "Fais le bilan des tokens utilisés par source d’action, notamment les appels à l’assistant de traduction.",
+   "target": "usage_report",
+   "heldout": false,
+   "results": {
+    "2026-10-20": {
+     "chosen": "usage_report",
+     "ok": true,
+     "ms": 298
+    }
+   }
+  }
+ ]
+}
