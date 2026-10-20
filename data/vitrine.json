@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-10-20 22:09",
+ "generated": "2026-10-21 00:31",
  "champion": {
   "since": "2026-10-20",
   "base": "Qwen/Qwen3.5-4B",
@@ -344,7 +344,20 @@
     "latency_p50": 1.094
    },
    "promoted": true,
-   "examples": 153
+   "examples": 153,
+   "per_tool": {
+    "browser_control": 0.5,
+    "close_camera": 1.0,
+    "code_helper": 0.833,
+    "code_studio": 0.833,
+    "computer_control": 1.0,
+    "file_controller": 0.75,
+    "flight_finder": 0.875,
+    "open_app": 1.0,
+    "save_memory": 0.917,
+    "send_message": 0.917,
+    "shutdown": 1.0
+   }
   }
  ],
  "cycles": [
@@ -354,8 +367,8 @@
   }
  ],
  "tokens": {
-  "matthew": 234078,
-  "school": 205816
+  "matthew": 283037,
+  "school": 251254
  },
  "showcase": [
   {
@@ -368,6 +381,11 @@
      "chosen": "browser_control",
      "ok": true,
      "ms": 1222
+    },
+    "2026-10-21": {
+     "chosen": "browser_control",
+     "ok": true,
+     "ms": 5110
     }
    }
   },
@@ -381,6 +399,11 @@
      "chosen": "close_camera",
      "ok": true,
      "ms": 342
+    },
+    "2026-10-21": {
+     "chosen": "close_camera",
+     "ok": true,
+     "ms": 839
     }
    }
   },
@@ -394,6 +417,11 @@
      "chosen": "code_helper",
      "ok": true,
      "ms": 1265
+    },
+    "2026-10-21": {
+     "chosen": "code_helper",
+     "ok": true,
+     "ms": 1770
     }
    }
   },
@@ -407,6 +435,11 @@
      "chosen": "code_studio",
      "ok": true,
      "ms": 1015
+    },
+    "2026-10-21": {
+     "chosen": "code_studio",
+     "ok": true,
+     "ms": 1605
     }
    }
   },
@@ -420,6 +453,11 @@
      "chosen": "computer_control",
      "ok": true,
      "ms": 805
+    },
+    "2026-10-21": {
+     "chosen": "computer_control",
+     "ok": true,
+     "ms": 2013
     }
    }
   },
@@ -433,6 +471,11 @@
      "chosen": "computer_settings",
      "ok": true,
      "ms": 495
+    },
+    "2026-10-21": {
+     "chosen": "computer_settings",
+     "ok": true,
+     "ms": 2219
     }
    }
   },
@@ -446,6 +489,11 @@
      "chosen": "desktop_control",
      "ok": true,
      "ms": 1072
+    },
+    "2026-10-21": {
+     "chosen": "desktop_control",
+     "ok": true,
+     "ms": 2037
     }
    }
   },
@@ -459,6 +507,11 @@
      "chosen": "file_controller",
      "ok": true,
      "ms": 913
+    },
+    "2026-10-21": {
+     "chosen": "file_controller",
+     "ok": true,
+     "ms": 1518
     }
    }
   },
@@ -472,6 +525,11 @@
      "chosen": "file_processor",
      "ok": true,
      "ms": 578
+    },
+    "2026-10-21": {
+     "chosen": "file_processor",
+     "ok": true,
+     "ms": 1306
     }
    }
   },
@@ -485,6 +543,11 @@
      "chosen": "flight_finder",
      "ok": true,
      "ms": 1397
+    },
+    "2026-10-21": {
+     "chosen": "flight_finder",
+     "ok": true,
+     "ms": 1987
     }
    }
   },
@@ -498,6 +561,11 @@
      "chosen": "game_updater",
      "ok": true,
      "ms": 1102
+    },
+    "2026-10-21": {
+     "chosen": "game_updater",
+     "ok": true,
+     "ms": 1697
     }
    }
   },
@@ -511,6 +579,11 @@
      "chosen": "manage_monitor",
      "ok": true,
      "ms": 622
+    },
+    "2026-10-21": {
+     "chosen": "manage_monitor",
+     "ok": true,
+     "ms": 1183
     }
    }
   },
@@ -524,6 +597,11 @@
      "chosen": "open_app",
      "ok": true,
      "ms": 1025
+    },
+    "2026-10-21": {
+     "chosen": "open_app",
+     "ok": true,
+     "ms": 1080
     }
    }
   },
@@ -537,6 +615,11 @@
      "chosen": "recall_memory",
      "ok": true,
      "ms": 462
+    },
+    "2026-10-21": {
+     "chosen": "recall_memory",
+     "ok": true,
+     "ms": 924
     }
    }
   },
@@ -550,6 +633,11 @@
      "chosen": "reminder",
      "ok": true,
      "ms": 980
+    },
+    "2026-10-21": {
+     "chosen": "reminder",
+     "ok": true,
+     "ms": 1604
     }
    }
   },
@@ -563,6 +651,11 @@
      "chosen": "repository_review",
      "ok": true,
      "ms": 907
+    },
+    "2026-10-21": {
+     "chosen": "repository_review",
+     "ok": true,
+     "ms": 1451
     }
    }
   },
@@ -576,6 +669,11 @@
      "chosen": "save_memory",
      "ok": true,
      "ms": 859
+    },
+    "2026-10-21": {
+     "chosen": "save_memory",
+     "ok": true,
+     "ms": 1418
     }
    }
   },
@@ -589,6 +687,11 @@
      "chosen": "screen_process",
      "ok": true,
      "ms": 735
+    },
+    "2026-10-21": {
+     "chosen": "screen_process",
+     "ok": true,
+     "ms": 1236
     }
    }
   },
@@ -602,6 +705,11 @@
      "chosen": "send_message",
      "ok": true,
      "ms": 973
+    },
+    "2026-10-21": {
+     "chosen": "send_message",
+     "ok": true,
+     "ms": 1331
     }
    }
   },
@@ -615,6 +723,11 @@
      "chosen": "shutdown",
      "ok": true,
      "ms": 367
+    },
+    "2026-10-21": {
+     "chosen": "shutdown",
+     "ok": true,
+     "ms": 851
     }
    }
   },
@@ -628,6 +741,11 @@
      "chosen": "system_status",
      "ok": true,
      "ms": 322
+    },
+    "2026-10-21": {
+     "chosen": "system_status",
+     "ok": true,
+     "ms": 892
     }
    }
   },
@@ -641,6 +759,11 @@
      "chosen": "undo",
      "ok": true,
      "ms": 459
+    },
+    "2026-10-21": {
+     "chosen": "undo",
+     "ok": true,
+     "ms": 873
     }
    }
   },
@@ -654,11 +777,21 @@
      "chosen": "usage_report",
      "ok": true,
      "ms": 347
+    },
+    "2026-10-21": {
+     "chosen": "usage_report",
+     "ok": true,
+     "ms": 802
     }
    }
   }
  ],
  "changes": [
+  {
+   "date": "2026-10-21",
+   "title": "Matthew : conversation et refus, juge normalisé, banc de cognition, streaming, HUD",
+   "area": "IA"
+  },
   {
    "date": "2026-10-20",
    "title": "Vitrine publique de Matthew : la regarder apprendre, en lecture seule",
@@ -1053,11 +1186,7 @@
    "date": "2026-09-24",
    "title": "Visage mobile : le cercle devient le cadre du visage",
    "area": "Interface"
-  },
-  {
-   "date": "2026-09-24",
-   "title": "Depot : gradlew.bat renormalise (CRLF dans l'index malgre eol=crlf)",
-   "area": "Interface"
   }
- ]
+ ],
+ "live": null
 }
