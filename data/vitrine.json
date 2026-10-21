@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-10-21 13:07",
+ "generated": "2026-10-21 13:26",
  "champion": {
   "since": "2026-10-21",
   "base": "Qwen/Qwen3.5-4B",
@@ -16,8 +16,8 @@
  },
  "coverage": {
   "tools_total": 43,
-  "tools_covered": 27,
-  "examples": 134
+  "tools_covered": 42,
+  "examples": 196
  },
  "tools": [
   {
@@ -268,8 +268,8 @@
    "label": "Ses capacités",
    "label_en": "Its capabilities",
    "domain": "Noyau",
-   "learned_on": null,
-   "examples": 0,
+   "learned_on": "2026-10-21",
+   "examples": 3,
    "accuracy": null
   },
   {
@@ -277,8 +277,8 @@
    "label": "Oublier",
    "label_en": "Forget",
    "domain": "Mémoire",
-   "learned_on": null,
-   "examples": 0,
+   "learned_on": "2026-10-21",
+   "examples": 6,
    "accuracy": null
   },
   {
@@ -286,8 +286,8 @@
    "label": "Objectifs",
    "label_en": "Goals",
    "domain": "Mémoire",
-   "learned_on": null,
-   "examples": 0,
+   "learned_on": "2026-10-21",
+   "examples": 6,
    "accuracy": null
   },
   {
@@ -295,8 +295,8 @@
    "label": "Conversations passées",
    "label_en": "Past conversations",
    "domain": "Mémoire",
-   "learned_on": null,
-   "examples": 0,
+   "learned_on": "2026-10-21",
+   "examples": 2,
    "accuracy": null
   },
   {
@@ -304,8 +304,8 @@
    "label": "État intérieur",
    "label_en": "Inner state",
    "domain": "Mémoire",
-   "learned_on": null,
-   "examples": 0,
+   "learned_on": "2026-10-21",
+   "examples": 4,
    "accuracy": null
   },
   {
@@ -313,8 +313,8 @@
    "label": "Extensions",
    "label_en": "Extensions",
    "domain": "Noyau",
-   "learned_on": null,
-   "examples": 0,
+   "learned_on": "2026-10-21",
+   "examples": 6,
    "accuracy": null
   },
   {
@@ -322,8 +322,8 @@
    "label": "Diagnostic",
    "label_en": "Diagnostics",
    "domain": "Système",
-   "learned_on": null,
-   "examples": 0,
+   "learned_on": "2026-10-21",
+   "examples": 2,
    "accuracy": null
   },
   {
@@ -331,8 +331,8 @@
    "label": "Incidents",
    "label_en": "Incidents",
    "domain": "Noyau",
-   "learned_on": null,
-   "examples": 0,
+   "learned_on": "2026-10-21",
+   "examples": 6,
    "accuracy": null
   },
   {
@@ -340,8 +340,8 @@
    "label": "Itinéraire",
    "label_en": "Directions",
    "domain": "Infos",
-   "learned_on": null,
-   "examples": 0,
+   "learned_on": "2026-10-21",
+   "examples": 3,
    "accuracy": null
   },
   {
@@ -349,8 +349,8 @@
    "label": "Apprendre",
    "label_en": "Learning",
    "domain": "Noyau",
-   "learned_on": null,
-   "examples": 0,
+   "learned_on": "2026-10-21",
+   "examples": 3,
    "accuracy": null
   },
   {
@@ -358,8 +358,8 @@
    "label": "Connecteurs MCP",
    "label_en": "MCP connectors",
    "domain": "Noyau",
-   "learned_on": null,
-   "examples": 0,
+   "learned_on": "2026-10-21",
+   "examples": 5,
    "accuracy": null
   },
   {
@@ -367,8 +367,8 @@
    "label": "Réunions",
    "label_en": "Meetings",
    "domain": "Communication",
-   "learned_on": null,
-   "examples": 0,
+   "learned_on": "2026-10-21",
+   "examples": 6,
    "accuracy": null
   },
   {
@@ -376,8 +376,8 @@
    "label": "Pilote du PC",
    "label_en": "PC pilot",
    "domain": "Bureau",
-   "learned_on": null,
-   "examples": 0,
+   "learned_on": "2026-10-21",
+   "examples": 1,
    "accuracy": null
   },
   {
@@ -385,8 +385,8 @@
    "label": "Mode clé USB",
    "label_en": "USB-stick mode",
    "domain": "Noyau",
-   "learned_on": null,
-   "examples": 0,
+   "learned_on": "2026-10-21",
+   "examples": 5,
    "accuracy": null
   },
   {
@@ -394,8 +394,8 @@
    "label": "Quotas",
    "label_en": "Quotas",
    "domain": "Noyau",
-   "learned_on": null,
-   "examples": 0,
+   "learned_on": "2026-10-21",
+   "examples": 4,
    "accuracy": null
   },
   {
@@ -496,7 +496,7 @@
  ],
  "tokens": {
   "matthew": 1319551,
-  "school": 361988
+  "school": 485420
  },
  "showcase": [
   {
@@ -1126,6 +1126,97 @@
      "answer": "Je suis désolé, mais je ne peux pas contrôler le robot aspirateur de votre voisin."
     }
    }
+  },
+  {
+   "id": "0033dc03",
+   "request": "Affiche le diagramme du contexte en te concentrant sur la partie client.",
+   "target": "capabilities",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "0599fc39",
+   "request": "Installe l'extension du traducteur de texte depuis https://example.com/plugins/traducteur.jar avec le SHA‑256 3a5f8c9e2d4b6a7c9e1f0d3b2a6c8e5f7b9d0c1e2f3a4b5c6d7e8f9a0b1c2d3e.",
+   "target": "extensions",
+   "heldout": false,
+   "results": {}
+  },
+  {
+   "id": "08a818db",
+   "request": "Pourrais‑tu oublier les notes que j’ai prises sur la réunion du 12 mars avec l’équipe marketing ?",
+   "target": "forget_about",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "621d2bb3",
+   "request": "Demande l'approbation du but «Apprendre le japonais niveau N5», j’ai déjà acheté le livre et l’app Duolingo.",
+   "target": "goals",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "14c10f2e",
+   "request": "Active le partage des incidents en mode anonyme, je veux que les données aillent dans Night Shift.",
+   "target": "incidents",
+   "heldout": false,
+   "results": {}
+  },
+  {
+   "id": "df272508",
+   "request": "Est‑ce que tous les plugins que j'ai installés sont actifs ?",
+   "target": "local_health_check",
+   "heldout": false,
+   "results": {}
+  },
+  {
+   "id": "8905a24d",
+   "request": "Fais un cycle d’apprentissage maintenant, je veux que tu consolides les dernières corrections que je t’ai données.",
+   "target": "matthew",
+   "heldout": false,
+   "results": {}
+  },
+  {
+   "id": "20fc3b4f",
+   "request": "Dis‑moi les arguments nécessaires pour le tool \"interroger‑BD\" du serveur MySQL.",
+   "target": "mcp",
+   "heldout": false,
+   "results": {}
+  },
+  {
+   "id": "24758f5c",
+   "request": "Meeting, active l’assistance en direct.",
+   "target": "meeting",
+   "heldout": false,
+   "results": {}
+  },
+  {
+   "id": "7347e678",
+   "request": "Fais‑moi un trajet de la gare du Nord à l’aéroport Charles‑de‑Gaulle en transport en commun",
+   "target": "open_itinerary",
+   "heldout": false,
+   "results": {}
+  },
+  {
+   "id": "b9692176",
+   "request": "Sur Teams, envoie à Paul que je serai en retard de quinze minutes pour la réunion de cet après‑midi.",
+   "target": "pilot",
+   "heldout": false,
+   "results": {}
+  },
+  {
+   "id": "06ebd0d7",
+   "request": "Hey, combien d'espace libre il reste sur la clé USB ?",
+   "target": "portable",
+   "heldout": false,
+   "results": {}
+  },
+  {
+   "id": "f3c1694f",
+   "request": "Combien de requêtes Gemini reste‑t‑il aujourd’hui pour le modèle Gemini‑1.5‑Flash ?",
+   "target": "quotas",
+   "heldout": true,
+   "results": {}
   }
  ],
  "changes": [
@@ -1530,7 +1621,13 @@
    "area": "Système"
   }
  ],
- "live": null,
+ "live": {
+  "phase": "prep",
+  "epoch": null,
+  "epochs": 0,
+  "losses": [],
+  "since": "2026-10-21 13:26"
+ },
  "next": {
   "at": "2026-10-22T02:30:00+02:00",
   "enabled": true
