@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-10-21 13:32",
+ "generated": "2026-10-21 13:38",
  "champion": {
   "since": "2026-10-21",
   "base": "Qwen/Qwen3.5-4B",
@@ -1623,11 +1623,14 @@
  ],
  "live": {
   "phase": "entraînement",
-  "epoch": 0.37,
+  "epoch": 1.0,
   "epochs": 3,
   "losses": [
    0.3491,
-   0.2524
+   0.2524,
+   0.3091,
+   0.4097,
+   0.3092
   ],
   "since": "2026-10-21 13:26"
  },
