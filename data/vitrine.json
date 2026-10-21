@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-10-21 13:26",
+ "generated": "2026-10-21 13:32",
  "champion": {
   "since": "2026-10-21",
   "base": "Qwen/Qwen3.5-4B",
@@ -16,8 +16,8 @@
  },
  "coverage": {
   "tools_total": 43,
-  "tools_covered": 42,
-  "examples": 196
+  "tools_covered": 43,
+  "examples": 198
  },
  "tools": [
   {
@@ -161,7 +161,7 @@
    "label_en": "Read a document",
    "domain": "Bureau",
    "learned_on": "2026-10-20",
-   "examples": 5,
+   "examples": 6,
    "accuracy": 0.0
   },
   {
@@ -403,8 +403,8 @@
    "label": "Compétences",
    "label_en": "Skills",
    "domain": "Noyau",
-   "learned_on": null,
-   "examples": 0,
+   "learned_on": "2026-10-21",
+   "examples": 1,
    "accuracy": null
   }
  ],
@@ -496,7 +496,7 @@
  ],
  "tokens": {
   "matthew": 1319551,
-  "school": 485420
+  "school": 501245
  },
  "showcase": [
   {
@@ -1622,10 +1622,13 @@
   }
  ],
  "live": {
-  "phase": "prep",
-  "epoch": null,
-  "epochs": 0,
-  "losses": [],
+  "phase": "entraînement",
+  "epoch": 0.37,
+  "epochs": 3,
+  "losses": [
+   0.3491,
+   0.2524
+  ],
   "since": "2026-10-21 13:26"
  },
  "next": {
