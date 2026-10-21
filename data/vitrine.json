@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-10-21 14:01",
+ "generated": "2026-10-21 14:08",
  "champion": {
   "since": "2026-10-21",
   "base": "Qwen/Qwen3.5-4B",
@@ -99,7 +99,7 @@
    "domain": "Bureau",
    "learned_on": "2026-10-20",
    "examples": 6,
-   "accuracy": 0.75
+   "accuracy": 0.667
   },
   {
    "id": "code_helper",
@@ -162,7 +162,7 @@
    "domain": "Bureau",
    "learned_on": "2026-10-20",
    "examples": 6,
-   "accuracy": 0.0
+   "accuracy": 0.875
   },
   {
    "id": "flight_finder",
@@ -171,7 +171,7 @@
    "domain": "Infos",
    "learned_on": "2026-10-20",
    "examples": 6,
-   "accuracy": 0.875
+   "accuracy": 1.0
   },
   {
    "id": "game_updater",
@@ -216,7 +216,7 @@
    "domain": "Communication",
    "learned_on": "2026-10-20",
    "examples": 6,
-   "accuracy": 1.0
+   "accuracy": 0.917
   },
   {
    "id": "usage_report",
@@ -270,7 +270,7 @@
    "domain": "Noyau",
    "learned_on": "2026-10-21",
    "examples": 3,
-   "accuracy": null
+   "accuracy": 0.833
   },
   {
    "id": "forget_about",
@@ -279,7 +279,7 @@
    "domain": "Mémoire",
    "learned_on": "2026-10-21",
    "examples": 6,
-   "accuracy": null
+   "accuracy": 0.75
   },
   {
    "id": "goals",
@@ -288,7 +288,7 @@
    "domain": "Mémoire",
    "learned_on": "2026-10-21",
    "examples": 6,
-   "accuracy": null
+   "accuracy": 1.0
   },
   {
    "id": "recall_episodes",
@@ -306,7 +306,7 @@
    "domain": "Mémoire",
    "learned_on": "2026-10-21",
    "examples": 4,
-   "accuracy": null
+   "accuracy": 1.0
   },
   {
    "id": "extensions",
@@ -315,7 +315,7 @@
    "domain": "Noyau",
    "learned_on": "2026-10-21",
    "examples": 6,
-   "accuracy": null
+   "accuracy": 0.875
   },
   {
    "id": "local_health_check",
@@ -333,7 +333,7 @@
    "domain": "Noyau",
    "learned_on": "2026-10-21",
    "examples": 6,
-   "accuracy": null
+   "accuracy": 1.0
   },
   {
    "id": "open_itinerary",
@@ -342,7 +342,7 @@
    "domain": "Infos",
    "learned_on": "2026-10-21",
    "examples": 3,
-   "accuracy": null
+   "accuracy": 0.833
   },
   {
    "id": "matthew",
@@ -351,7 +351,7 @@
    "domain": "Noyau",
    "learned_on": "2026-10-21",
    "examples": 3,
-   "accuracy": null
+   "accuracy": 1.0
   },
   {
    "id": "mcp",
@@ -360,7 +360,7 @@
    "domain": "Noyau",
    "learned_on": "2026-10-21",
    "examples": 5,
-   "accuracy": null
+   "accuracy": 0.667
   },
   {
    "id": "meeting",
@@ -369,7 +369,7 @@
    "domain": "Communication",
    "learned_on": "2026-10-21",
    "examples": 6,
-   "accuracy": null
+   "accuracy": 1.0
   },
   {
    "id": "pilot",
@@ -387,7 +387,7 @@
    "domain": "Noyau",
    "learned_on": "2026-10-21",
    "examples": 5,
-   "accuracy": null
+   "accuracy": 1.0
   },
   {
    "id": "quotas",
@@ -396,7 +396,7 @@
    "domain": "Noyau",
    "learned_on": "2026-10-21",
    "examples": 4,
-   "accuracy": null
+   "accuracy": 1.0
   },
   {
    "id": "skills",
@@ -482,6 +482,56 @@
     "web_search": 0.75,
     "youtube_video": 1.0
    }
+  },
+  {
+   "date": "2026-10-21",
+   "score": {
+    "composite": 0.867,
+    "tool_name": 1.0,
+    "tool_args": 0.816,
+    "irrelevance": 0.643,
+    "valid": 1.0,
+    "latency_p50": 1.133
+   },
+   "promoted": false,
+   "examples": 326,
+   "per_tool": {
+    "browser_control": 0.667,
+    "capabilities": 0.833,
+    "close_camera": 1.0,
+    "code_helper": 0.833,
+    "code_studio": 0.917,
+    "computer_control": 1.0,
+    "computer_settings": 1.0,
+    "desktop_control": 1.0,
+    "extensions": 0.875,
+    "file_controller": 0.875,
+    "file_processor": 0.875,
+    "flight_finder": 1.0,
+    "forget_about": 0.75,
+    "game_updater": 1.0,
+    "goals": 1.0,
+    "incidents": 1.0,
+    "manage_monitor": 0.75,
+    "matthew": 1.0,
+    "mcp": 0.667,
+    "meeting": 1.0,
+    "open_app": 0.75,
+    "open_itinerary": 0.833,
+    "portable": 1.0,
+    "quotas": 1.0,
+    "recall_memory": 1.0,
+    "reminder": 0.917,
+    "repository_review": 0.833,
+    "save_memory": 0.917,
+    "self_state": 1.0,
+    "send_message": 0.917,
+    "shutdown": 1.0,
+    "system_status": 1.0,
+    "weather_report": 1.0,
+    "web_search": 0.75,
+    "youtube_video": 1.0
+   }
   }
  ],
  "cycles": [
@@ -492,10 +542,14 @@
   {
    "date": "2026-10-21",
    "outcome": "nouveau champion"
+  },
+  {
+   "date": "2026-10-21",
+   "outcome": "candidat non promu"
   }
  ],
  "tokens": {
-  "matthew": 1319551,
+  "matthew": 1935573,
   "school": 501245
  },
  "showcase": [
@@ -514,7 +568,7 @@
     "2026-10-21": {
      "chosen": "browser_control",
      "ok": true,
-     "ms": 4009,
+     "ms": 2610,
      "answer": null
     }
    }
@@ -534,7 +588,7 @@
     "2026-10-21": {
      "chosen": "close_camera",
      "ok": true,
-     "ms": 831,
+     "ms": 2378,
      "answer": null
     }
    }
@@ -554,7 +608,7 @@
     "2026-10-21": {
      "chosen": "code_helper",
      "ok": true,
-     "ms": 1842,
+     "ms": 3382,
      "answer": null
     }
    }
@@ -574,7 +628,7 @@
     "2026-10-21": {
      "chosen": "code_studio",
      "ok": true,
-     "ms": 1586,
+     "ms": 2450,
      "answer": null
     }
    }
@@ -594,7 +648,7 @@
     "2026-10-21": {
      "chosen": "computer_control",
      "ok": true,
-     "ms": 1510,
+     "ms": 2618,
      "answer": null
     }
    }
@@ -614,7 +668,7 @@
     "2026-10-21": {
      "chosen": "computer_settings",
      "ok": true,
-     "ms": 1105,
+     "ms": 2106,
      "answer": null
     }
    }
@@ -634,7 +688,7 @@
     "2026-10-21": {
      "chosen": "desktop_control",
      "ok": true,
-     "ms": 1051,
+     "ms": 2073,
      "answer": null
     }
    }
@@ -654,7 +708,7 @@
     "2026-10-21": {
      "chosen": "file_controller",
      "ok": true,
-     "ms": 1509,
+     "ms": 2158,
      "answer": null
     }
    }
@@ -674,7 +728,7 @@
     "2026-10-21": {
      "chosen": "file_processor",
      "ok": true,
-     "ms": 1346,
+     "ms": 2136,
      "answer": null
     }
    }
@@ -694,7 +748,7 @@
     "2026-10-21": {
      "chosen": "flight_finder",
      "ok": true,
-     "ms": 1914,
+     "ms": 3050,
      "answer": null
     }
    }
@@ -714,7 +768,7 @@
     "2026-10-21": {
      "chosen": "game_updater",
      "ok": true,
-     "ms": 1623,
+     "ms": 2395,
      "answer": null
     }
    }
@@ -734,7 +788,7 @@
     "2026-10-21": {
      "chosen": "manage_monitor",
      "ok": true,
-     "ms": 1135,
+     "ms": 1981,
      "answer": null
     }
    }
@@ -754,7 +808,7 @@
     "2026-10-21": {
      "chosen": "open_app",
      "ok": true,
-     "ms": 1031,
+     "ms": 1863,
      "answer": null
     }
    }
@@ -774,7 +828,7 @@
     "2026-10-21": {
      "chosen": "recall_memory",
      "ok": true,
-     "ms": 917,
+     "ms": 1723,
      "answer": null
     }
    }
@@ -794,7 +848,7 @@
     "2026-10-21": {
      "chosen": "reminder",
      "ok": true,
-     "ms": 1551,
+     "ms": 2819,
      "answer": null
     }
    }
@@ -814,7 +868,7 @@
     "2026-10-21": {
      "chosen": "repository_review",
      "ok": true,
-     "ms": 1432,
+     "ms": 3404,
      "answer": null
     }
    }
@@ -834,7 +888,7 @@
     "2026-10-21": {
      "chosen": "save_memory",
      "ok": true,
-     "ms": 1385,
+     "ms": 3146,
      "answer": null
     }
    }
@@ -854,7 +908,7 @@
     "2026-10-21": {
      "chosen": "screen_process",
      "ok": true,
-     "ms": 1212,
+     "ms": 3026,
      "answer": null
     }
    }
@@ -874,7 +928,7 @@
     "2026-10-21": {
      "chosen": "send_message",
      "ok": true,
-     "ms": 1280,
+     "ms": 3287,
      "answer": null
     }
    }
@@ -894,7 +948,7 @@
     "2026-10-21": {
      "chosen": "shutdown",
      "ok": true,
-     "ms": 852,
+     "ms": 1278,
      "answer": null
     }
    }
@@ -914,7 +968,7 @@
     "2026-10-21": {
      "chosen": "system_status",
      "ok": true,
-     "ms": 881,
+     "ms": 905,
      "answer": null
     }
    }
@@ -934,7 +988,7 @@
     "2026-10-21": {
      "chosen": "undo",
      "ok": true,
-     "ms": 854,
+     "ms": 941,
      "answer": null
     }
    }
@@ -954,7 +1008,7 @@
     "2026-10-21": {
      "chosen": "usage_report",
      "ok": true,
-     "ms": 738,
+     "ms": 775,
      "answer": null
     }
    }
@@ -968,7 +1022,7 @@
     "2026-10-21": {
      "chosen": "briefing",
      "ok": true,
-     "ms": 1032,
+     "ms": 1066,
      "answer": null
     }
    }
@@ -982,7 +1036,7 @@
     "2026-10-21": {
      "chosen": "weather_report",
      "ok": true,
-     "ms": 849,
+     "ms": 866,
      "answer": null
     }
    }
@@ -996,7 +1050,7 @@
     "2026-10-21": {
      "chosen": "web_search",
      "ok": true,
-     "ms": 1209,
+     "ms": 1236,
      "answer": null
     }
    }
@@ -1010,7 +1064,7 @@
     "2026-10-21": {
      "chosen": "youtube_video",
      "ok": true,
-     "ms": 1634,
+     "ms": 1667,
      "answer": null
     }
    }
@@ -1024,7 +1078,7 @@
     "2026-10-21": {
      "chosen": null,
      "ok": true,
-     "ms": 585,
+     "ms": 590,
      "answer": "Je suis un assistant personnel intelligent, toujours là pour t’aider."
     }
    }
@@ -1038,7 +1092,7 @@
     "2026-10-21": {
      "chosen": null,
      "ok": true,
-     "ms": 754,
+     "ms": 785,
      "answer": "Oui, les chats sont vraiment mignons, avec leur gracieuse démarche et leurs yeux brillants."
     }
    }
@@ -1052,7 +1106,7 @@
     "2026-10-21": {
      "chosen": null,
      "ok": true,
-     "ms": 744,
+     "ms": 737,
      "answer": "Je suis désolé, mais je ne peux pas fournir d'informations sur la météo."
     }
    }
@@ -1066,7 +1120,7 @@
     "2026-10-21": {
      "chosen": null,
      "ok": true,
-     "ms": 571,
+     "ms": 583,
      "answer": "C'est vrai, la météo est agréable aujourd'hui."
     }
    }
@@ -1080,7 +1134,7 @@
     "2026-10-21": {
      "chosen": null,
      "ok": true,
-     "ms": 807,
+     "ms": 827,
      "answer": "Je suis désolé, mais je ne peux pas réserver de billets de train."
     }
    }
@@ -1094,7 +1148,7 @@
     "2026-10-21": {
      "chosen": null,
      "ok": true,
-     "ms": 623,
+     "ms": 644,
      "answer": "Je suis désolé, mais je ne peux pas faire ça."
     }
    }
@@ -1108,7 +1162,7 @@
     "2026-10-21": {
      "chosen": null,
      "ok": true,
-     "ms": 949,
+     "ms": 955,
      "answer": "Je vais contacter un agent immobilier pour qu’il vous propose des appartements à louer dans le 5ᵉ arrondissement."
     }
    }
@@ -1122,7 +1176,7 @@
     "2026-10-21": {
      "chosen": null,
      "ok": true,
-     "ms": 775,
+     "ms": 795,
      "answer": "Je suis désolé, mais je ne peux pas contrôler le robot aspirateur de votre voisin."
     }
    }
@@ -1132,91 +1186,182 @@
    "request": "Affiche le diagramme du contexte en te concentrant sur la partie client.",
    "target": "capabilities",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-10-21": {
+     "chosen": "capabilities",
+     "ok": true,
+     "ms": 1189,
+     "answer": null
+    }
+   }
   },
   {
    "id": "0599fc39",
    "request": "Installe l'extension du traducteur de texte depuis https://example.com/plugins/traducteur.jar avec le SHA‑256 3a5f8c9e2d4b6a7c9e1f0d3b2a6c8e5f7b9d0c1e2f3a4b5c6d7e8f9a0b1c2d3e.",
    "target": "extensions",
    "heldout": false,
-   "results": {}
+   "results": {
+    "2026-10-21": {
+     "chosen": "extensions",
+     "ok": true,
+     "ms": 2602,
+     "answer": null
+    }
+   }
   },
   {
    "id": "08a818db",
    "request": "Pourrais‑tu oublier les notes que j’ai prises sur la réunion du 12 mars avec l’équipe marketing ?",
    "target": "forget_about",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-10-21": {
+     "chosen": "forget_about",
+     "ok": true,
+     "ms": 1016,
+     "answer": null
+    }
+   }
   },
   {
    "id": "621d2bb3",
    "request": "Demande l'approbation du but «Apprendre le japonais niveau N5», j’ai déjà acheté le livre et l’app Duolingo.",
    "target": "goals",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-10-21": {
+     "chosen": "goals",
+     "ok": true,
+     "ms": 1347,
+     "answer": null
+    }
+   }
   },
   {
    "id": "14c10f2e",
    "request": "Active le partage des incidents en mode anonyme, je veux que les données aillent dans Night Shift.",
    "target": "incidents",
    "heldout": false,
-   "results": {}
+   "results": {
+    "2026-10-21": {
+     "chosen": "incidents",
+     "ok": true,
+     "ms": 1102,
+     "answer": null
+    }
+   }
   },
   {
    "id": "df272508",
    "request": "Est‑ce que tous les plugins que j'ai installés sont actifs ?",
    "target": "local_health_check",
    "heldout": false,
-   "results": {}
+   "results": {
+    "2026-10-21": {
+     "chosen": "local_health_check",
+     "ok": true,
+     "ms": 833,
+     "answer": null
+    }
+   }
   },
   {
    "id": "8905a24d",
    "request": "Fais un cycle d’apprentissage maintenant, je veux que tu consolides les dernières corrections que je t’ai données.",
    "target": "matthew",
    "heldout": false,
-   "results": {}
+   "results": {
+    "2026-10-21": {
+     "chosen": "matthew",
+     "ok": true,
+     "ms": 991,
+     "answer": null
+    }
+   }
   },
   {
    "id": "20fc3b4f",
    "request": "Dis‑moi les arguments nécessaires pour le tool \"interroger‑BD\" du serveur MySQL.",
    "target": "mcp",
    "heldout": false,
-   "results": {}
+   "results": {
+    "2026-10-21": {
+     "chosen": "mcp",
+     "ok": true,
+     "ms": 1409,
+     "answer": null
+    }
+   }
   },
   {
    "id": "24758f5c",
    "request": "Meeting, active l’assistance en direct.",
    "target": "meeting",
    "heldout": false,
-   "results": {}
+   "results": {
+    "2026-10-21": {
+     "chosen": "meeting",
+     "ok": true,
+     "ms": 1055,
+     "answer": null
+    }
+   }
   },
   {
    "id": "7347e678",
    "request": "Fais‑moi un trajet de la gare du Nord à l’aéroport Charles‑de‑Gaulle en transport en commun",
    "target": "open_itinerary",
    "heldout": false,
-   "results": {}
+   "results": {
+    "2026-10-21": {
+     "chosen": "open_itinerary",
+     "ok": true,
+     "ms": 1310,
+     "answer": null
+    }
+   }
   },
   {
    "id": "b9692176",
    "request": "Sur Teams, envoie à Paul que je serai en retard de quinze minutes pour la réunion de cet après‑midi.",
    "target": "pilot",
    "heldout": false,
-   "results": {}
+   "results": {
+    "2026-10-21": {
+     "chosen": "pilot",
+     "ok": true,
+     "ms": 1543,
+     "answer": null
+    }
+   }
   },
   {
    "id": "06ebd0d7",
    "request": "Hey, combien d'espace libre il reste sur la clé USB ?",
    "target": "portable",
    "heldout": false,
-   "results": {}
+   "results": {
+    "2026-10-21": {
+     "chosen": "portable",
+     "ok": true,
+     "ms": 1000,
+     "answer": null
+    }
+   }
   },
   {
    "id": "f3c1694f",
    "request": "Combien de requêtes Gemini reste‑t‑il aujourd’hui pour le modèle Gemini‑1.5‑Flash ?",
    "target": "quotas",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-10-21": {
+     "chosen": "quotas",
+     "ok": true,
+     "ms": 680,
+     "answer": null
+    }
+   }
   }
  ],
  "changes": [
@@ -1621,19 +1766,13 @@
    "area": "Système"
   }
  ],
- "live": {
-  "phase": "import",
-  "epoch": null,
-  "epochs": 0,
-  "losses": [],
-  "since": "2026-10-21 13:26"
- },
+ "live": null,
  "next": {
   "at": "2026-10-22T02:30:00+02:00",
   "enabled": true
  },
  "counters": {
-  "tokens": 1319551,
+  "tokens": 1935573,
   "gpu_hours": 1.41,
   "nights": 2,
   "streak": 2
