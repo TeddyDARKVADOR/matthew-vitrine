@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-10-21 01:47",
+ "generated": "2026-10-21 02:01",
  "champion": {
   "since": "2026-10-21",
   "base": "Qwen/Qwen3.5-4B",
@@ -1131,6 +1131,11 @@
  "changes": [
   {
    "date": "2026-10-21",
+   "title": "Vitrine : défiler facilement sur téléphone, en portrait comme en paysage",
+   "area": "IA"
+  },
+  {
+   "date": "2026-10-21",
    "title": "Matthew : conversation et refus, juge normalisé, banc de cognition, streaming, HUD",
    "area": "IA"
   },
@@ -1523,11 +1528,6 @@
    "date": "2026-09-24",
    "title": "Labo : tourne sur une seconde machine, et teste les etats a l'ecran",
    "area": "Système"
-  },
-  {
-   "date": "2026-09-24",
-   "title": "Visage mobile : le cercle devient le cadre du visage",
-   "area": "Interface"
   }
  ],
  "live": null,
