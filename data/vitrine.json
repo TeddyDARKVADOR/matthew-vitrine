@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-10-22 03:08",
+ "generated": "2026-10-23 18:04",
  "champion": {
   "since": "2026-10-21",
   "base": "Qwen/Qwen3.5-4B",
@@ -1659,13 +1659,23 @@
  "changes": [
   {
    "date": "2026-10-21",
-   "title": "Matthew : part minimale de 40 % d'exemples sans outil, 2 époques",
+   "title": "Matthew : sorties d'outils externes décodées en UTF-8, troisième cycle consigné",
    "area": "IA"
   },
   {
-   "date": "2026-10-21",
-   "title": "Matthew : sorties d'outils externes décodées en UTF-8, troisième cycle consigné",
+   "date": "2026-10-23",
+   "title": "Kaggle : jeton KGAT (accesstoken, KAGGLEAPITOKEN), piège UTF-16 de PowerShell reconnu, matthew.kaggle token",
    "area": "IA"
+  },
+  {
+   "date": "2026-10-22",
+   "title": "Oracle : déployé à jour, garde du routage, journal de Matthew rapatrié",
+   "area": "IA"
+  },
+  {
+   "date": "2026-10-22",
+   "title": "Matthew : vitrine fluide avec guide, Direction 3 (spécialités évaluées), Matthew renommé Matthew",
+   "area": "Interface"
   },
   {
    "date": "2026-10-21",
@@ -2046,21 +2056,11 @@
    "date": "2026-10-09",
    "title": "Ajoute le diagnostic de l'avatar",
    "area": "Interface"
-  },
-  {
-   "date": "2026-10-09",
-   "title": "Ajoute le diagnostic de sante local",
-   "area": "Interface"
-  },
-  {
-   "date": "2026-10-09",
-   "title": "Ajoute l'ouverture locale des itineraires",
-   "area": "Système"
   }
  ],
  "live": null,
  "next": {
-  "at": "2026-10-23T02:30:00+02:00",
+  "at": "2026-10-24T02:30:00+02:00",
   "enabled": true
  },
  "counters": {
@@ -2068,5 +2068,6 @@
   "gpu_hours": 1.41,
   "nights": 3,
   "streak": 3
- }
+ },
+ "specialties": []
 }
