@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-10-23 18:12",
+ "generated": "2026-10-23 18:33",
  "champion": {
   "since": "2026-10-21",
   "base": "Qwen/Qwen3.5-4B",
@@ -1659,6 +1659,11 @@
  "changes": [
   {
    "date": "2026-10-23",
+   "title": "Kaggle : le noyau attend que le jeu de données neuf soit prêt et vérifie qu'il lui est rattaché",
+   "area": "IA"
+  },
+  {
+   "date": "2026-10-23",
    "title": "Kaggle : nom d'utilisateur nettoyé (retour à la ligne du secret), premier lancement réel consigné",
    "area": "IA"
   },
@@ -2051,11 +2056,6 @@
    "date": "2026-10-10",
    "title": "HUD : WebEngine demarre proprement, et les JSON avec BOM se lisent",
    "area": "Interface"
-  },
-  {
-   "date": "2026-10-09",
-   "title": "Fait coder le Code Studio avec Groq",
-   "area": "Système"
   }
  ],
  "live": null,
