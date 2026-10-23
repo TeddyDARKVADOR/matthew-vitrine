@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-10-23 18:04",
+ "generated": "2026-10-23 18:12",
  "champion": {
   "since": "2026-10-21",
   "base": "Qwen/Qwen3.5-4B",
@@ -1658,6 +1658,16 @@
  ],
  "changes": [
   {
+   "date": "2026-10-23",
+   "title": "Kaggle : nom d'utilisateur nettoyé (retour à la ligne du secret), premier lancement réel consigné",
+   "area": "IA"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "Matthew : part minimale de 40 % d'exemples sans outil, 2 époques",
+   "area": "IA"
+  },
+  {
    "date": "2026-10-21",
    "title": "Matthew : sorties d'outils externes décodées en UTF-8, troisième cycle consigné",
    "area": "IA"
@@ -2046,16 +2056,6 @@
    "date": "2026-10-09",
    "title": "Fait coder le Code Studio avec Groq",
    "area": "Système"
-  },
-  {
-   "date": "2026-10-09",
-   "title": "Ajoute Matthew Code Studio, l'atelier de developpement local",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-09",
-   "title": "Ajoute le diagnostic de l'avatar",
-   "area": "Interface"
   }
  ],
  "live": null,
