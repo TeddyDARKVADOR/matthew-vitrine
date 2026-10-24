@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-10-24 21:21",
+ "generated": "2026-10-24 22:03",
  "champion": {
   "since": "2026-10-21",
   "base": "Qwen/Qwen3.5-4B",
@@ -553,7 +553,7 @@
   }
  ],
  "tokens": {
-  "matthew": 2651882,
+  "matthew": 2733376,
   "school": 585414
  },
  "showcase": [
@@ -584,7 +584,7 @@
     "2026-10-24": {
      "chosen": "browser_control",
      "ok": true,
-     "ms": 6414,
+     "ms": 5918,
      "answer": null
     }
    }
@@ -616,7 +616,7 @@
     "2026-10-24": {
      "chosen": "close_camera",
      "ok": true,
-     "ms": 826,
+     "ms": 879,
      "answer": null
     }
    }
@@ -648,7 +648,7 @@
     "2026-10-24": {
      "chosen": "code_helper",
      "ok": true,
-     "ms": 1825,
+     "ms": 1902,
      "answer": null
     }
    }
@@ -680,7 +680,7 @@
     "2026-10-24": {
      "chosen": "code_studio",
      "ok": true,
-     "ms": 1607,
+     "ms": 1673,
      "answer": null
     }
    }
@@ -712,7 +712,7 @@
     "2026-10-24": {
      "chosen": "computer_control",
      "ok": true,
-     "ms": 1541,
+     "ms": 1537,
      "answer": null
     }
    }
@@ -744,7 +744,7 @@
     "2026-10-24": {
      "chosen": "computer_settings",
      "ok": true,
-     "ms": 1096,
+     "ms": 1134,
      "answer": null
     }
    }
@@ -776,7 +776,7 @@
     "2026-10-24": {
      "chosen": "desktop_control",
      "ok": true,
-     "ms": 1023,
+     "ms": 1062,
      "answer": null
     }
    }
@@ -808,7 +808,7 @@
     "2026-10-24": {
      "chosen": "file_controller",
      "ok": true,
-     "ms": 1494,
+     "ms": 1520,
      "answer": null
     }
    }
@@ -840,7 +840,7 @@
     "2026-10-24": {
      "chosen": "file_processor",
      "ok": true,
-     "ms": 1326,
+     "ms": 1356,
      "answer": null
     }
    }
@@ -872,7 +872,7 @@
     "2026-10-24": {
      "chosen": "flight_finder",
      "ok": true,
-     "ms": 1940,
+     "ms": 1928,
      "answer": null
     }
    }
@@ -904,7 +904,7 @@
     "2026-10-24": {
      "chosen": "game_updater",
      "ok": true,
-     "ms": 1584,
+     "ms": 1617,
      "answer": null
     }
    }
@@ -936,7 +936,7 @@
     "2026-10-24": {
      "chosen": "manage_monitor",
      "ok": true,
-     "ms": 1099,
+     "ms": 1123,
      "answer": null
     }
    }
@@ -968,7 +968,7 @@
     "2026-10-24": {
      "chosen": "open_app",
      "ok": true,
-     "ms": 1047,
+     "ms": 1105,
      "answer": null
     }
    }
@@ -1000,7 +1000,7 @@
     "2026-10-24": {
      "chosen": "recall_memory",
      "ok": true,
-     "ms": 920,
+     "ms": 953,
      "answer": null
     }
    }
@@ -1032,7 +1032,7 @@
     "2026-10-24": {
      "chosen": "reminder",
      "ok": true,
-     "ms": 1568,
+     "ms": 1632,
      "answer": null
     }
    }
@@ -1064,7 +1064,7 @@
     "2026-10-24": {
      "chosen": "repository_review",
      "ok": true,
-     "ms": 1416,
+     "ms": 1430,
      "answer": null
     }
    }
@@ -1096,7 +1096,7 @@
     "2026-10-24": {
      "chosen": "save_memory",
      "ok": true,
-     "ms": 1382,
+     "ms": 1389,
      "answer": null
     }
    }
@@ -1128,7 +1128,7 @@
     "2026-10-24": {
      "chosen": "screen_process",
      "ok": true,
-     "ms": 1235,
+     "ms": 1228,
      "answer": null
     }
    }
@@ -1160,7 +1160,7 @@
     "2026-10-24": {
      "chosen": "send_message",
      "ok": true,
-     "ms": 1324,
+     "ms": 1293,
      "answer": null
     }
    }
@@ -1192,7 +1192,7 @@
     "2026-10-24": {
      "chosen": null,
      "ok": false,
-     "ms": 795,
+     "ms": 806,
      "answer": null
     }
    }
@@ -1224,7 +1224,7 @@
     "2026-10-24": {
      "chosen": "system_status",
      "ok": true,
-     "ms": 920,
+     "ms": 889,
      "answer": null
     }
    }
@@ -1256,7 +1256,7 @@
     "2026-10-24": {
      "chosen": "undo",
      "ok": true,
-     "ms": 859,
+     "ms": 869,
      "answer": null
     }
    }
@@ -1288,7 +1288,7 @@
     "2026-10-24": {
      "chosen": "usage_report",
      "ok": true,
-     "ms": 726,
+     "ms": 782,
      "answer": null
     }
    }
@@ -1314,7 +1314,7 @@
     "2026-10-24": {
      "chosen": "briefing",
      "ok": true,
-     "ms": 1089,
+     "ms": 1059,
      "answer": null
     }
    }
@@ -1340,7 +1340,7 @@
     "2026-10-24": {
      "chosen": "weather_report",
      "ok": true,
-     "ms": 900,
+     "ms": 865,
      "answer": null
     }
    }
@@ -1366,7 +1366,7 @@
     "2026-10-24": {
      "chosen": "web_search",
      "ok": true,
-     "ms": 1214,
+     "ms": 1301,
      "answer": null
     }
    }
@@ -1392,7 +1392,7 @@
     "2026-10-24": {
      "chosen": "youtube_video",
      "ok": true,
-     "ms": 1635,
+     "ms": 1702,
      "answer": null
     }
    }
@@ -1418,7 +1418,7 @@
     "2026-10-24": {
      "chosen": null,
      "ok": true,
-     "ms": 612,
+     "ms": 665,
      "answer": "Je suis un assistant personnel intelligent, capable de t’aider avec ce dont tu as besoin."
     }
    }
@@ -1444,7 +1444,7 @@
     "2026-10-24": {
      "chosen": null,
      "ok": true,
-     "ms": 740,
+     "ms": 758,
      "answer": "Oui, les chats sont vraiment mignons, avec leur gracieuse démarche et leurs yeux brillants."
     }
    }
@@ -1470,7 +1470,7 @@
     "2026-10-24": {
      "chosen": null,
      "ok": true,
-     "ms": 746,
+     "ms": 733,
      "answer": "Je suis désolé, mais je ne peux pas fournir d'informations sur la météo."
     }
    }
@@ -1496,7 +1496,7 @@
     "2026-10-24": {
      "chosen": null,
      "ok": true,
-     "ms": 607,
+     "ms": 590,
      "answer": "C'est vrai, la météo est agréable aujourd'hui."
     }
    }
@@ -1522,7 +1522,7 @@
     "2026-10-24": {
      "chosen": null,
      "ok": true,
-     "ms": 837,
+     "ms": 888,
      "answer": "Je suis désolé, mais je ne peux pas réserver de billets de train."
     }
    }
@@ -1548,7 +1548,7 @@
     "2026-10-24": {
      "chosen": null,
      "ok": true,
-     "ms": 689,
+     "ms": 721,
      "answer": "Je suis désolé, mais je ne peux pas prédire les numéros gagnants du loto."
     }
    }
@@ -1574,7 +1574,7 @@
     "2026-10-24": {
      "chosen": null,
      "ok": true,
-     "ms": 937,
+     "ms": 913,
      "answer": "Je vais contacter un agent immobilier pour qu’il vous propose des appartements à louer dans le 5ᵉ arrondissement."
     }
    }
@@ -1600,7 +1600,7 @@
     "2026-10-24": {
      "chosen": null,
      "ok": true,
-     "ms": 784,
+     "ms": 753,
      "answer": "Je suis désolé, mais je ne peux pas contrôler le robot aspirateur de votre voisin."
     }
    }
@@ -1626,7 +1626,7 @@
     "2026-10-24": {
      "chosen": "capabilities",
      "ok": true,
-     "ms": 1307,
+     "ms": 1297,
      "answer": null
     }
    }
@@ -1652,7 +1652,7 @@
     "2026-10-24": {
      "chosen": "extensions",
      "ok": true,
-     "ms": 2562,
+     "ms": 2527,
      "answer": null
     }
    }
@@ -1678,7 +1678,7 @@
     "2026-10-24": {
      "chosen": "forget_about",
      "ok": true,
-     "ms": 1037,
+     "ms": 1010,
      "answer": null
     }
    }
@@ -1704,7 +1704,7 @@
     "2026-10-24": {
      "chosen": "goals",
      "ok": true,
-     "ms": 1390,
+     "ms": 1347,
      "answer": null
     }
    }
@@ -1730,7 +1730,7 @@
     "2026-10-24": {
      "chosen": "incidents",
      "ok": true,
-     "ms": 1099,
+     "ms": 1083,
      "answer": null
     }
    }
@@ -1756,7 +1756,7 @@
     "2026-10-24": {
      "chosen": "local_health_check",
      "ok": true,
-     "ms": 917,
+     "ms": 839,
      "answer": null
     }
    }
@@ -1782,7 +1782,7 @@
     "2026-10-24": {
      "chosen": "matthew",
      "ok": true,
-     "ms": 989,
+     "ms": 991,
      "answer": null
     }
    }
@@ -1808,7 +1808,7 @@
     "2026-10-24": {
      "chosen": "mcp",
      "ok": true,
-     "ms": 1418,
+     "ms": 1413,
      "answer": null
     }
    }
@@ -1834,7 +1834,7 @@
     "2026-10-24": {
      "chosen": "meeting",
      "ok": true,
-     "ms": 1066,
+     "ms": 1012,
      "answer": null
     }
    }
@@ -1860,7 +1860,7 @@
     "2026-10-24": {
      "chosen": "open_itinerary",
      "ok": true,
-     "ms": 1491,
+     "ms": 1504,
      "answer": null
     }
    }
@@ -1886,7 +1886,7 @@
     "2026-10-24": {
      "chosen": "pilot",
      "ok": true,
-     "ms": 1489,
+     "ms": 1495,
      "answer": null
     }
    }
@@ -1912,7 +1912,7 @@
     "2026-10-24": {
      "chosen": "portable",
      "ok": true,
-     "ms": 977,
+     "ms": 971,
      "answer": null
     }
    }
@@ -1938,13 +1938,18 @@
     "2026-10-24": {
      "chosen": "quotas",
      "ok": true,
-     "ms": 662,
+     "ms": 676,
      "answer": null
     }
    }
   }
  ],
  "changes": [
+  {
+   "date": "2026-10-24",
+   "title": "Téléphone comme le PC : le pilote dans n'importe quelle appli, la Terre holographique du HUD, une icône",
+   "area": "Interface"
+  },
   {
    "date": "2026-10-24",
    "title": "Voix gemini-3.8-live et téléphone au niveau du HUD : actions locales, fichiers, MIND, assistant par défaut",
@@ -2339,11 +2344,6 @@
    "date": "2026-10-12",
    "title": "Réduit les coûts de tokens Gemini",
    "area": "Système"
-  },
-  {
-   "date": "2026-10-12",
-   "title": "Ajoute le support Linux au client Matthew",
-   "area": "Système"
   }
  ],
  "live": null,
@@ -2352,7 +2352,7 @@
   "enabled": true
  },
  "counters": {
-  "tokens": 2651882,
+  "tokens": 2733376,
   "gpu_hours": 1.41,
   "nights": 3,
   "streak": 3
