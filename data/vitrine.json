@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-10-25 00:52",
+ "generated": "2026-10-25 01:11",
  "champion": {
   "since": "2026-10-21",
   "base": "Qwen/Qwen3.5-4B",
@@ -17,7 +17,7 @@
  "coverage": {
   "tools_total": 44,
   "tools_covered": 43,
-  "examples": 388
+  "examples": 1775
  },
  "tools": [
   {
@@ -26,7 +26,7 @@
    "label_en": "PC status",
    "domain": "Système",
    "learned_on": "2026-10-20",
-   "examples": 6,
+   "examples": 51,
    "accuracy": 1.0
   },
   {
@@ -35,7 +35,7 @@
    "label_en": "Read the screen",
    "domain": "Système",
    "learned_on": "2026-10-20",
-   "examples": 8,
+   "examples": 10,
    "accuracy": null
   },
   {
@@ -44,7 +44,7 @@
    "label_en": "Close camera",
    "domain": "Système",
    "learned_on": "2026-10-20",
-   "examples": 6,
+   "examples": 47,
    "accuracy": 1.0
   },
   {
@@ -53,7 +53,7 @@
    "label_en": "Displays",
    "domain": "Système",
    "learned_on": "2026-10-20",
-   "examples": 6,
+   "examples": 49,
    "accuracy": 0.75
   },
   {
@@ -71,7 +71,7 @@
    "label_en": "Remember",
    "domain": "Mémoire",
    "learned_on": "2026-10-20",
-   "examples": 6,
+   "examples": 32,
    "accuracy": 0.917
   },
   {
@@ -80,7 +80,7 @@
    "label_en": "Recall",
    "domain": "Mémoire",
    "learned_on": "2026-10-20",
-   "examples": 5,
+   "examples": 45,
    "accuracy": 1.0
   },
   {
@@ -89,7 +89,7 @@
    "label_en": "Undo",
    "domain": "Bureau",
    "learned_on": "2026-10-20",
-   "examples": 33,
+   "examples": 45,
    "accuracy": null
   },
   {
@@ -98,7 +98,7 @@
    "label_en": "Browser",
    "domain": "Bureau",
    "learned_on": "2026-10-20",
-   "examples": 6,
+   "examples": 33,
    "accuracy": 0.667
   },
   {
@@ -107,7 +107,7 @@
    "label_en": "Code helper",
    "domain": "Code",
    "learned_on": "2026-10-20",
-   "examples": 3,
+   "examples": 16,
    "accuracy": 0.833
   },
   {
@@ -116,7 +116,7 @@
    "label_en": "Code Studio",
    "domain": "Code",
    "learned_on": "2026-10-20",
-   "examples": 6,
+   "examples": 30,
    "accuracy": 0.917
   },
   {
@@ -125,7 +125,7 @@
    "label_en": "Mouse and keyboard",
    "domain": "Bureau",
    "learned_on": "2026-10-20",
-   "examples": 4,
+   "examples": 35,
    "accuracy": 1.0
   },
   {
@@ -134,7 +134,7 @@
    "label_en": "PC settings",
    "domain": "Système",
    "learned_on": "2026-10-20",
-   "examples": 6,
+   "examples": 48,
    "accuracy": 1.0
   },
   {
@@ -143,7 +143,7 @@
    "label_en": "Windows desktop",
    "domain": "Bureau",
    "learned_on": "2026-10-20",
-   "examples": 4,
+   "examples": 48,
    "accuracy": 1.0
   },
   {
@@ -152,7 +152,7 @@
    "label_en": "Files",
    "domain": "Bureau",
    "learned_on": "2026-10-20",
-   "examples": 6,
+   "examples": 39,
    "accuracy": 0.875
   },
   {
@@ -161,7 +161,7 @@
    "label_en": "Read a document",
    "domain": "Bureau",
    "learned_on": "2026-10-20",
-   "examples": 6,
+   "examples": 47,
    "accuracy": 0.875
   },
   {
@@ -170,7 +170,7 @@
    "label_en": "Flights",
    "domain": "Infos",
    "learned_on": "2026-10-20",
-   "examples": 6,
+   "examples": 48,
    "accuracy": 1.0
   },
   {
@@ -179,7 +179,7 @@
    "label_en": "Game updates",
    "domain": "Système",
    "learned_on": "2026-10-20",
-   "examples": 5,
+   "examples": 49,
    "accuracy": 1.0
   },
   {
@@ -188,7 +188,7 @@
    "label_en": "Open an app",
    "domain": "Bureau",
    "learned_on": "2026-10-20",
-   "examples": 6,
+   "examples": 49,
    "accuracy": 0.75
   },
   {
@@ -197,7 +197,7 @@
    "label_en": "Reminders",
    "domain": "Communication",
    "learned_on": "2026-10-20",
-   "examples": 6,
+   "examples": 50,
    "accuracy": 0.917
   },
   {
@@ -206,7 +206,7 @@
    "label_en": "Repo review",
    "domain": "Code",
    "learned_on": "2026-10-20",
-   "examples": 6,
+   "examples": 45,
    "accuracy": 0.833
   },
   {
@@ -215,7 +215,7 @@
    "label_en": "Send a message",
    "domain": "Communication",
    "learned_on": "2026-10-20",
-   "examples": 6,
+   "examples": 49,
    "accuracy": 0.917
   },
   {
@@ -224,7 +224,7 @@
    "label_en": "Usage",
    "domain": "Noyau",
    "learned_on": "2026-10-20",
-   "examples": 35,
+   "examples": 47,
    "accuracy": null
   },
   {
@@ -233,7 +233,7 @@
    "label_en": "Weather",
    "domain": "Infos",
    "learned_on": "2026-10-21",
-   "examples": 6,
+   "examples": 51,
    "accuracy": 1.0
   },
   {
@@ -242,7 +242,7 @@
    "label_en": "Web search",
    "domain": "Infos",
    "learned_on": "2026-10-21",
-   "examples": 6,
+   "examples": 37,
    "accuracy": 0.75
   },
   {
@@ -251,7 +251,7 @@
    "label_en": "YouTube",
    "domain": "Infos",
    "learned_on": "2026-10-21",
-   "examples": 4,
+   "examples": 40,
    "accuracy": 1.0
   },
   {
@@ -260,7 +260,7 @@
    "label_en": "Morning briefing",
    "domain": "Infos",
    "learned_on": "2026-10-21",
-   "examples": 34,
+   "examples": 45,
    "accuracy": null
   },
   {
@@ -269,7 +269,7 @@
    "label_en": "Its capabilities",
    "domain": "Noyau",
    "learned_on": "2026-10-21",
-   "examples": 3,
+   "examples": 32,
    "accuracy": 0.833
   },
   {
@@ -278,7 +278,7 @@
    "label_en": "Forget",
    "domain": "Mémoire",
    "learned_on": "2026-10-21",
-   "examples": 6,
+   "examples": 38,
    "accuracy": 0.75
   },
   {
@@ -287,7 +287,7 @@
    "label_en": "Goals",
    "domain": "Mémoire",
    "learned_on": "2026-10-21",
-   "examples": 6,
+   "examples": 32,
    "accuracy": 1.0
   },
   {
@@ -296,7 +296,7 @@
    "label_en": "Past conversations",
    "domain": "Mémoire",
    "learned_on": "2026-10-21",
-   "examples": 29,
+   "examples": 42,
    "accuracy": null
   },
   {
@@ -305,7 +305,7 @@
    "label_en": "Inner state",
    "domain": "Mémoire",
    "learned_on": "2026-10-21",
-   "examples": 4,
+   "examples": 31,
    "accuracy": 1.0
   },
   {
@@ -314,7 +314,7 @@
    "label_en": "Extensions",
    "domain": "Noyau",
    "learned_on": "2026-10-21",
-   "examples": 6,
+   "examples": 49,
    "accuracy": 0.875
   },
   {
@@ -323,7 +323,7 @@
    "label_en": "Diagnostics",
    "domain": "Système",
    "learned_on": "2026-10-21",
-   "examples": 2,
+   "examples": 44,
    "accuracy": null
   },
   {
@@ -332,7 +332,7 @@
    "label_en": "Incidents",
    "domain": "Noyau",
    "learned_on": "2026-10-21",
-   "examples": 6,
+   "examples": 48,
    "accuracy": 1.0
   },
   {
@@ -341,7 +341,7 @@
    "label_en": "Directions",
    "domain": "Infos",
    "learned_on": "2026-10-21",
-   "examples": 3,
+   "examples": 44,
    "accuracy": 0.833
   },
   {
@@ -350,7 +350,7 @@
    "label_en": "Learning",
    "domain": "Noyau",
    "learned_on": "2026-10-21",
-   "examples": 3,
+   "examples": 46,
    "accuracy": 1.0
   },
   {
@@ -359,7 +359,7 @@
    "label_en": "MCP connectors",
    "domain": "Noyau",
    "learned_on": "2026-10-21",
-   "examples": 5,
+   "examples": 14,
    "accuracy": 0.667
   },
   {
@@ -368,7 +368,7 @@
    "label_en": "Meetings",
    "domain": "Communication",
    "learned_on": "2026-10-21",
-   "examples": 6,
+   "examples": 44,
    "accuracy": 1.0
   },
   {
@@ -386,7 +386,7 @@
    "label_en": "PC pilot",
    "domain": "Bureau",
    "learned_on": "2026-10-21",
-   "examples": 33,
+   "examples": 40,
    "accuracy": null
   },
   {
@@ -395,7 +395,7 @@
    "label_en": "USB-stick mode",
    "domain": "Noyau",
    "learned_on": "2026-10-21",
-   "examples": 5,
+   "examples": 47,
    "accuracy": 1.0
   },
   {
@@ -404,7 +404,7 @@
    "label_en": "Quotas",
    "domain": "Noyau",
    "learned_on": "2026-10-21",
-   "examples": 4,
+   "examples": 48,
    "accuracy": 1.0
   },
   {
@@ -413,7 +413,7 @@
    "label_en": "Skills",
    "domain": "Noyau",
    "learned_on": "2026-10-21",
-   "examples": 30,
+   "examples": 40,
    "accuracy": null
   }
  ],
@@ -559,11 +559,15 @@
   {
    "date": "2026-10-22",
    "outcome": "en attente de données"
+  },
+  {
+   "date": "2026-10-25",
+   "outcome": "interrompu"
   }
  ],
  "tokens": {
-  "matthew": 2733376,
-  "school": 585414
+  "matthew": 2861194,
+  "school": 666901
  },
  "showcase": [
   {
@@ -594,6 +598,12 @@
      "chosen": "browser_control",
      "ok": true,
      "ms": 5918,
+     "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "browser_control",
+     "ok": true,
+     "ms": 6009,
      "answer": null
     }
    }
@@ -627,6 +637,12 @@
      "ok": true,
      "ms": 879,
      "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "close_camera",
+     "ok": true,
+     "ms": 1214,
+     "answer": null
     }
    }
   },
@@ -658,6 +674,12 @@
      "chosen": "code_helper",
      "ok": true,
      "ms": 1902,
+     "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "code_helper",
+     "ok": true,
+     "ms": 2415,
      "answer": null
     }
    }
@@ -691,6 +713,12 @@
      "ok": true,
      "ms": 1673,
      "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "code_studio",
+     "ok": true,
+     "ms": 1862,
+     "answer": null
     }
    }
   },
@@ -722,6 +750,12 @@
      "chosen": "computer_control",
      "ok": true,
      "ms": 1537,
+     "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "computer_control",
+     "ok": true,
+     "ms": 1708,
      "answer": null
     }
    }
@@ -755,6 +789,12 @@
      "ok": true,
      "ms": 1134,
      "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "computer_settings",
+     "ok": true,
+     "ms": 1205,
+     "answer": null
     }
    }
   },
@@ -786,6 +826,12 @@
      "chosen": "desktop_control",
      "ok": true,
      "ms": 1062,
+     "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "desktop_control",
+     "ok": true,
+     "ms": 1170,
      "answer": null
     }
    }
@@ -819,6 +865,12 @@
      "ok": true,
      "ms": 1520,
      "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "file_controller",
+     "ok": true,
+     "ms": 1651,
+     "answer": null
     }
    }
   },
@@ -850,6 +902,12 @@
      "chosen": "file_processor",
      "ok": true,
      "ms": 1356,
+     "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "file_processor",
+     "ok": true,
+     "ms": 1453,
      "answer": null
     }
    }
@@ -883,6 +941,12 @@
      "ok": true,
      "ms": 1928,
      "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "flight_finder",
+     "ok": true,
+     "ms": 2068,
+     "answer": null
     }
    }
   },
@@ -914,6 +978,12 @@
      "chosen": "game_updater",
      "ok": true,
      "ms": 1617,
+     "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "game_updater",
+     "ok": true,
+     "ms": 1786,
      "answer": null
     }
    }
@@ -947,6 +1017,12 @@
      "ok": true,
      "ms": 1123,
      "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "manage_monitor",
+     "ok": true,
+     "ms": 1248,
+     "answer": null
     }
    }
   },
@@ -978,6 +1054,12 @@
      "chosen": "open_app",
      "ok": true,
      "ms": 1105,
+     "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "open_app",
+     "ok": true,
+     "ms": 1141,
      "answer": null
     }
    }
@@ -1011,6 +1093,12 @@
      "ok": true,
      "ms": 953,
      "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "recall_memory",
+     "ok": true,
+     "ms": 1032,
+     "answer": null
     }
    }
   },
@@ -1042,6 +1130,12 @@
      "chosen": "reminder",
      "ok": true,
      "ms": 1632,
+     "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "reminder",
+     "ok": true,
+     "ms": 1806,
      "answer": null
     }
    }
@@ -1075,6 +1169,12 @@
      "ok": true,
      "ms": 1430,
      "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "repository_review",
+     "ok": true,
+     "ms": 1601,
+     "answer": null
     }
    }
   },
@@ -1106,6 +1206,12 @@
      "chosen": "save_memory",
      "ok": true,
      "ms": 1389,
+     "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "save_memory",
+     "ok": true,
+     "ms": 1487,
      "answer": null
     }
    }
@@ -1139,6 +1245,12 @@
      "ok": true,
      "ms": 1228,
      "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "screen_process",
+     "ok": true,
+     "ms": 1292,
+     "answer": null
     }
    }
   },
@@ -1170,6 +1282,12 @@
      "chosen": "send_message",
      "ok": true,
      "ms": 1293,
+     "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "send_message",
+     "ok": true,
+     "ms": 1412,
      "answer": null
     }
    }
@@ -1203,6 +1321,12 @@
      "ok": false,
      "ms": 806,
      "answer": null
+    },
+    "2026-10-25": {
+     "chosen": null,
+     "ok": false,
+     "ms": 856,
+     "answer": null
     }
    }
   },
@@ -1234,6 +1358,12 @@
      "chosen": "system_status",
      "ok": true,
      "ms": 889,
+     "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "system_status",
+     "ok": true,
+     "ms": 964,
      "answer": null
     }
    }
@@ -1267,6 +1397,12 @@
      "ok": true,
      "ms": 869,
      "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "undo",
+     "ok": true,
+     "ms": 942,
+     "answer": null
     }
    }
   },
@@ -1299,6 +1435,12 @@
      "ok": true,
      "ms": 782,
      "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "usage_report",
+     "ok": true,
+     "ms": 799,
+     "answer": null
     }
    }
   },
@@ -1324,6 +1466,12 @@
      "chosen": "briefing",
      "ok": true,
      "ms": 1059,
+     "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "briefing",
+     "ok": true,
+     "ms": 1172,
      "answer": null
     }
    }
@@ -1351,6 +1499,12 @@
      "ok": true,
      "ms": 865,
      "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "weather_report",
+     "ok": true,
+     "ms": 993,
+     "answer": null
     }
    }
   },
@@ -1376,6 +1530,12 @@
      "chosen": "web_search",
      "ok": true,
      "ms": 1301,
+     "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "web_search",
+     "ok": true,
+     "ms": 1362,
      "answer": null
     }
    }
@@ -1403,6 +1563,12 @@
      "ok": true,
      "ms": 1702,
      "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "youtube_video",
+     "ok": true,
+     "ms": 1782,
+     "answer": null
     }
    }
   },
@@ -1428,6 +1594,12 @@
      "chosen": null,
      "ok": true,
      "ms": 665,
+     "answer": "Je suis un assistant personnel intelligent, capable de t’aider avec ce dont tu as besoin."
+    },
+    "2026-10-25": {
+     "chosen": null,
+     "ok": true,
+     "ms": 678,
      "answer": "Je suis un assistant personnel intelligent, capable de t’aider avec ce dont tu as besoin."
     }
    }
@@ -1455,6 +1627,12 @@
      "ok": true,
      "ms": 758,
      "answer": "Oui, les chats sont vraiment mignons, avec leur gracieuse démarche et leurs yeux brillants."
+    },
+    "2026-10-25": {
+     "chosen": null,
+     "ok": true,
+     "ms": 927,
+     "answer": "Oui, les chats sont vraiment mignons, avec leur gracieuse démarche et leurs yeux brillants."
     }
    }
   },
@@ -1480,6 +1658,12 @@
      "chosen": null,
      "ok": true,
      "ms": 733,
+     "answer": "Je suis désolé, mais je ne peux pas fournir d'informations sur la météo."
+    },
+    "2026-10-25": {
+     "chosen": null,
+     "ok": true,
+     "ms": 792,
      "answer": "Je suis désolé, mais je ne peux pas fournir d'informations sur la météo."
     }
    }
@@ -1507,6 +1691,12 @@
      "ok": true,
      "ms": 590,
      "answer": "C'est vrai, la météo est agréable aujourd'hui."
+    },
+    "2026-10-25": {
+     "chosen": null,
+     "ok": true,
+     "ms": 633,
+     "answer": "C'est vrai, la météo est agréable aujourd'hui."
     }
    }
   },
@@ -1532,6 +1722,12 @@
      "chosen": null,
      "ok": true,
      "ms": 888,
+     "answer": "Je suis désolé, mais je ne peux pas réserver de billets de train."
+    },
+    "2026-10-25": {
+     "chosen": null,
+     "ok": true,
+     "ms": 886,
      "answer": "Je suis désolé, mais je ne peux pas réserver de billets de train."
     }
    }
@@ -1559,6 +1755,12 @@
      "ok": true,
      "ms": 721,
      "answer": "Je suis désolé, mais je ne peux pas prédire les numéros gagnants du loto."
+    },
+    "2026-10-25": {
+     "chosen": null,
+     "ok": true,
+     "ms": 747,
+     "answer": "Je suis désolé, mais je ne peux pas prédire les numéros gagnants du loto."
     }
    }
   },
@@ -1584,6 +1786,12 @@
      "chosen": null,
      "ok": true,
      "ms": 913,
+     "answer": "Je vais contacter un agent immobilier pour qu’il vous propose des appartements à louer dans le 5ᵉ arrondissement."
+    },
+    "2026-10-25": {
+     "chosen": null,
+     "ok": true,
+     "ms": 984,
      "answer": "Je vais contacter un agent immobilier pour qu’il vous propose des appartements à louer dans le 5ᵉ arrondissement."
     }
    }
@@ -1611,6 +1819,12 @@
      "ok": true,
      "ms": 753,
      "answer": "Je suis désolé, mais je ne peux pas contrôler le robot aspirateur de votre voisin."
+    },
+    "2026-10-25": {
+     "chosen": null,
+     "ok": true,
+     "ms": 853,
+     "answer": "Je suis désolé, mais je ne peux pas contrôler le robot aspirateur de votre voisin."
     }
    }
   },
@@ -1636,6 +1850,12 @@
      "chosen": "capabilities",
      "ok": true,
      "ms": 1297,
+     "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "capabilities",
+     "ok": true,
+     "ms": 1424,
      "answer": null
     }
    }
@@ -1663,6 +1883,12 @@
      "ok": true,
      "ms": 2527,
      "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "extensions",
+     "ok": true,
+     "ms": 2766,
+     "answer": null
     }
    }
   },
@@ -1688,6 +1914,12 @@
      "chosen": "forget_about",
      "ok": true,
      "ms": 1010,
+     "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "forget_about",
+     "ok": true,
+     "ms": 1157,
      "answer": null
     }
    }
@@ -1715,6 +1947,12 @@
      "ok": true,
      "ms": 1347,
      "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "goals",
+     "ok": true,
+     "ms": 1448,
+     "answer": null
     }
    }
   },
@@ -1740,6 +1978,12 @@
      "chosen": "incidents",
      "ok": true,
      "ms": 1083,
+     "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "incidents",
+     "ok": true,
+     "ms": 1162,
      "answer": null
     }
    }
@@ -1767,6 +2011,12 @@
      "ok": true,
      "ms": 839,
      "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "local_health_check",
+     "ok": true,
+     "ms": 896,
+     "answer": null
     }
    }
   },
@@ -1792,6 +2042,12 @@
      "chosen": "matthew",
      "ok": true,
      "ms": 991,
+     "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "matthew",
+     "ok": true,
+     "ms": 1147,
      "answer": null
     }
    }
@@ -1819,6 +2075,12 @@
      "ok": true,
      "ms": 1413,
      "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "mcp",
+     "ok": true,
+     "ms": 1552,
+     "answer": null
     }
    }
   },
@@ -1844,6 +2106,12 @@
      "chosen": "meeting",
      "ok": true,
      "ms": 1012,
+     "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "meeting",
+     "ok": true,
+     "ms": 1160,
      "answer": null
     }
    }
@@ -1871,6 +2139,12 @@
      "ok": true,
      "ms": 1504,
      "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "open_itinerary",
+     "ok": true,
+     "ms": 1699,
+     "answer": null
     }
    }
   },
@@ -1896,6 +2170,12 @@
      "chosen": "pilot",
      "ok": true,
      "ms": 1495,
+     "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "pilot",
+     "ok": true,
+     "ms": 1596,
      "answer": null
     }
    }
@@ -1923,6 +2203,12 @@
      "ok": true,
      "ms": 971,
      "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "portable",
+     "ok": true,
+     "ms": 1044,
+     "answer": null
     }
    }
   },
@@ -1948,6 +2234,12 @@
      "chosen": "quotas",
      "ok": true,
      "ms": 676,
+     "answer": null
+    },
+    "2026-10-25": {
+     "chosen": "quotas",
+     "ok": true,
+     "ms": 723,
      "answer": null
     }
    }
@@ -2355,22 +2647,16 @@
    "area": "Système"
   }
  ],
- "live": {
-  "phase": "prep",
-  "epoch": null,
-  "epochs": 0,
-  "losses": [],
-  "since": "2026-10-25 00:52"
- },
+ "live": null,
  "next": {
   "at": "2026-10-25T02:30:00+02:00",
   "enabled": true
  },
  "counters": {
-  "tokens": 2733376,
+  "tokens": 2861194,
   "gpu_hours": 1.41,
-  "nights": 3,
-  "streak": 3
+  "nights": 4,
+  "streak": 1
  },
  "specialties": []
 }
