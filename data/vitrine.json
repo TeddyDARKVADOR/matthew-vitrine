@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-10-24 22:03",
+ "generated": "2026-10-25 00:52",
  "champion": {
   "since": "2026-10-21",
   "base": "Qwen/Qwen3.5-4B",
@@ -15,9 +15,9 @@
   }
  },
  "coverage": {
-  "tools_total": 43,
+  "tools_total": 44,
   "tools_covered": 43,
-  "examples": 198
+  "examples": 388
  },
  "tools": [
   {
@@ -35,7 +35,7 @@
    "label_en": "Read the screen",
    "domain": "Système",
    "learned_on": "2026-10-20",
-   "examples": 2,
+   "examples": 8,
    "accuracy": null
   },
   {
@@ -89,7 +89,7 @@
    "label_en": "Undo",
    "domain": "Bureau",
    "learned_on": "2026-10-20",
-   "examples": 2,
+   "examples": 33,
    "accuracy": null
   },
   {
@@ -224,7 +224,7 @@
    "label_en": "Usage",
    "domain": "Noyau",
    "learned_on": "2026-10-20",
-   "examples": 2,
+   "examples": 35,
    "accuracy": null
   },
   {
@@ -260,7 +260,7 @@
    "label_en": "Morning briefing",
    "domain": "Infos",
    "learned_on": "2026-10-21",
-   "examples": 2,
+   "examples": 34,
    "accuracy": null
   },
   {
@@ -296,7 +296,7 @@
    "label_en": "Past conversations",
    "domain": "Mémoire",
    "learned_on": "2026-10-21",
-   "examples": 2,
+   "examples": 29,
    "accuracy": null
   },
   {
@@ -372,12 +372,21 @@
    "accuracy": 1.0
   },
   {
+   "id": "phone",
+   "label": "phone",
+   "label_en": "phone",
+   "domain": "Autres",
+   "learned_on": null,
+   "examples": 0,
+   "accuracy": null
+  },
+  {
    "id": "pilot",
    "label": "Pilote du PC",
    "label_en": "PC pilot",
    "domain": "Bureau",
    "learned_on": "2026-10-21",
-   "examples": 1,
+   "examples": 33,
    "accuracy": null
   },
   {
@@ -404,7 +413,7 @@
    "label_en": "Skills",
    "domain": "Noyau",
    "learned_on": "2026-10-21",
-   "examples": 1,
+   "examples": 30,
    "accuracy": null
   }
  ],
@@ -2346,7 +2355,13 @@
    "area": "Système"
   }
  ],
- "live": null,
+ "live": {
+  "phase": "prep",
+  "epoch": null,
+  "epochs": 0,
+  "losses": [],
+  "since": "2026-10-25 00:52"
+ },
  "next": {
   "at": "2026-10-25T02:30:00+02:00",
   "enabled": true
