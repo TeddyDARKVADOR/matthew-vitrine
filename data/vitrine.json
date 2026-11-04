@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-10-25 01:28",
+ "generated": "2026-11-04 17:52",
  "champion": {
   "since": "2026-10-21",
   "base": "Qwen/Qwen3.5-4B",
@@ -2647,9 +2647,15 @@
    "area": "IA"
   }
  ],
- "live": null,
+ "live": {
+  "phase": "prep",
+  "epoch": null,
+  "epochs": 0,
+  "losses": [],
+  "since": "2026-11-04 17:52"
+ },
  "next": {
-  "at": "2026-10-25T02:30:00+02:00",
+  "at": "2026-11-05T02:30:00+01:00",
   "enabled": true
  },
  "counters": {
