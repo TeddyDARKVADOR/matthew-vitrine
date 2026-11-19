@@ -1,12 +1,13 @@
-Modèles 3D : Space Kit 2.0 par Kenney (www.kenney.nl) — Creative Commons Zero (CC0)
+Architecture de la base (bâtiments, modules, noyau) : dessinée en code dans app.js — aucune ressource tierce.
+
+Rochers, cratères, météore, rover, vaisseau et astronaute : Space Kit 2.0 par Kenney (www.kenney.nl) — Creative Commons Zero (CC0)
 https://kenney.nl/assets/space-kit — http://creativecommons.org/publicdomain/zero/1.0/
 
-Ciel : « Qwantani Night (Pure Sky) » par Poly Haven — CC0
+Ciel (reflets des métaux) : « Qwantani Night (Pure Sky) » par Poly Haven — CC0
 https://polyhaven.com/a/qwantani_night_puresky
 
-Lune, Terre, planètes et Voie lactée : textures Solar System Scope — Creative Commons Attribution 4.0 (CC BY 4.0)
+Lune, Terre et Voie lactée : textures Solar System Scope — Creative Commons Attribution 4.0 (CC BY 4.0)
 https://www.solarsystemscope.com/textures/ — https://creativecommons.org/licenses/by/4.0/
 
-Le guide (models/matthew_guide.glb) : « RobotExpressive » par Tomás Laulhé (Quaternius),
-modifications Don McCurdy — Creative Commons Zero (CC0 1.0), recoloré par la page.
-https://github.com/mrdoob/three.js/tree/r169/examples/models/gltf/RobotExpressive
+Caractères (Google Fonts, chargés à l'ouverture) : Instrument Serif, Hanken Grotesk, JetBrains Mono — SIL Open Font License 1.1
+https://openfontlicense.org

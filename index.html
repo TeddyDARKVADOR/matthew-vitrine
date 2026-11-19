@@ -2,22 +2,22 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Matthew — une IA qui apprend chaque nuit</title>
-<meta name="description" content="Matthew est une IA personnelle qui s'entraîne chaque nuit, passe un examen et ne prend la relève que si elle fait mieux. Cette page raconte ses progrès, rien d'autre.">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Matthew — une intelligence qui apprend</title>
+<meta name="description" content="Matthew est une IA personnelle qui s'entraîne la nuit, passe un examen et ne prend la relève que si elle fait mieux. Cette page raconte ses progrès, rien d'autre.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Matthew — une IA qui apprend chaque nuit, en public">
-<meta property="og:description" content="Regardez une IA personnelle se construire nuit après nuit, sur la Lune.">
+<meta property="og:title" content="Matthew — une intelligence qui apprend, en public">
+<meta property="og:description" content="Une IA personnelle qui se construit nuit après nuit, dans sa base sur la Lune.">
 <meta property="og:image" content="https://teddydarkvador.github.io/matthew-vitrine/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#030810">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='14' fill='%235fe3ff'/%3E%3Ccircle cx='32' cy='32' r='26' fill='none' stroke='%235fe3ff' stroke-width='3' opacity='.5'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#050505">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23050505'/%3E%3Ccircle cx='32' cy='32' r='9' fill='%23B6E3C5'/%3E%3Ccircle cx='32' cy='32' r='20' fill='none' stroke='%23B8B8B8' stroke-width='2'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=8fb2aea6a5">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=46b3e50951">
 <link rel="alternate" type="application/atom+xml" title="Matthew" href="feed.xml">
 <script type="importmap">
 {"imports": {
@@ -29,144 +29,194 @@
 <body>
 <a class="skip" href="#details" data-i18n="skip">Aller aux détails</a>
 
+<!-- Ouverture : la progression est celle du vrai chargement (données, textures, modèles). -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="ld-mark">MATTHEW</div>
+  <div class="ld-foot">
+    <span class="mono" data-i18n="ld_text">Base lunaire — mise sous tension</span>
+    <span class="mono ld-num" id="ld-num">000</span>
+  </div>
+  <div class="ld-bar"><i id="ld-bar"></i></div>
+</div>
+
 <!-- La scène est le fond de toute la page : le récit glisse par-dessus. -->
 <div id="scene" class="stage" role="img" data-i18n-aria="scene_aria" aria-label="Matthew sur la Lune."></div>
 <div class="veil" aria-hidden="true"></div>
-<div class="toolbar">
-  <button id="tour-btn" type="button" class="langbtn round" data-i18n-aria="tour_btn" aria-label="Visite guidée" title="">?</button>
-  <button id="share" type="button" class="langbtn" data-i18n="share">Partager</button>
-  <button id="quality" type="button" class="langbtn">AUTO</button>
-  <button id="lang" type="button" class="langbtn">EN</button>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="topbar">
+  <a class="brand" href="#arrival" aria-label="Matthew">MATTHEW<span class="brand-dot" id="brand-dot"></span></a>
+  <div class="toolbar">
+    <button id="tour-btn" type="button" class="tb" data-i18n="tour_short">Visite</button>
+    <button id="share" type="button" class="tb" data-i18n="share">Partager</button>
+    <button id="quality" type="button" class="tb">AUTO</button>
+    <button id="lang" type="button" class="tb">EN</button>
+    <button id="menu-btn" type="button" class="tb tb-menu" aria-expanded="false" aria-controls="index" data-i18n="menu">Index</button>
+  </div>
+</header>
+
+<!-- Où l'on est : un rail de chapitres (bureau), un index plein écran (menu, téléphone). -->
+<nav class="rail" id="rail" aria-label="Chapitres">
+  <div class="rail-line"><i id="rail-fill"></i></div>
+  <ol id="rail-list"></ol>
+</nav>
+<div class="index" id="index" hidden>
+  <ol id="index-list"></ol>
 </div>
-<div class="progress-dots" id="dots" aria-hidden="true"></div>
 
 <main id="story">
-  <!-- 0. L'accroche -->
-  <section class="chapter intro" data-shot="overview">
-    <div class="card bare">
-      <p class="kicker"><span class="dot live"></span> <span data-i18n="kicker">Apprentissage en public · lecture seule</span></p>
-      <h1 id="titre">MATTHEW</h1>
-      <p class="tagline" data-i18n="tagline">Une IA qui apprend chaque nuit, sous vos yeux.</p>
-      <p class="hero-num"><b id="h-score">—</b> <span data-i18n="hero_num">de bonnes réponses à son dernier examen</span></p>
-      <p class="live-line" id="live-line" hidden><span class="dot hot"></span> <span id="live-text"></span></p>
+  <!-- 01 · Arrivée -->
+  <section class="chapter intro" id="arrival" data-shot="overview" data-side="left" data-n="01" data-i18n-chap="ch_arrival">
+    <div class="inner">
+      <p class="kicker mono" data-reveal><span class="pulse" id="kick-dot"></span><span data-i18n="kicker">Apprentissage en public · lecture seule</span></p>
+      <h1 id="titre" class="hero-title" aria-label="MATTHEW"><span class="word">MATTHEW</span></h1>
+      <p class="tagline" data-reveal><span data-i18n="tag1">Une intelligence qui apprend.</span> <em data-i18n="tag2">Une intelligence qui évolue.</em></p>
+      <div class="hero-meta" data-reveal>
+        <div class="hm hm-score"><b id="h-score">—</b><span data-i18n="hero_num">de bonnes réponses à son dernier examen</span></div>
+        <div class="hm"><b id="h-tools">—</b><span data-i18n="hero_tools">savoir-faire appris</span></div>
+        <div class="hm"><b id="h-since">—</b><span data-i18n="hero_since">version en service depuis</span></div>
+      </div>
+      <p class="live-line mono" id="live-line" hidden><span class="pulse on"></span> <span id="live-text"></span> · <a href="#cycle" data-i18n="live_follow">suivre en direct</a></p>
       <!-- La prochaine nuit : lue dans le Planificateur de tâches du PC (data/vitrine.json → next), jamais écrite ici -->
       <div class="next" id="next" hidden>
-        <p class="label" id="next-label" data-i18n="next_label">Prochaine nuit d'apprentissage</p>
+        <p class="label mono" id="next-label" data-i18n="next_label">Prochaine nuit d'apprentissage</p>
         <p class="countdown" id="cd" role="timer" aria-live="off">
           <span><b id="cd-h">--</b><i data-i18n="u_h">h</i></span><span><b id="cd-m">--</b><i data-i18n="u_m">min</i></span><span><b id="cd-s">--</b><i data-i18n="u_s">s</i></span>
         </p>
-        <p class="muted small" id="cd-when"></p>
-        <button id="cd-ics" type="button" class="ghostbtn" data-i18n="next_ics">Me le rappeler (agenda)</button>
+        <p class="small muted" id="cd-when"></p>
+        <button id="cd-ics" type="button" class="textbtn mono" data-i18n="next_ics">Me le rappeler (agenda)</button>
       </div>
-      <!-- Le direct : chaque étape de la nuit, et la progression de l'étape en cours -->
+      <a class="scroll-cue mono" href="#core"><span data-i18n="scroll">Explorer</span><i aria-hidden="true"></i></a>
+    </div>
+  </section>
+
+  <!-- 02 · Le noyau -->
+  <section class="chapter" id="core" data-shot="base" data-side="left" data-n="02" data-i18n-chap="ch_core">
+    <div class="inner">
+      <p class="chap-no mono" data-reveal><span>02</span><span data-i18n="ch_core">Le noyau</span></p>
+      <h2 class="display" data-reveal data-i18n="c1_h">Un esprit au centre de la base.</h2>
+      <p class="lede" data-reveal data-i18n="c1_p">Matthew vit sur un ordinateur de salon. Ici, on le montre comme une base : au centre, son esprit ; autour, tout ce qu'il sait faire.</p>
+      <dl class="spec" data-reveal>
+        <div><dt class="mono" data-i18n="sp_base">Modèle de base</dt><dd id="k-base">—</dd></div>
+        <div><dt class="mono" data-i18n="sp_since">Version en service</dt><dd id="k-since">—</dd></div>
+        <div><dt class="mono" data-i18n="sp_skills">Savoir-faire</dt><dd><span id="f-skills">—</span> / <span id="f-total">—</span></dd></div>
+        <div><dt class="mono" data-i18n="sp_ex">Exemples vérifiés</dt><dd id="k-ex">—</dd></div>
+      </dl>
+      <ol class="parts" data-reveal data-i18n-html="parts"></ol>
+    </div>
+  </section>
+
+  <!-- 03 · Savoir-faire -->
+  <section class="chapter right" id="capabilities" data-shot="domains" data-side="right" data-n="03" data-i18n-chap="ch_skills">
+    <div class="inner">
+      <p class="chap-no mono" data-reveal><span>03</span><span data-i18n="ch_skills">Savoir-faire</span></p>
+      <h2 class="display" data-reveal data-i18n="c2_h">Chaque lumière est un savoir-faire.</h2>
+      <p class="lede" data-reveal data-i18n="c2_p">Ouvrir une application, retrouver un fichier, chercher la météo, envoyer un message, se souvenir… Plus la lumière est verte, mieux il le maîtrise. Éteinte : il ne l'a pas encore appris.</p>
+      <ul class="dom-index" id="dom-index" data-reveal></ul>
+      <p class="hint mono" data-reveal data-i18n="c2_hint">Touchez une lumière ou un bâtiment pour y voler.</p>
+      <details class="all-skills" data-reveal>
+        <summary data-i18n="h_skills">Tous ses savoir-faire</summary>
+        <p class="muted small" data-i18n="p_skills">La barre : sa précision au dernier examen. Grisé : pas encore appris. Un clic ouvre la fiche.</p>
+        <div class="domains" id="domains"></div>
+      </details>
+    </div>
+  </section>
+
+  <!-- 03 bis · Spécialités (Direction 3) : seulement si data/vitrine.json en publie -->
+  <section class="chapter" id="c-spec" data-shot="domains" data-side="left" hidden>
+    <div class="inner">
+      <p class="chap-no mono" data-reveal><span>03·b</span><span data-i18n="sp_k">Ses spécialités</span></p>
+      <h2 class="display" data-reveal data-i18n="sp_h">Il ne prend une tâche que s'il la mérite.</h2>
+      <p class="lede" data-reveal data-i18n="sp_p">Matthew ne remplace pas tout d'un coup. Pour chaque type de tâche, il passe une épreuve à part. Il ne s'en charge que s'il atteint le seuil et fait au moins aussi bien que le modèle qu'il remplacerait.</p>
+      <ul class="specs" id="specs" data-reveal></ul>
+    </div>
+  </section>
+
+  <!-- 04 · Le cycle -->
+  <section class="chapter" id="cycle" data-shot="night" data-side="left" data-n="04" data-i18n-chap="ch_cycle">
+    <div class="inner">
+      <p class="chap-no mono" data-reveal><span>04</span><span data-i18n="ch_cycle">Le cycle d'apprentissage</span></p>
+      <h2 class="display" data-reveal data-i18n="c3_h">Chaque nuit, il apprend.</h2>
+      <p class="lede" data-reveal data-i18n="c3_p">Pendant que tout le monde dort, il s'entraîne sur de nouveaux exemples. Une nuit suit toujours les mêmes six étapes.</p>
+      <ol class="cycle" id="phases" data-reveal></ol>
+      <!-- Le direct : seulement quand une nuit est réellement en cours (data/vitrine.json → live) -->
       <div class="livebox" id="livebox" hidden aria-live="polite">
-        <ol class="phases" id="phases"></ol>
+        <p class="label mono"><span class="pulse on"></span> <span data-i18n="live_now">En direct</span></p>
         <div class="bar"><i id="live-bar"></i></div>
         <p class="small" id="live-detail"></p>
         <svg id="live-loss" viewBox="0 0 300 50" role="img" hidden></svg>
       </div>
-      <p class="scroll-cue" data-i18n="scroll">Faites défiler ↓</p>
-    </div>
-  </section>
-
-  <!-- 1. La base -->
-  <section class="chapter" id="c1" data-shot="base">
-    <div class="card">
-      <p class="label" data-i18n="c1_k">1 · Sa maison</p>
-      <h2 data-i18n="c1_h">Voici sa base, sur la Lune.</h2>
-      <p data-i18n="c1_p">Matthew vit sur un ordinateur de salon. Ici, on le montre comme une base : au centre, son esprit ; autour, tout ce qu'il sait faire.</p>
-      <p class="fact"><b id="f-skills">—</b> <span data-i18n="c1_f">savoir-faire appris sur</span> <b id="f-total">—</b></p>
-    </div>
-  </section>
-
-  <!-- 2. Les domaines -->
-  <section class="chapter right" id="c2" data-shot="domains">
-    <div class="card">
-      <p class="label" data-i18n="c2_k">2 · Ses savoir-faire</p>
-      <h2 data-i18n="c2_h">Chaque lumière est un savoir-faire.</h2>
-      <p data-i18n="c2_p">Ouvrir une application, retrouver un fichier, chercher la météo, envoyer un message, se souvenir… Plus la lumière est verte, mieux il le maîtrise. Éteinte : il ne l'a pas encore appris.</p>
-      <p class="hint" data-i18n="c2_hint">Touchez une lumière ou un bâtiment pour y voler.</p>
-    </div>
-  </section>
-
-  <!-- 3. Les nuits -->
-  <section class="chapter" id="c3" data-shot="night">
-    <div class="card">
-      <p class="label" data-i18n="c3_k">3 · Ses nuits</p>
-      <h2 data-i18n="c3_h">Chaque nuit, il apprend.</h2>
-      <p data-i18n="c3_p">Pendant que tout le monde dort, il s'entraîne sur de nouveaux exemples. Regardez sa base s'allumer, nuit après nuit.</p>
-      <div class="timeline" id="timeline" hidden>
+      <p class="small muted mono" id="cycle-idle" data-reveal></p>
+      <div class="timeline" id="timeline" hidden data-reveal>
+        <p class="label mono" data-i18n="tl_title">Frise des nuits</p>
         <input id="tl-range" type="range" min="0" max="0" value="0" data-i18n-aria="tl_aria" aria-label="Choisir une nuit">
-        <div class="tl-foot"><b id="tl-day"></b><span id="tl-sum"></span><button id="tl-play" type="button" data-i18n="tl_play">Rejouer</button></div>
+        <div class="tl-foot"><b id="tl-day"></b><span id="tl-sum"></span><button id="tl-play" type="button" class="textbtn mono" data-i18n="tl_play">Rejouer</button></div>
       </div>
     </div>
   </section>
 
-  <!-- 4. L'examen -->
-  <section class="chapter right" id="c4" data-shot="exam">
-    <div class="card">
-      <p class="label" data-i18n="c4_k">4 · Son examen</p>
-      <h2 data-i18n="c4_h">Puis il passe un examen.</h2>
-      <p data-i18n="c4_p">Des questions inventées pour l'occasion, souvent jamais vues. Pour chacune, il doit choisir le bon savoir-faire :</p>
-      <div class="exam-live" aria-live="polite">
-        <p class="req" id="r-req">…</p>
-        <p class="res"><span>→</span> <span id="r-chosen"></span> <span class="badge" id="r-badge"></span> <span class="badge ghost" id="r-seen"></span></p>
-        <p class="muted small" id="r-count"></p>
-      </div>
+  <!-- 05 · L'examen -->
+  <section class="chapter right" id="exam-ch" data-shot="exam" data-side="right" data-n="05" data-i18n-chap="ch_exam">
+    <div class="inner">
+      <p class="chap-no mono" data-reveal><span>05</span><span data-i18n="ch_exam">L'examen</span></p>
+      <h2 class="display" data-reveal data-i18n="c4_h">Puis il passe un examen.</h2>
+      <p class="lede" data-reveal data-i18n="c4_p">Des questions inventées pour l'occasion, souvent jamais vues. Pour chacune, il doit choisir le bon savoir-faire :</p>
+      <figure class="exam-live" aria-live="polite" data-reveal>
+        <blockquote class="req" id="r-req">…</blockquote>
+        <figcaption class="res mono"><span aria-hidden="true">→</span> <span id="r-chosen"></span> <span class="badge" id="r-badge"></span> <span class="badge ghost" id="r-seen"></span></figcaption>
+        <p class="small muted mono" id="r-count"></p>
+      </figure>
+      <div class="criteria" id="criteria" data-reveal></div>
     </div>
   </section>
 
-  <!-- 5. Les progrès -->
-  <section class="chapter" id="c5" data-shot="progress">
-    <div class="card">
-      <p class="label" data-i18n="c5_k">5 · Ses progrès</p>
-      <h2 data-i18n="c5_h">Et il ne garde que ses progrès.</h2>
-      <p data-i18n="c5_p">Une nouvelle version ne remplace l'ancienne que si elle fait mieux à l'examen. Sinon, rien ne change.</p>
-      <div class="chart-wrap small"><svg id="chart" role="img" aria-labelledby="chart-t"><title id="chart-t">—</title></svg></div>
-      <div class="ba" id="ba"></div>
+  <!-- 06 · L'évolution -->
+  <section class="chapter" id="evolution" data-shot="progress" data-side="left" data-n="06" data-i18n-chap="ch_evo">
+    <div class="inner wide">
+      <p class="chap-no mono" data-reveal><span>06</span><span data-i18n="ch_evo">L'évolution</span></p>
+      <h2 class="display" data-reveal data-i18n="c5_h">Il ne garde que ses progrès.</h2>
+      <p class="lede" data-reveal data-i18n="c5_p">Chaque nuit produit un candidat. Il passe le même examen que le champion en service ; il ne le remplace que s'il fait mieux. Sinon, rien ne change.</p>
+      <div class="duel" id="duel" data-reveal></div>
+      <figure class="chart-wrap" data-reveal>
+        <svg id="chart" role="img" aria-labelledby="chart-t"><title id="chart-t">—</title></svg>
+        <figcaption class="legend mono" id="legend"></figcaption>
+      </figure>
+      <div class="deltas" id="deltas" data-reveal></div>
+      <h3 class="sub mono" data-reveal data-i18n="h_ba">Avant / après</h3>
+      <p class="small muted" data-reveal data-i18n="p_ba">La même phrase, posée à Matthew deux nuits différentes. Ses réponses, telles quelles.</p>
+      <div class="ba" id="ba" data-reveal></div>
     </div>
   </section>
 
-  <!-- 5 bis. Les spécialités (Direction 3) : seulement si data/vitrine.json en publie -->
-  <section class="chapter right" id="c-spec" data-shot="domains" hidden>
-    <div class="card">
-      <p class="label" data-i18n="sp_k">Ses spécialités</p>
-      <h2 data-i18n="sp_h">Il ne prend une tâche que s'il la mérite.</h2>
-      <p data-i18n="sp_p">Matthew ne remplace pas tout d'un coup. Pour chaque type de tâche, il passe une épreuve à part. Il ne s'en charge que s'il atteint le seuil et fait au moins aussi bien que le modèle qu'il remplacerait.</p>
-      <ul class="specs" id="specs"></ul>
-    </div>
-  </section>
-
-  <!-- 6. La promesse -->
-  <section class="chapter center" id="c6" data-shot="far">
-    <div class="card">
-      <h2 data-i18n="c6_h">Rien d'autre n'est montré.</h2>
-      <p data-i18n="c6_p">Aucune vraie conversation n'est publiée ici : tout ce que vous voyez est inventé pour l'examen. Et il n'apprend jamais en copiant Gemini ou Claude — seulement auprès de modèles libres et des corrections de son utilisateur.</p>
-      <div class="counters">
+  <!-- 07 · Transparence -->
+  <section class="chapter center" id="transparency" data-shot="far" data-side="center" data-n="07" data-i18n-chap="ch_trust">
+    <div class="inner">
+      <p class="chap-no mono" data-reveal><span>07</span><span data-i18n="ch_trust">Transparence</span></p>
+      <h2 class="display" data-reveal data-i18n="c6_h">Rien d'autre n'est montré.</h2>
+      <ol class="pledges" data-reveal data-i18n-html="pledges"></ol>
+      <div class="counters" data-reveal>
         <div class="ctr"><b id="c-tokens">0</b><span data-i18n="c_tokens">mots écrits par Matthew (tokens)</span></div>
         <div class="ctr"><b id="c-nights">0</b><span data-i18n="c_nights">nuits d'apprentissage</span></div>
         <div class="ctr"><b id="c-gpu">0</b><span data-i18n="c_gpu">heures d'entraînement</span></div>
       </div>
-      <a class="more-link" href="#details" data-i18n="c6_more">Pour les curieux : tous les détails ↓</a>
+      <a class="more-link mono" href="#details" data-i18n="c6_more">Informations techniques ↓</a>
     </div>
   </section>
 
-  <!-- Les détails, repliés -->
-  <section id="details" class="details">
-    <h2 data-i18n="d_h">Pour les curieux</h2>
+  <!-- 08 · Informations techniques -->
+  <section id="details" class="details" data-n="08" data-i18n-chap="ch_tech">
+    <div class="d-head">
+      <p class="chap-no mono"><span>08</span><span data-i18n="ch_tech">Informations techniques</span></p>
+      <h2 class="display" data-i18n="d_h">Pour les curieux.</h2>
+    </div>
     <dl class="stats" id="stats">
-      <div><dt data-i18n="st_score">Score de l'examen</dt><dd id="s-score">—</dd></div>
-      <div><dt data-i18n="st_tool">Bon savoir-faire choisi</dt><dd id="s-tool">—</dd></div>
-      <div><dt data-i18n="st_tools">Savoir-faire appris</dt><dd id="s-tools">—</dd></div>
-      <div><dt data-i18n="st_ex">Exemples vérifiés</dt><dd id="s-ex">—</dd></div>
-      <div><dt data-i18n="st_changes">Améliorations (30 j)</dt><dd id="s-changes">—</dd></div>
-      <div><dt data-i18n="st_streak">Nuits d'affilée</dt><dd id="c-streak">0</dd></div>
+      <div><dt class="mono" data-i18n="st_score">Score de l'examen</dt><dd id="s-score">—</dd></div>
+      <div><dt class="mono" data-i18n="st_tool">Bon savoir-faire choisi</dt><dd id="s-tool">—</dd></div>
+      <div><dt class="mono" data-i18n="st_tools">Savoir-faire appris</dt><dd id="s-tools">—</dd></div>
+      <div><dt class="mono" data-i18n="st_ex">Exemples vérifiés</dt><dd id="s-ex">—</dd></div>
+      <div><dt class="mono" data-i18n="st_changes">Améliorations (30 j)</dt><dd id="s-changes">—</dd></div>
+      <div><dt class="mono" data-i18n="st_streak">Nuits d'affilée</dt><dd id="c-streak">0</dd></div>
     </dl>
-    <details>
-      <summary data-i18n="h_skills">Tous ses savoir-faire</summary>
-      <p class="muted" data-i18n="p_skills">La barre : sa précision au dernier examen. Grisé : pas encore appris. Un clic ouvre la fiche.</p>
-      <div class="domains" id="domains"></div>
-    </details>
     <details>
       <summary data-i18n="h_exam">L'examen, jour par jour</summary>
       <p class="muted" data-i18n="p_exam">Le même examen chaque nuit. « Jamais vu » : une question qu'il n'avait jamais rencontrée en s'entraînant.</p>
@@ -174,6 +224,7 @@
     </details>
     <details>
       <summary data-i18n="h_changes">Le journal des améliorations</summary>
+      <p class="muted" data-i18n="p_changes"></p>
       <div class="chips" id="chips" role="group"></div>
       <ol class="changes" id="changes"></ol>
     </details>
@@ -187,7 +238,7 @@
       <p class="rules" data-i18n="rules"></p>
     </details>
     <footer>
-      <p><span data-i18n="f_updated">Mis à jour le</span> <span id="gen">—</span> · <span data-i18n="f_base">base</span> <span id="base">—</span></p>
+      <p class="mono"><span data-i18n="f_updated">Mis à jour le</span> <span id="gen">—</span> · <span data-i18n="f_base">base</span> <span id="base">—</span></p>
       <p data-i18n-html="credits"></p>
     </footer>
   </section>
@@ -195,31 +246,30 @@
 
 <aside class="drawer" id="drawer" hidden aria-labelledby="dr-title">
   <button class="close" id="dr-close" type="button" aria-label="×">×</button>
-  <p class="label" id="dr-domain"></p>
+  <p class="label mono" id="dr-domain"></p>
   <h2 id="dr-title"></h2>
   <p class="big" id="dr-acc"></p>
   <svg id="dr-spark" viewBox="0 0 300 70" role="img"></svg>
-  <p class="muted" id="dr-meta"></p>
-  <h3 data-i18n="dr_cases">Ses questions d'examen</h3>
+  <p class="muted small" id="dr-meta"></p>
+  <h3 class="mono" data-i18n="dr_cases">Ses questions d'examen</h3>
   <ul id="dr-cases"></ul>
 </aside>
 
-<!-- Le guide : Matthew en personne présente la page à la première visite (bouton « ? » ensuite) -->
+<!-- La visite : le noyau de Matthew parle lui-même à la première visite (bouton « Visite » ensuite) -->
 <div class="guide" id="guide" hidden role="dialog" aria-modal="false" aria-labelledby="g-text">
   <div class="g-spot" id="g-spot" aria-hidden="true"></div>
-  <div class="g-bot" id="g-bot" aria-hidden="true"></div>
   <div class="g-bubble">
-    <p class="g-name">MATTHEW <span class="g-step" id="g-step"></span></p>
+    <p class="g-name mono"><span><span class="g-wave" id="g-wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>MATTHEW</span><span class="g-step" id="g-step"></span></p>
     <p class="g-text" id="g-text" aria-live="polite"></p>
     <div class="g-actions">
-      <button type="button" id="g-voice" class="g-ico" data-i18n-aria="g_voice" aria-pressed="false">🔇</button>
-      <button type="button" id="g-skip" class="g-link" data-i18n="g_skip">Passer la visite</button>
-      <button type="button" id="g-next" class="g-next" data-i18n="g_next">Suivant</button>
+      <button type="button" id="g-voice" class="g-ico mono" data-i18n-aria="g_voice" aria-pressed="false">SON</button>
+      <button type="button" id="g-skip" class="g-link mono" data-i18n="g_skip">Passer la visite</button>
+      <button type="button" id="g-next" class="g-next mono" data-i18n="g_next">Suivant</button>
     </div>
   </div>
 </div>
 
 <noscript><p class="noscript">Cette page a besoin de JavaScript. · This page needs JavaScript.</p></noscript>
-<script type="module" src="app.js?v=3b0de2309b"></script>
+<script type="module" src="app.js?v=83a6c2453a"></script>
 </body>
 </html>
