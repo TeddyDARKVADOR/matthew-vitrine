@@ -1749,7 +1749,10 @@
    "area": "Système"
   }
  ],
- "live": null,
+ "live": {
+  "phase": "prep",
+  "since": "2026-11-24 17:59"
+ },
  "next": null,
  "counters": {
   "tokens": 4948251,
