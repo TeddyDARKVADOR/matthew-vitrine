@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-11-24 11:31",
+ "generated": "2026-11-24 12:02",
  "champion": {
   "since": "2026-10-21",
   "base": "Qwen/Qwen3.5-4B",
@@ -63,7 +63,7 @@
    "domain": "Système",
    "learned_on": null,
    "examples": 0,
-   "accuracy": 0.714
+   "accuracy": 1.0
   },
   {
    "id": "save_memory",
@@ -81,7 +81,7 @@
    "domain": "Mémoire",
    "learned_on": "2026-10-22",
    "examples": 40,
-   "accuracy": 0.75
+   "accuracy": 0.833
   },
   {
    "id": "undo",
@@ -126,7 +126,7 @@
    "domain": "Bureau",
    "learned_on": "2026-10-22",
    "examples": 31,
-   "accuracy": 0.933
+   "accuracy": 0.967
   },
   {
    "id": "computer_settings",
@@ -207,7 +207,7 @@
    "domain": "Code",
    "learned_on": "2026-10-22",
    "examples": 39,
-   "accuracy": 1.0
+   "accuracy": 0.972
   },
   {
    "id": "send_message",
@@ -288,7 +288,7 @@
    "domain": "Noyau",
    "learned_on": "2026-10-22",
    "examples": 29,
-   "accuracy": 0.812
+   "accuracy": 0.938
   },
   {
    "id": "decisions",
@@ -333,7 +333,7 @@
    "domain": "Noyau",
    "learned_on": "2026-10-22",
    "examples": 43,
-   "accuracy": 0.958
+   "accuracy": 0.792
   },
   {
    "id": "forget_about",
@@ -351,7 +351,7 @@
    "domain": "Mémoire",
    "learned_on": "2026-10-22",
    "examples": 26,
-   "accuracy": 0.964
+   "accuracy": 0.982
   },
   {
    "id": "incidents",
@@ -405,7 +405,7 @@
    "domain": "Autres",
    "learned_on": "2026-11-19",
    "examples": 3,
-   "accuracy": 1.0
+   "accuracy": 0.75
   },
   {
    "id": "music",
@@ -423,7 +423,7 @@
    "domain": "Infos",
    "learned_on": "2026-10-22",
    "examples": 41,
-   "accuracy": 1.0
+   "accuracy": 0.972
   },
   {
    "id": "phone",
@@ -441,7 +441,7 @@
    "domain": "Bureau",
    "learned_on": "2026-10-22",
    "examples": 39,
-   "accuracy": 0.625
+   "accuracy": 0.5
   },
   {
    "id": "portable",
@@ -826,6 +826,69 @@
     "web_search": 0.825,
     "youtube_video": 0.9
    }
+  },
+  {
+   "date": "2026-11-24",
+   "score": {
+    "composite": 0.92,
+    "tool_name": 0.976,
+    "tool_args": 0.913,
+    "irrelevance": 0.836,
+    "valid": 1.0,
+    "latency_p50": 5.702
+   },
+   "promoted": false,
+   "examples": 0,
+   "per_tool": {
+    "agenda": 0.75,
+    "briefing": 1.0,
+    "browser_control": 0.958,
+    "capabilities": 0.938,
+    "close_camera": 1.0,
+    "code_helper": 1.0,
+    "code_studio": 1.0,
+    "computer_control": 0.967,
+    "computer_settings": 1.0,
+    "decisions": 1.0,
+    "deep_research": 0.75,
+    "desktop_control": 1.0,
+    "documents": 1.0,
+    "extensions": 0.792,
+    "file_controller": 0.967,
+    "file_processor": 1.0,
+    "flight_finder": 1.0,
+    "forget_about": 0.7,
+    "game_updater": 1.0,
+    "goals": 0.982,
+    "incidents": 1.0,
+    "local_health_check": 1.0,
+    "manage_monitor": 0.958,
+    "matthew": 0.792,
+    "mcp": 1.0,
+    "meeting": 1.0,
+    "model_compare": 0.75,
+    "open_app": 1.0,
+    "open_itinerary": 0.972,
+    "pilot": 0.5,
+    "portable": 1.0,
+    "quotas": 1.0,
+    "recall_episodes": 0.917,
+    "recall_memory": 0.833,
+    "reminder": 0.976,
+    "repository_review": 0.972,
+    "save_memory": 1.0,
+    "screen_process": 0.875,
+    "self_state": 1.0,
+    "send_message": 0.944,
+    "shutdown": 1.0,
+    "skills": 1.0,
+    "system_status": 1.0,
+    "undo": 1.0,
+    "usage_report": 1.0,
+    "weather_report": 1.0,
+    "web_search": 0.825,
+    "youtube_video": 0.9
+   }
   }
  ],
  "cycles": [
@@ -880,10 +943,14 @@
   {
    "date": "2026-11-24",
    "outcome": "candidat non promu"
+  },
+  {
+   "date": "2026-11-24",
+   "outcome": "candidat non promu"
   }
  ],
  "tokens": {
-  "matthew": 4759513,
+  "matthew": 4948251,
   "school": 831962
  },
  "showcase": [
@@ -1283,6 +1350,21 @@
  "changes": [
   {
    "date": "2026-11-24",
+   "title": "Suiveur du tournoi Kaggle sur le PC cerveau : le direct de la vitrine pendant l'entraînement",
+   "area": "IA"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "PC cerveau : l'heure devant chaque ligne du journal (MATTHEWLOGSTAMP)",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "Téléphone : bilan des longues absences et cause de la mort du processus envoyés au serveur",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-11-24",
    "title": "Matthew : récupération Kaggle reprise là où elle s'est arrêtée, cas critiques du banc gardés",
    "area": "IA"
   },
@@ -1665,27 +1747,12 @@
    "date": "2026-11-13",
    "title": "graphe deployment : Oracle déployé en 93c2ab5, session Live rétablie",
    "area": "Système"
-  },
-  {
-   "date": "2026-11-13",
-   "title": "meeting : l'alerte de silence n'est plus répétée dans l'en-tête du compte rendu",
-   "area": "Voix"
-  },
-  {
-   "date": "2026-11-13",
-   "title": "clientdesktop selftest : ne plus écrire dans la vraie configuration sous Linux",
-   "area": "Interface"
-  },
-  {
-   "date": "2026-11-13",
-   "title": "gitignore : memory/monitors.json (état des sujets suivis, écrit à l'exécution)",
-   "area": "Système"
   }
  ],
  "live": null,
  "next": null,
  "counters": {
-  "tokens": 4759513,
+  "tokens": 4948251,
   "gpu_hours": 1.41,
   "nights": 5,
   "streak": 2
