@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-11-24 11:28",
+ "generated": "2026-11-24 11:31",
  "champion": {
   "since": "2026-10-21",
   "base": "Qwen/Qwen3.5-4B",
@@ -883,7 +883,7 @@
   }
  ],
  "tokens": {
-  "matthew": 4710542,
+  "matthew": 4759513,
   "school": 831962
  },
  "showcase": [
@@ -1283,6 +1283,11 @@
  "changes": [
   {
    "date": "2026-11-24",
+   "title": "Matthew : récupération Kaggle reprise là où elle s'est arrêtée, cas critiques du banc gardés",
+   "area": "IA"
+  },
+  {
+   "date": "2026-11-24",
    "title": "Vitrine : plus de commit pour og.png seule, et les deux ères fusionnées",
    "area": "IA"
   },
@@ -1675,11 +1680,6 @@
    "date": "2026-11-13",
    "title": "gitignore : memory/monitors.json (état des sujets suivis, écrit à l'exécution)",
    "area": "Système"
-  },
-  {
-   "date": "2026-11-13",
-   "title": "resilience : plus de reconnexion en rafale quand tous les modèles Live sont au repos",
-   "area": "Fiabilité"
   }
  ],
  "live": {
@@ -1694,7 +1694,7 @@
  },
  "next": null,
  "counters": {
-  "tokens": 4710542,
+  "tokens": 4759513,
   "gpu_hours": 1.41,
   "nights": 5,
   "streak": 2
