@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-11-04 23:38",
+ "generated": "2026-11-24 11:28",
  "champion": {
   "since": "2026-10-21",
   "base": "Qwen/Qwen3.5-4B",
@@ -15,9 +15,9 @@
   }
  },
  "coverage": {
-  "tools_total": 44,
-  "tools_covered": 43,
-  "examples": 1775
+  "tools_total": 55,
+  "tools_covered": 52,
+  "examples": 1647
  },
  "tools": [
   {
@@ -25,8 +25,8 @@
    "label": "État du PC",
    "label_en": "PC status",
    "domain": "Système",
-   "learned_on": "2026-10-20",
-   "examples": 51,
+   "learned_on": "2026-10-22",
+   "examples": 45,
    "accuracy": 1.0
   },
   {
@@ -34,17 +34,17 @@
    "label": "Lire l'écran",
    "label_en": "Read the screen",
    "domain": "Système",
-   "learned_on": "2026-10-20",
-   "examples": 10,
-   "accuracy": null
+   "learned_on": "2026-10-22",
+   "examples": 8,
+   "accuracy": 0.875
   },
   {
    "id": "close_camera",
    "label": "Fermer la caméra",
    "label_en": "Close camera",
    "domain": "Système",
-   "learned_on": "2026-10-20",
-   "examples": 47,
+   "learned_on": "2026-10-22",
+   "examples": 41,
    "accuracy": 1.0
   },
   {
@@ -52,9 +52,9 @@
    "label": "Écrans",
    "label_en": "Displays",
    "domain": "Système",
-   "learned_on": "2026-10-20",
-   "examples": 49,
-   "accuracy": 0.75
+   "learned_on": "2026-10-22",
+   "examples": 43,
+   "accuracy": 0.958
   },
   {
    "id": "shutdown",
@@ -63,78 +63,78 @@
    "domain": "Système",
    "learned_on": null,
    "examples": 0,
-   "accuracy": 1.0
+   "accuracy": 0.714
   },
   {
    "id": "save_memory",
    "label": "Retenir",
    "label_en": "Remember",
    "domain": "Mémoire",
-   "learned_on": "2026-10-20",
-   "examples": 32,
-   "accuracy": 0.917
+   "learned_on": "2026-10-22",
+   "examples": 26,
+   "accuracy": 1.0
   },
   {
    "id": "recall_memory",
    "label": "Se souvenir",
    "label_en": "Recall",
    "domain": "Mémoire",
-   "learned_on": "2026-10-20",
-   "examples": 45,
-   "accuracy": 1.0
+   "learned_on": "2026-10-22",
+   "examples": 40,
+   "accuracy": 0.75
   },
   {
    "id": "undo",
    "label": "Annuler",
    "label_en": "Undo",
    "domain": "Bureau",
-   "learned_on": "2026-10-20",
-   "examples": 45,
-   "accuracy": null
+   "learned_on": "2026-10-22",
+   "examples": 43,
+   "accuracy": 1.0
   },
   {
    "id": "browser_control",
    "label": "Navigateur",
    "label_en": "Browser",
    "domain": "Bureau",
-   "learned_on": "2026-10-20",
-   "examples": 33,
-   "accuracy": 0.667
+   "learned_on": "2026-10-22",
+   "examples": 27,
+   "accuracy": 0.958
   },
   {
    "id": "code_helper",
    "label": "Aide au code",
    "label_en": "Code helper",
    "domain": "Code",
-   "learned_on": "2026-10-20",
-   "examples": 16,
-   "accuracy": 0.833
+   "learned_on": "2026-10-22",
+   "examples": 13,
+   "accuracy": 1.0
   },
   {
    "id": "code_studio",
    "label": "Code Studio",
    "label_en": "Code Studio",
    "domain": "Code",
-   "learned_on": "2026-10-20",
-   "examples": 30,
-   "accuracy": 0.917
+   "learned_on": "2026-10-22",
+   "examples": 24,
+   "accuracy": 1.0
   },
   {
    "id": "computer_control",
    "label": "Souris et clavier",
    "label_en": "Mouse and keyboard",
    "domain": "Bureau",
-   "learned_on": "2026-10-20",
-   "examples": 35,
-   "accuracy": 1.0
+   "learned_on": "2026-10-22",
+   "examples": 31,
+   "accuracy": 0.933
   },
   {
    "id": "computer_settings",
    "label": "Réglages du PC",
    "label_en": "PC settings",
    "domain": "Système",
-   "learned_on": "2026-10-20",
-   "examples": 48,
+   "learned_on": "2026-10-22",
+   "examples": 42,
    "accuracy": 1.0
   },
   {
@@ -142,8 +142,8 @@
    "label": "Bureau Windows",
    "label_en": "Windows desktop",
    "domain": "Bureau",
-   "learned_on": "2026-10-20",
-   "examples": 48,
+   "learned_on": "2026-10-22",
+   "examples": 44,
    "accuracy": 1.0
   },
   {
@@ -151,26 +151,26 @@
    "label": "Fichiers",
    "label_en": "Files",
    "domain": "Bureau",
-   "learned_on": "2026-10-20",
-   "examples": 39,
-   "accuracy": 0.875
+   "learned_on": "2026-10-22",
+   "examples": 33,
+   "accuracy": 0.967
   },
   {
    "id": "file_processor",
    "label": "Lire un document",
    "label_en": "Read a document",
    "domain": "Bureau",
-   "learned_on": "2026-10-20",
-   "examples": 47,
-   "accuracy": 0.875
+   "learned_on": "2026-10-22",
+   "examples": 41,
+   "accuracy": 1.0
   },
   {
    "id": "flight_finder",
    "label": "Vols",
    "label_en": "Flights",
    "domain": "Infos",
-   "learned_on": "2026-10-20",
-   "examples": 48,
+   "learned_on": "2026-10-22",
+   "examples": 42,
    "accuracy": 1.0
   },
   {
@@ -178,8 +178,8 @@
    "label": "Mises à jour de jeux",
    "label_en": "Game updates",
    "domain": "Système",
-   "learned_on": "2026-10-20",
-   "examples": 49,
+   "learned_on": "2026-10-22",
+   "examples": 44,
    "accuracy": 1.0
   },
   {
@@ -187,53 +187,53 @@
    "label": "Ouvrir une appli",
    "label_en": "Open an app",
    "domain": "Bureau",
-   "learned_on": "2026-10-20",
-   "examples": 49,
-   "accuracy": 0.75
+   "learned_on": "2026-10-22",
+   "examples": 43,
+   "accuracy": 1.0
   },
   {
    "id": "reminder",
    "label": "Rappels",
    "label_en": "Reminders",
    "domain": "Communication",
-   "learned_on": "2026-10-20",
-   "examples": 50,
-   "accuracy": 0.917
+   "learned_on": "2026-10-22",
+   "examples": 44,
+   "accuracy": 0.976
   },
   {
    "id": "repository_review",
    "label": "Revue de dépôt",
    "label_en": "Repo review",
    "domain": "Code",
-   "learned_on": "2026-10-20",
-   "examples": 45,
-   "accuracy": 0.833
+   "learned_on": "2026-10-22",
+   "examples": 39,
+   "accuracy": 1.0
   },
   {
    "id": "send_message",
    "label": "Envoyer un message",
    "label_en": "Send a message",
    "domain": "Communication",
-   "learned_on": "2026-10-20",
-   "examples": 49,
-   "accuracy": 0.917
+   "learned_on": "2026-10-22",
+   "examples": 43,
+   "accuracy": 0.944
   },
   {
    "id": "usage_report",
    "label": "Consommation",
    "label_en": "Usage",
    "domain": "Noyau",
-   "learned_on": "2026-10-20",
-   "examples": 47,
-   "accuracy": null
+   "learned_on": "2026-10-22",
+   "examples": 45,
+   "accuracy": 1.0
   },
   {
    "id": "weather_report",
    "label": "Météo",
    "label_en": "Weather",
    "domain": "Infos",
-   "learned_on": "2026-10-21",
-   "examples": 51,
+   "learned_on": "2026-10-22",
+   "examples": 45,
    "accuracy": 1.0
   },
   {
@@ -241,26 +241,44 @@
    "label": "Recherche web",
    "label_en": "Web search",
    "domain": "Infos",
-   "learned_on": "2026-10-21",
-   "examples": 37,
-   "accuracy": 0.75
+   "learned_on": "2026-10-22",
+   "examples": 31,
+   "accuracy": 0.825
   },
   {
    "id": "youtube_video",
    "label": "YouTube",
    "label_en": "YouTube",
    "domain": "Infos",
-   "learned_on": "2026-10-21",
-   "examples": 40,
-   "accuracy": 1.0
+   "learned_on": "2026-10-22",
+   "examples": 36,
+   "accuracy": 0.9
+  },
+  {
+   "id": "agenda",
+   "label": "agenda",
+   "label_en": "agenda",
+   "domain": "Autres",
+   "learned_on": "2026-11-19",
+   "examples": 25,
+   "accuracy": 0.75
   },
   {
    "id": "briefing",
    "label": "Briefing du matin",
    "label_en": "Morning briefing",
    "domain": "Infos",
-   "learned_on": "2026-10-21",
-   "examples": 45,
+   "learned_on": "2026-10-22",
+   "examples": 43,
+   "accuracy": 1.0
+  },
+  {
+   "id": "call_me",
+   "label": "call me",
+   "label_en": "call me",
+   "domain": "Autres",
+   "learned_on": null,
+   "examples": 0,
    "accuracy": null
   },
   {
@@ -268,107 +286,143 @@
    "label": "Ses capacités",
    "label_en": "Its capabilities",
    "domain": "Noyau",
-   "learned_on": "2026-10-21",
-   "examples": 32,
-   "accuracy": 0.833
+   "learned_on": "2026-10-22",
+   "examples": 29,
+   "accuracy": 0.812
   },
   {
-   "id": "forget_about",
-   "label": "Oublier",
-   "label_en": "Forget",
-   "domain": "Mémoire",
-   "learned_on": "2026-10-21",
-   "examples": 38,
+   "id": "decisions",
+   "label": "decisions",
+   "label_en": "decisions",
+   "domain": "Autres",
+   "learned_on": "2026-11-19",
+   "examples": 26,
+   "accuracy": 1.0
+  },
+  {
+   "id": "deep_research",
+   "label": "deep research",
+   "label_en": "deep research",
+   "domain": "Autres",
+   "learned_on": "2026-11-19",
+   "examples": 7,
    "accuracy": 0.75
   },
   {
-   "id": "goals",
-   "label": "Objectifs",
-   "label_en": "Goals",
-   "domain": "Mémoire",
-   "learned_on": "2026-10-21",
-   "examples": 32,
+   "id": "documents",
+   "label": "documents",
+   "label_en": "documents",
+   "domain": "Autres",
+   "learned_on": "2026-11-19",
+   "examples": 4,
    "accuracy": 1.0
   },
   {
-   "id": "recall_episodes",
-   "label": "Conversations passées",
-   "label_en": "Past conversations",
-   "domain": "Mémoire",
-   "learned_on": "2026-10-21",
-   "examples": 42,
+   "id": "email",
+   "label": "email",
+   "label_en": "email",
+   "domain": "Autres",
+   "learned_on": "2026-11-19",
+   "examples": 2,
    "accuracy": null
-  },
-  {
-   "id": "self_state",
-   "label": "État intérieur",
-   "label_en": "Inner state",
-   "domain": "Mémoire",
-   "learned_on": "2026-10-21",
-   "examples": 31,
-   "accuracy": 1.0
   },
   {
    "id": "extensions",
    "label": "Extensions",
    "label_en": "Extensions",
    "domain": "Noyau",
-   "learned_on": "2026-10-21",
-   "examples": 49,
-   "accuracy": 0.875
+   "learned_on": "2026-10-22",
+   "examples": 43,
+   "accuracy": 0.958
   },
   {
-   "id": "local_health_check",
-   "label": "Diagnostic",
-   "label_en": "Diagnostics",
-   "domain": "Système",
-   "learned_on": "2026-10-21",
-   "examples": 44,
-   "accuracy": null
+   "id": "forget_about",
+   "label": "Oublier",
+   "label_en": "Forget",
+   "domain": "Mémoire",
+   "learned_on": "2026-10-22",
+   "examples": 32,
+   "accuracy": 0.7
+  },
+  {
+   "id": "goals",
+   "label": "Objectifs",
+   "label_en": "Goals",
+   "domain": "Mémoire",
+   "learned_on": "2026-10-22",
+   "examples": 26,
+   "accuracy": 0.964
   },
   {
    "id": "incidents",
    "label": "Incidents",
    "label_en": "Incidents",
    "domain": "Noyau",
-   "learned_on": "2026-10-21",
-   "examples": 48,
+   "learned_on": "2026-10-22",
+   "examples": 42,
    "accuracy": 1.0
   },
   {
-   "id": "open_itinerary",
-   "label": "Itinéraire",
-   "label_en": "Directions",
-   "domain": "Infos",
-   "learned_on": "2026-10-21",
-   "examples": 44,
-   "accuracy": 0.833
+   "id": "local_health_check",
+   "label": "Diagnostic",
+   "label_en": "Diagnostics",
+   "domain": "Système",
+   "learned_on": "2026-10-22",
+   "examples": 42,
+   "accuracy": 1.0
   },
   {
    "id": "matthew",
    "label": "Apprendre",
    "label_en": "Learning",
    "domain": "Noyau",
-   "learned_on": "2026-10-21",
-   "examples": 46,
-   "accuracy": 1.0
+   "learned_on": "2026-10-22",
+   "examples": 43,
+   "accuracy": 0.792
   },
   {
    "id": "mcp",
    "label": "Connecteurs MCP",
    "label_en": "MCP connectors",
    "domain": "Noyau",
-   "learned_on": "2026-10-21",
-   "examples": 14,
-   "accuracy": 0.667
+   "learned_on": "2026-10-22",
+   "examples": 9,
+   "accuracy": 1.0
   },
   {
    "id": "meeting",
    "label": "Réunions",
    "label_en": "Meetings",
    "domain": "Communication",
-   "learned_on": "2026-10-21",
-   "examples": 44,
+   "learned_on": "2026-10-22",
+   "examples": 38,
+   "accuracy": 1.0
+  },
+  {
+   "id": "model_compare",
+   "label": "model compare",
+   "label_en": "model compare",
+   "domain": "Autres",
+   "learned_on": "2026-11-19",
+   "examples": 3,
+   "accuracy": 1.0
+  },
+  {
+   "id": "music",
+   "label": "music",
+   "label_en": "music",
+   "domain": "Autres",
+   "learned_on": "2026-11-19",
+   "examples": 1,
+   "accuracy": null
+  },
+  {
+   "id": "open_itinerary",
+   "label": "Itinéraire",
+   "label_en": "Directions",
+   "domain": "Infos",
+   "learned_on": "2026-10-22",
+   "examples": 41,
    "accuracy": 1.0
   },
   {
@@ -376,8 +430,8 @@
    "label": "phone",
    "label_en": "phone",
    "domain": "Autres",
-   "learned_on": null,
-   "examples": 0,
+   "learned_on": "2026-11-19",
+   "examples": 1,
    "accuracy": null
   },
   {
@@ -385,17 +439,17 @@
    "label": "Pilote du PC",
    "label_en": "PC pilot",
    "domain": "Bureau",
-   "learned_on": "2026-10-21",
-   "examples": 40,
-   "accuracy": null
+   "learned_on": "2026-10-22",
+   "examples": 39,
+   "accuracy": 0.625
   },
   {
    "id": "portable",
    "label": "Mode clé USB",
    "label_en": "USB-stick mode",
    "domain": "Noyau",
-   "learned_on": "2026-10-21",
-   "examples": 47,
+   "learned_on": "2026-10-22",
+   "examples": 42,
    "accuracy": 1.0
   },
   {
@@ -403,8 +457,44 @@
    "label": "Quotas",
    "label_en": "Quotas",
    "domain": "Noyau",
-   "learned_on": "2026-10-21",
-   "examples": 48,
+   "learned_on": "2026-10-22",
+   "examples": 44,
+   "accuracy": 1.0
+  },
+  {
+   "id": "recall_conversation",
+   "label": "recall conversation",
+   "label_en": "recall conversation",
+   "domain": "Autres",
+   "learned_on": "2026-11-19",
+   "examples": 1,
+   "accuracy": null
+  },
+  {
+   "id": "recall_episodes",
+   "label": "Conversations passées",
+   "label_en": "Past conversations",
+   "domain": "Mémoire",
+   "learned_on": "2026-10-22",
+   "examples": 40,
+   "accuracy": 0.917
+  },
+  {
+   "id": "replay",
+   "label": "replay",
+   "label_en": "replay",
+   "domain": "Autres",
+   "learned_on": null,
+   "examples": 0,
+   "accuracy": null
+  },
+  {
+   "id": "self_state",
+   "label": "État intérieur",
+   "label_en": "Inner state",
+   "domain": "Mémoire",
+   "learned_on": "2026-10-22",
+   "examples": 27,
    "accuracy": 1.0
   },
   {
@@ -412,8 +502,17 @@
    "label": "Compétences",
    "label_en": "Skills",
    "domain": "Noyau",
-   "learned_on": "2026-10-21",
-   "examples": 40,
+   "learned_on": "2026-10-22",
+   "examples": 39,
+   "accuracy": 1.0
+  },
+  {
+   "id": "sounds",
+   "label": "sounds",
+   "label_en": "sounds",
+   "domain": "Autres",
+   "learned_on": null,
+   "examples": 0,
    "accuracy": null
   }
  ],
@@ -541,6 +640,192 @@
     "web_search": 0.75,
     "youtube_video": 1.0
    }
+  },
+  {
+   "date": "2026-11-20",
+   "score": {
+    "composite": 0.921,
+    "tool_name": 0.979,
+    "tool_args": 0.915,
+    "irrelevance": 0.803,
+    "valid": 1.0,
+    "latency_p50": 5.58
+   },
+   "promoted": false,
+   "examples": 0,
+   "per_tool": {
+    "briefing": 1.0,
+    "browser_control": 1.0,
+    "capabilities": 0.938,
+    "close_camera": 1.0,
+    "code_helper": 0.958,
+    "code_studio": 1.0,
+    "computer_control": 0.867,
+    "computer_settings": 1.0,
+    "desktop_control": 1.0,
+    "documents": 1.0,
+    "extensions": 0.792,
+    "file_controller": 0.917,
+    "file_processor": 1.0,
+    "flight_finder": 1.0,
+    "forget_about": 0.7,
+    "game_updater": 1.0,
+    "goals": 0.964,
+    "incidents": 1.0,
+    "local_health_check": 1.0,
+    "manage_monitor": 0.958,
+    "matthew": 0.958,
+    "mcp": 1.0,
+    "meeting": 1.0,
+    "model_compare": 0.75,
+    "open_app": 1.0,
+    "open_itinerary": 1.0,
+    "pilot": 0.5,
+    "portable": 1.0,
+    "quotas": 1.0,
+    "recall_episodes": 0.917,
+    "recall_memory": 0.833,
+    "reminder": 0.952,
+    "repository_review": 1.0,
+    "save_memory": 1.0,
+    "screen_process": 0.875,
+    "self_state": 1.0,
+    "send_message": 0.917,
+    "shutdown": 0.857,
+    "skills": 1.0,
+    "system_status": 1.0,
+    "undo": 1.0,
+    "usage_report": 1.0,
+    "weather_report": 1.0,
+    "web_search": 0.9,
+    "youtube_video": 0.9
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "score": {
+    "composite": 0.938,
+    "tool_name": 0.976,
+    "tool_args": 0.906,
+    "irrelevance": 0.904,
+    "valid": 1.0,
+    "latency_p50": 5.596
+   },
+   "promoted": false,
+   "examples": 0,
+   "per_tool": {
+    "agenda": 0.75,
+    "briefing": 1.0,
+    "browser_control": 0.958,
+    "capabilities": 0.812,
+    "close_camera": 1.0,
+    "code_helper": 1.0,
+    "code_studio": 1.0,
+    "computer_control": 0.933,
+    "computer_settings": 1.0,
+    "decisions": 1.0,
+    "deep_research": 0.75,
+    "desktop_control": 1.0,
+    "documents": 1.0,
+    "extensions": 0.958,
+    "file_controller": 0.967,
+    "file_processor": 1.0,
+    "flight_finder": 1.0,
+    "forget_about": 0.7,
+    "game_updater": 1.0,
+    "goals": 0.964,
+    "incidents": 1.0,
+    "local_health_check": 1.0,
+    "manage_monitor": 0.958,
+    "matthew": 0.792,
+    "mcp": 1.0,
+    "meeting": 1.0,
+    "model_compare": 1.0,
+    "open_app": 1.0,
+    "open_itinerary": 1.0,
+    "pilot": 0.625,
+    "portable": 1.0,
+    "quotas": 1.0,
+    "recall_episodes": 0.917,
+    "recall_memory": 0.75,
+    "reminder": 0.976,
+    "repository_review": 1.0,
+    "save_memory": 1.0,
+    "screen_process": 0.875,
+    "self_state": 1.0,
+    "send_message": 0.944,
+    "shutdown": 0.714,
+    "skills": 1.0,
+    "system_status": 1.0,
+    "undo": 1.0,
+    "usage_report": 1.0,
+    "weather_report": 1.0,
+    "web_search": 0.825,
+    "youtube_video": 0.9
+   }
+  },
+  {
+   "date": "2026-11-24",
+   "score": {
+    "composite": 0.938,
+    "tool_name": 0.976,
+    "tool_args": 0.906,
+    "irrelevance": 0.904,
+    "valid": 1.0,
+    "latency_p50": 5.702
+   },
+   "promoted": false,
+   "examples": 0,
+   "per_tool": {
+    "agenda": 0.75,
+    "briefing": 1.0,
+    "browser_control": 0.958,
+    "capabilities": 0.812,
+    "close_camera": 1.0,
+    "code_helper": 1.0,
+    "code_studio": 1.0,
+    "computer_control": 0.933,
+    "computer_settings": 1.0,
+    "decisions": 1.0,
+    "deep_research": 0.75,
+    "desktop_control": 1.0,
+    "documents": 1.0,
+    "extensions": 0.958,
+    "file_controller": 0.967,
+    "file_processor": 1.0,
+    "flight_finder": 1.0,
+    "forget_about": 0.7,
+    "game_updater": 1.0,
+    "goals": 0.964,
+    "incidents": 1.0,
+    "local_health_check": 1.0,
+    "manage_monitor": 0.958,
+    "matthew": 0.792,
+    "mcp": 1.0,
+    "meeting": 1.0,
+    "model_compare": 1.0,
+    "open_app": 1.0,
+    "open_itinerary": 1.0,
+    "pilot": 0.625,
+    "portable": 1.0,
+    "quotas": 1.0,
+    "recall_episodes": 0.917,
+    "recall_memory": 0.75,
+    "reminder": 0.976,
+    "repository_review": 1.0,
+    "save_memory": 1.0,
+    "screen_process": 0.875,
+    "self_state": 1.0,
+    "send_message": 0.944,
+    "shutdown": 0.714,
+    "skills": 1.0,
+    "system_status": 1.0,
+    "undo": 1.0,
+    "usage_report": 1.0,
+    "weather_report": 1.0,
+    "web_search": 0.825,
+    "youtube_video": 0.9
+   }
   }
  ],
  "cycles": [
@@ -571,2388 +856,848 @@
   {
    "date": "2026-11-04",
    "outcome": "interrompu"
+  },
+  {
+   "date": "2026-11-19",
+   "outcome": "plan prêt (à sec)"
+  },
+  {
+   "date": "2026-11-20",
+   "outcome": "candidat non promu"
+  },
+  {
+   "date": "2026-11-20",
+   "outcome": "candidat non promu"
+  },
+  {
+   "date": "2026-11-20",
+   "outcome": "candidat non promu"
+  },
+  {
+   "date": "2026-11-23",
+   "outcome": "candidat non promu"
+  },
+  {
+   "date": "2026-11-24",
+   "outcome": "candidat non promu"
   }
  ],
  "tokens": {
-  "matthew": 3279846,
+  "matthew": 4710542,
   "school": 831962
  },
  "showcase": [
   {
-   "id": "15103ccb",
-   "request": "Fais défiler la page Wikipédia de la Tour Eiffel vers le bas de 800 pixels.",
+   "id": "9dade858",
+   "request": "Programme une session de yoga le 10 août 2027 à 07h15, durée 60 minutes, dans le studio Zen.",
+   "target": "agenda",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "1444f94a",
+   "request": "S'il te plaît, fais‑moi le briefing.",
+   "target": "briefing",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "038860c2",
+   "request": "Je lis cet article sur l’intelligence artificielle dans le domaine de la santé, c’est super long, fais défiler la page vers le bas, disons 1200 pixels, je suis sur Chrome.",
    "target": "browser_control",
    "heldout": true,
-   "results": {
-    "2026-10-20": {
-     "chosen": "browser_control",
-     "ok": true,
-     "ms": 1222,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "browser_control",
-     "ok": true,
-     "ms": 4461,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "browser_control",
-     "ok": true,
-     "ms": 16874,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "browser_control",
-     "ok": true,
-     "ms": 5918,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "browser_control",
-     "ok": true,
-     "ms": 5530,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "browser_control",
-     "ok": true,
-     "ms": 5926,
-     "answer": null
-    }
-   }
+   "results": {}
   },
   {
-   "id": "2159cc56",
-   "request": "C'est creepy, désactive la caméra maintenant.",
-   "target": "close_camera",
-   "heldout": true,
-   "results": {
-    "2026-10-20": {
-     "chosen": "close_camera",
-     "ok": true,
-     "ms": 342,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "close_camera",
-     "ok": true,
-     "ms": 864,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "close_camera",
-     "ok": true,
-     "ms": 816,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "close_camera",
-     "ok": true,
-     "ms": 879,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "close_camera",
-     "ok": true,
-     "ms": 830,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "close_camera",
-     "ok": true,
-     "ms": 885,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "e16fd3c9",
-   "request": "Modifie le programme C:\\Projet\\app.js pour qu'il utilise le port 8081 au lieu de 8080 et ajoute un log qui indique le démarrage du serveur.",
-   "target": "code_helper",
-   "heldout": true,
-   "results": {
-    "2026-10-20": {
-     "chosen": "code_helper",
-     "ok": true,
-     "ms": 1265,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "code_helper",
-     "ok": true,
-     "ms": 1867,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "code_helper",
-     "ok": true,
-     "ms": 1764,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "code_helper",
-     "ok": true,
-     "ms": 1902,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "code_helper",
-     "ok": true,
-     "ms": 1768,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "code_helper",
-     "ok": true,
-     "ms": 2015,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "0a77222d",
-   "request": "Je veux modifier le projet \"BlogSite\" pour ajouter une page de contact et un formulaire qui envoie un email.",
-   "target": "code_studio",
-   "heldout": true,
-   "results": {
-    "2026-10-20": {
-     "chosen": "code_studio",
-     "ok": true,
-     "ms": 1015,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "code_studio",
-     "ok": true,
-     "ms": 1613,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "code_studio",
-     "ok": true,
-     "ms": 1549,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "code_studio",
-     "ok": true,
-     "ms": 1673,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "code_studio",
-     "ok": true,
-     "ms": 1592,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "code_studio",
-     "ok": true,
-     "ms": 1707,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "582748ef",
-   "request": "Fais défiler la page vers le bas trois fois.",
-   "target": "computer_control",
-   "heldout": true,
-   "results": {
-    "2026-10-20": {
-     "chosen": "computer_control",
-     "ok": true,
-     "ms": 805,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "computer_control",
-     "ok": true,
-     "ms": 1527,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "computer_control",
-     "ok": true,
-     "ms": 1480,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "computer_control",
-     "ok": true,
-     "ms": 1537,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "computer_control",
-     "ok": true,
-     "ms": 1518,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "computer_control",
-     "ok": true,
-     "ms": 1671,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "0522e93c",
-   "request": "Peux-tu ouvrir le Gestionnaire des tâches, j'ai besoin de voir ce qui tourne.",
-   "target": "computer_settings",
-   "heldout": false,
-   "results": {
-    "2026-10-20": {
-     "chosen": "computer_settings",
-     "ok": true,
-     "ms": 495,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "computer_settings",
-     "ok": true,
-     "ms": 1104,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "computer_settings",
-     "ok": true,
-     "ms": 1088,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "computer_settings",
-     "ok": true,
-     "ms": 1134,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "computer_settings",
-     "ok": true,
-     "ms": 1112,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "computer_settings",
-     "ok": true,
-     "ms": 1230,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "52d9a841",
-   "request": "Quel est le nombre de fichiers et l'espace utilisé sur mon bureau aujourd'hui ?",
-   "target": "desktop_control",
-   "heldout": false,
-   "results": {
-    "2026-10-20": {
-     "chosen": "desktop_control",
-     "ok": true,
-     "ms": 1072,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "desktop_control",
-     "ok": true,
-     "ms": 1082,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "desktop_control",
-     "ok": true,
-     "ms": 1021,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "desktop_control",
-     "ok": true,
-     "ms": 1062,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "desktop_control",
-     "ok": true,
-     "ms": 1011,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "desktop_control",
-     "ok": true,
-     "ms": 2011,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "62c0ec8b",
-   "request": "Écris le texte suivant dans le fichier notes.txt sur le bureau : « N’oublie pas la réunion à 15 h ».",
-   "target": "file_controller",
-   "heldout": true,
-   "results": {
-    "2026-10-20": {
-     "chosen": "file_controller",
-     "ok": true,
-     "ms": 913,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "file_controller",
-     "ok": true,
-     "ms": 1503,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "file_controller",
-     "ok": true,
-     "ms": 1495,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "file_controller",
-     "ok": true,
-     "ms": 1520,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "file_controller",
-     "ok": true,
-     "ms": 1476,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "file_controller",
-     "ok": true,
-     "ms": 1701,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "47aa7a29",
-   "request": "J’ai téléchargé une archive zip, liste tout ce qu’il y a dedans.",
-   "target": "file_processor",
-   "heldout": false,
-   "results": {
-    "2026-10-20": {
-     "chosen": "file_processor",
-     "ok": true,
-     "ms": 578,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "file_processor",
-     "ok": true,
-     "ms": 1351,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "file_processor",
-     "ok": true,
-     "ms": 1320,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "file_processor",
-     "ok": true,
-     "ms": 1356,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "file_processor",
-     "ok": true,
-     "ms": 1317,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "file_processor",
-     "ok": true,
-     "ms": 1501,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "b634428b",
-   "request": "J’ai besoin d’un vol de Toulouse vers Rome le 12 juillet, un seul passager, en première classe, et que les meilleures offres soient enregistrées.",
-   "target": "flight_finder",
-   "heldout": true,
-   "results": {
-    "2026-10-20": {
-     "chosen": "flight_finder",
-     "ok": true,
-     "ms": 1397,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "flight_finder",
-     "ok": true,
-     "ms": 1947,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "flight_finder",
-     "ok": true,
-     "ms": 1897,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "flight_finder",
-     "ok": true,
-     "ms": 1928,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "flight_finder",
-     "ok": true,
-     "ms": 1876,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "flight_finder",
-     "ok": true,
-     "ms": 2143,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "39236d4a",
-   "request": "Programme la mise à jour de tous mes jeux à 2h du matin, et n'oublie pas de redémarrer le PC après.",
-   "target": "game_updater",
-   "heldout": false,
-   "results": {
-    "2026-10-20": {
-     "chosen": "game_updater",
-     "ok": true,
-     "ms": 1102,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "game_updater",
-     "ok": true,
-     "ms": 1643,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "game_updater",
-     "ok": true,
-     "ms": 1583,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "game_updater",
-     "ok": true,
-     "ms": 1617,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "game_updater",
-     "ok": true,
-     "ms": 1597,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "game_updater",
-     "ok": true,
-     "ms": 1792,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "20236d0d",
-   "request": "Peux-tu arrêter le suivi des actualités sportives, s'il te plaît ?",
-   "target": "manage_monitor",
-   "heldout": false,
-   "results": {
-    "2026-10-20": {
-     "chosen": "manage_monitor",
-     "ok": true,
-     "ms": 622,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "manage_monitor",
-     "ok": true,
-     "ms": 1139,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "manage_monitor",
-     "ok": true,
-     "ms": 1121,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "manage_monitor",
-     "ok": true,
-     "ms": 1123,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "manage_monitor",
-     "ok": true,
-     "ms": 1120,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "manage_monitor",
-     "ok": true,
-     "ms": 1260,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "00212d91",
-   "request": "Active le lecteur VLC pour visionner le film que j’ai téléchargé hier.",
-   "target": "open_app",
-   "heldout": true,
-   "results": {
-    "2026-10-20": {
-     "chosen": "open_app",
-     "ok": true,
-     "ms": 1025,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "open_app",
-     "ok": true,
-     "ms": 1055,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "open_app",
-     "ok": true,
-     "ms": 1021,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "open_app",
-     "ok": true,
-     "ms": 1105,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "open_app",
-     "ok": true,
-     "ms": 1066,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "open_app",
-     "ok": true,
-     "ms": 1169,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "0349c347",
-   "request": "J’aimerais connaître la dernière fois que j’ai utilisé l’application Notion.",
-   "target": "recall_memory",
-   "heldout": false,
-   "results": {
-    "2026-10-20": {
-     "chosen": "recall_memory",
-     "ok": true,
-     "ms": 462,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "recall_memory",
-     "ok": true,
-     "ms": 928,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "recall_memory",
-     "ok": true,
-     "ms": 893,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "recall_memory",
-     "ok": true,
-     "ms": 953,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "recall_memory",
-     "ok": true,
-     "ms": 924,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "recall_memory",
-     "ok": true,
-     "ms": 1043,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "4c54e8a4",
-   "request": "Rappelle‑moi d’appeler Marie demain à 14h30 pour préparer le dîner.",
-   "target": "reminder",
-   "heldout": false,
-   "results": {
-    "2026-10-20": {
-     "chosen": "reminder",
-     "ok": true,
-     "ms": 980,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "reminder",
-     "ok": true,
-     "ms": 1594,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "reminder",
-     "ok": true,
-     "ms": 1558,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "reminder",
-     "ok": true,
-     "ms": 1632,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "reminder",
-     "ok": true,
-     "ms": 1574,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "reminder",
-     "ok": true,
-     "ms": 1742,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "12e5fbbb",
-   "request": "Hey, j’ai besoin d’un mode inspect : montre‑moi où sont stockées les clés API dans le repo du serveur web, et indique les lignes concernées.",
-   "target": "repository_review",
-   "heldout": false,
-   "results": {
-    "2026-10-20": {
-     "chosen": "repository_review",
-     "ok": true,
-     "ms": 907,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "repository_review",
-     "ok": true,
-     "ms": 1425,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "repository_review",
-     "ok": true,
-     "ms": 1384,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "repository_review",
-     "ok": true,
-     "ms": 1430,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "repository_review",
-     "ok": true,
-     "ms": 1484,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "repository_review",
-     "ok": true,
-     "ms": 1602,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "09694412",
-   "request": "Je m’appelle Léa Dupont.",
-   "target": "save_memory",
-   "heldout": true,
-   "results": {
-    "2026-10-20": {
-     "chosen": "save_memory",
-     "ok": true,
-     "ms": 859,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "save_memory",
-     "ok": true,
-     "ms": 1406,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "save_memory",
-     "ok": true,
-     "ms": 1350,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "save_memory",
-     "ok": true,
-     "ms": 1389,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "save_memory",
-     "ok": true,
-     "ms": 1365,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "save_memory",
-     "ok": true,
-     "ms": 1532,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "0a0ea01c",
-   "request": "Qu’est-ce qu’on voit sur mon écran principal maintenant ?",
-   "target": "screen_process",
-   "heldout": false,
-   "results": {
-    "2026-10-20": {
-     "chosen": "screen_process",
-     "ok": true,
-     "ms": 735,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "screen_process",
-     "ok": true,
-     "ms": 1220,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "screen_process",
-     "ok": true,
-     "ms": 1198,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "screen_process",
-     "ok": true,
-     "ms": 1228,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "screen_process",
-     "ok": true,
-     "ms": 1220,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "screen_process",
-     "ok": true,
-     "ms": 1348,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "36eb8e73",
-   "request": "Peux‑tu envoyer à mon frère Sam le texte « Bon voyage » via Telegram ?",
-   "target": "send_message",
-   "heldout": true,
-   "results": {
-    "2026-10-20": {
-     "chosen": "send_message",
-     "ok": true,
-     "ms": 973,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "send_message",
-     "ok": true,
-     "ms": 1283,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "send_message",
-     "ok": true,
-     "ms": 1282,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "send_message",
-     "ok": true,
-     "ms": 1293,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "send_message",
-     "ok": true,
-     "ms": 1272,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "send_message",
-     "ok": true,
-     "ms": 1465,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "7a7a83d8",
-   "request": "C’est tout pour aujourd’hui, éteins‑toi.",
-   "target": "shutdown",
-   "heldout": true,
-   "results": {
-    "2026-10-20": {
-     "chosen": "shutdown",
-     "ok": true,
-     "ms": 367,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "shutdown",
-     "ok": true,
-     "ms": 829,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "shutdown",
-     "ok": true,
-     "ms": 837,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": null,
-     "ok": false,
-     "ms": 806,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": null,
-     "ok": false,
-     "ms": 796,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": null,
-     "ok": false,
-     "ms": 888,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "480041b2",
-   "request": "Hey, peux-tu me dire quel est le taux d'utilisation du CPU en ce moment ?",
-   "target": "system_status",
-   "heldout": false,
-   "results": {
-    "2026-10-20": {
-     "chosen": "system_status",
-     "ok": true,
-     "ms": 322,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "system_status",
-     "ok": true,
-     "ms": 872,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "system_status",
-     "ok": true,
-     "ms": 864,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "system_status",
-     "ok": true,
-     "ms": 889,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "system_status",
-     "ok": true,
-     "ms": 854,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "system_status",
-     "ok": true,
-     "ms": 1005,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "053b8b80",
-   "request": "Liste ce que tu peux annuler, je veux voir les actions récentes.",
-   "target": "undo",
-   "heldout": false,
-   "results": {
-    "2026-10-20": {
-     "chosen": "undo",
-     "ok": true,
-     "ms": 459,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "undo",
-     "ok": true,
-     "ms": 869,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "undo",
-     "ok": true,
-     "ms": 845,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "undo",
-     "ok": true,
-     "ms": 869,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "undo",
-     "ok": true,
-     "ms": 839,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "undo",
-     "ok": true,
-     "ms": 968,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "b021f01b",
-   "request": "Fais le bilan des tokens utilisés par source d’action, notamment les appels à l’assistant de traduction.",
-   "target": "usage_report",
-   "heldout": false,
-   "results": {
-    "2026-10-20": {
-     "chosen": "usage_report",
-     "ok": true,
-     "ms": 347,
-     "answer": null
-    },
-    "2026-10-21": {
-     "chosen": "usage_report",
-     "ok": true,
-     "ms": 740,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "usage_report",
-     "ok": true,
-     "ms": 736,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "usage_report",
-     "ok": true,
-     "ms": 782,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "usage_report",
-     "ok": true,
-     "ms": 758,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "usage_report",
-     "ok": true,
-     "ms": 819,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "2888b433",
-   "request": "Fais‑moi le briefing pour aujourd’hui, s’il te plaît.",
-   "target": "briefing",
-   "heldout": false,
-   "results": {
-    "2026-10-21": {
-     "chosen": "briefing",
-     "ok": true,
-     "ms": 1049,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "briefing",
-     "ok": true,
-     "ms": 1015,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "briefing",
-     "ok": true,
-     "ms": 1059,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "briefing",
-     "ok": true,
-     "ms": 1018,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "briefing",
-     "ok": true,
-     "ms": 1188,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "94073b3f",
-   "request": "Quel sera le climat à Nice la semaine prochaine ?",
-   "target": "weather_report",
-   "heldout": true,
-   "results": {
-    "2026-10-21": {
-     "chosen": "weather_report",
-     "ok": true,
-     "ms": 843,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "weather_report",
-     "ok": true,
-     "ms": 834,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "weather_report",
-     "ok": true,
-     "ms": 865,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "weather_report",
-     "ok": true,
-     "ms": 896,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "weather_report",
-     "ok": true,
-     "ms": 987,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "0bd57779",
-   "request": "Quel est le prix du nouveau MacBook Air M2 chez Apple Store France ?",
-   "target": "web_search",
-   "heldout": false,
-   "results": {
-    "2026-10-21": {
-     "chosen": "web_search",
-     "ok": true,
-     "ms": 1216,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "web_search",
-     "ok": true,
-     "ms": 1181,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "web_search",
-     "ok": true,
-     "ms": 1301,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "web_search",
-     "ok": true,
-     "ms": 1260,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "web_search",
-     "ok": true,
-     "ms": 1371,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "17d1c96b",
-   "request": "Pouvez‑vous me donner les informations de la vidéo https://www.youtube.com/watch?v=dQw4w9WgXcQ ?",
-   "target": "youtube_video",
-   "heldout": false,
-   "results": {
-    "2026-10-21": {
-     "chosen": "youtube_video",
-     "ok": true,
-     "ms": 1629,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "youtube_video",
-     "ok": true,
-     "ms": 1584,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "youtube_video",
-     "ok": true,
-     "ms": 1702,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "youtube_video",
-     "ok": true,
-     "ms": 1607,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "youtube_video",
-     "ok": true,
-     "ms": 1817,
-     "answer": null
-    }
-   }
-  },
-  {
-   "id": "032c1719",
-   "request": "Hey, tu es quel modèle d’assistant ?",
-   "target": "__chat__",
-   "heldout": true,
-   "results": {
-    "2026-10-21": {
-     "chosen": null,
-     "ok": true,
-     "ms": 595,
-     "answer": "Je suis un assistant personnel intelligent, toujours là pour t’aider."
-    },
-    "2026-10-22": {
-     "chosen": null,
-     "ok": true,
-     "ms": 572,
-     "answer": "Je suis un assistant personnel intelligent, toujours là pour t’aider."
-    },
-    "2026-10-24": {
-     "chosen": null,
-     "ok": true,
-     "ms": 665,
-     "answer": "Je suis un assistant personnel intelligent, capable de t’aider avec ce dont tu as besoin."
-    },
-    "2026-10-25": {
-     "chosen": null,
-     "ok": true,
-     "ms": 607,
-     "answer": "Je suis un assistant personnel intelligent, capable de t’aider avec ce dont tu as besoin."
-    },
-    "2026-11-04": {
-     "chosen": null,
-     "ok": true,
-     "ms": 737,
-     "answer": "Je suis un assistant personnel nommé Matthew, conçu pour t’aider avec ce dont tu as besoin."
-    }
-   }
-  },
-  {
-   "id": "23f2bdf8",
-   "request": "Tu penses que les chats sont mignons ?",
-   "target": "__chat__",
-   "heldout": true,
-   "results": {
-    "2026-10-21": {
-     "chosen": null,
-     "ok": true,
-     "ms": 748,
-     "answer": "Oui, les chats sont vraiment mignons, avec leur gracieuse démarche et leurs yeux brillants."
-    },
-    "2026-10-22": {
-     "chosen": null,
-     "ok": true,
-     "ms": 731,
-     "answer": "Oui, les chats sont vraiment mignons, avec leur gracieuse démarche et leurs yeux brillants."
-    },
-    "2026-10-24": {
-     "chosen": null,
-     "ok": true,
-     "ms": 758,
-     "answer": "Oui, les chats sont vraiment mignons, avec leur gracieuse démarche et leurs yeux brillants."
-    },
-    "2026-10-25": {
-     "chosen": null,
-     "ok": true,
-     "ms": 766,
-     "answer": "Oui, les chats sont vraiment mignons, avec leur gracieuse démarche et leurs yeux brillants."
-    },
-    "2026-11-04": {
-     "chosen": null,
-     "ok": true,
-     "ms": 850,
-     "answer": "Oui, les chats sont vraiment mignons, avec leur gracieuse démarche et leurs yeux brillants."
-    }
-   }
-  },
-  {
-   "id": "4c9194c5",
-   "request": "Donne-moi ton avis sur la météo aujourd’hui.",
-   "target": "__chat__",
-   "heldout": true,
-   "results": {
-    "2026-10-21": {
-     "chosen": null,
-     "ok": true,
-     "ms": 717,
-     "answer": "Je suis désolé, mais je ne peux pas fournir d'informations sur la météo."
-    },
-    "2026-10-22": {
-     "chosen": null,
-     "ok": true,
-     "ms": 708,
-     "answer": "Je suis désolé, mais je ne peux pas fournir d'informations sur la météo."
-    },
-    "2026-10-24": {
-     "chosen": null,
-     "ok": true,
-     "ms": 733,
-     "answer": "Je suis désolé, mais je ne peux pas fournir d'informations sur la météo."
-    },
-    "2026-10-25": {
-     "chosen": null,
-     "ok": true,
-     "ms": 723,
-     "answer": "Je suis désolé, mais je ne peux pas fournir d'informations sur la météo."
-    },
-    "2026-11-04": {
-     "chosen": null,
-     "ok": true,
-     "ms": 812,
-     "answer": "Je suis désolé, mais je ne peux pas fournir d'informations sur la météo."
-    }
-   }
-  },
-  {
-   "id": "74ede442",
-   "request": "Je trouve que la météo est sympa aujourd’hui.",
-   "target": "__chat__",
-   "heldout": true,
-   "results": {
-    "2026-10-21": {
-     "chosen": null,
-     "ok": true,
-     "ms": 561,
-     "answer": "C'est vrai, la météo est agréable aujourd'hui."
-    },
-    "2026-10-22": {
-     "chosen": null,
-     "ok": true,
-     "ms": 576,
-     "answer": "C'est vrai, la météo est agréable aujourd'hui."
-    },
-    "2026-10-24": {
-     "chosen": null,
-     "ok": true,
-     "ms": 590,
-     "answer": "C'est vrai, la météo est agréable aujourd'hui."
-    },
-    "2026-10-25": {
-     "chosen": null,
-     "ok": true,
-     "ms": 566,
-     "answer": "C'est vrai, la météo est agréable aujourd'hui."
-    },
-    "2026-11-04": {
-     "chosen": null,
-     "ok": true,
-     "ms": 647,
-     "answer": "C'est vrai, la météo est agréable aujourd'hui."
-    }
-   }
-  },
-  {
-   "id": "1e5c1699",
-   "request": "Réservez des billets de train pour Paris‑Lyon demain matin.",
-   "target": "__none__",
-   "heldout": true,
-   "results": {
-    "2026-10-21": {
-     "chosen": null,
-     "ok": true,
-     "ms": 823,
-     "answer": "Je suis désolé, mais je ne peux pas réserver de billets de train."
-    },
-    "2026-10-22": {
-     "chosen": null,
-     "ok": true,
-     "ms": 799,
-     "answer": "Je suis désolé, mais je ne peux pas réserver de billets de train."
-    },
-    "2026-10-24": {
-     "chosen": null,
-     "ok": true,
-     "ms": 888,
-     "answer": "Je suis désolé, mais je ne peux pas réserver de billets de train."
-    },
-    "2026-10-25": {
-     "chosen": null,
-     "ok": true,
-     "ms": 846,
-     "answer": "Je suis désolé, mais je ne peux pas réserver de billets de train."
-    },
-    "2026-11-04": {
-     "chosen": null,
-     "ok": true,
-     "ms": 935,
-     "answer": "Je suis désolé, mais je ne peux pas réserver de billets de train."
-    }
-   }
-  },
-  {
-   "id": "463508cd",
-   "request": "Prédisez les numéros gagnants du loto de ce week‑end",
-   "target": "__none__",
-   "heldout": true,
-   "results": {
-    "2026-10-21": {
-     "chosen": null,
-     "ok": true,
-     "ms": 607,
-     "answer": "Je suis désolé, mais je ne peux pas faire ça."
-    },
-    "2026-10-22": {
-     "chosen": null,
-     "ok": true,
-     "ms": 625,
-     "answer": "Je suis désolé, mais je ne peux pas faire ça."
-    },
-    "2026-10-24": {
-     "chosen": null,
-     "ok": true,
-     "ms": 721,
-     "answer": "Je suis désolé, mais je ne peux pas prédire les numéros gagnants du loto."
-    },
-    "2026-10-25": {
-     "chosen": null,
-     "ok": true,
-     "ms": 675,
-     "answer": "Je suis désolé, mais je ne peux pas prédire les numéros gagnants du loto."
-    },
-    "2026-11-04": {
-     "chosen": null,
-     "ok": true,
-     "ms": 784,
-     "answer": "Je suis désolé, mais je ne peux pas prédire les numéros gagnants du loto."
-    }
-   }
-  },
-  {
-   "id": "796994b2",
-   "request": "Demande à un agent immobilier de me montrer des appartements à louer dans le 5e arrondissement.",
-   "target": "__none__",
-   "heldout": true,
-   "results": {
-    "2026-10-21": {
-     "chosen": null,
-     "ok": true,
-     "ms": 925,
-     "answer": "Je vais contacter un agent immobilier pour qu’il vous propose des appartements à louer dans le 5ᵉ arrondissement."
-    },
-    "2026-10-22": {
-     "chosen": null,
-     "ok": true,
-     "ms": 914,
-     "answer": "Je vais contacter un agent immobilier pour qu’il vous propose des appartements à louer dans le 5ᵉ arrondissement."
-    },
-    "2026-10-24": {
-     "chosen": null,
-     "ok": true,
-     "ms": 913,
-     "answer": "Je vais contacter un agent immobilier pour qu’il vous propose des appartements à louer dans le 5ᵉ arrondissement."
-    },
-    "2026-10-25": {
-     "chosen": null,
-     "ok": true,
-     "ms": 905,
-     "answer": "Je vais contacter un agent immobilier pour qu’il vous propose des appartements à louer dans le 5ᵉ arrondissement."
-    },
-    "2026-11-04": {
-     "chosen": null,
-     "ok": true,
-     "ms": 1034,
-     "answer": "Je vais contacter un agent immobilier pour qu’il vous propose des appartements à louer dans le 5ᵉ arrondissement."
-    }
-   }
-  },
-  {
-   "id": "8eb946be",
-   "request": "Programmez le robot aspirateur de mon voisin pour nettoyer mon appartement",
-   "target": "__none__",
-   "heldout": true,
-   "results": {
-    "2026-10-21": {
-     "chosen": null,
-     "ok": true,
-     "ms": 769,
-     "answer": "Je suis désolé, mais je ne peux pas contrôler le robot aspirateur de votre voisin."
-    },
-    "2026-10-22": {
-     "chosen": null,
-     "ok": true,
-     "ms": 778,
-     "answer": "Je suis désolé, mais je ne peux pas contrôler le robot aspirateur de votre voisin."
-    },
-    "2026-10-24": {
-     "chosen": null,
-     "ok": true,
-     "ms": 753,
-     "answer": "Je suis désolé, mais je ne peux pas contrôler le robot aspirateur de votre voisin."
-    },
-    "2026-10-25": {
-     "chosen": null,
-     "ok": true,
-     "ms": 737,
-     "answer": "Je suis désolé, mais je ne peux pas contrôler le robot aspirateur de votre voisin."
-    },
-    "2026-11-04": {
-     "chosen": null,
-     "ok": true,
-     "ms": 835,
-     "answer": "Je suis désolé, mais je ne peux pas contrôler le robot aspirateur de votre voisin."
-    }
-   }
-  },
-  {
-   "id": "0033dc03",
-   "request": "Affiche le diagramme du contexte en te concentrant sur la partie client.",
+   "id": "3f2f5ae2",
+   "request": "Est‑ce que je peux lancer un déploiement depuis le studio ?",
    "target": "capabilities",
    "heldout": true,
-   "results": {
-    "2026-10-21": {
-     "chosen": "capabilities",
-     "ok": true,
-     "ms": 1298,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "capabilities",
-     "ok": true,
-     "ms": 1267,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "capabilities",
-     "ok": true,
-     "ms": 1297,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "capabilities",
-     "ok": true,
-     "ms": 1302,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "capabilities",
-     "ok": true,
-     "ms": 1465,
-     "answer": null
-    }
-   }
+   "results": {}
   },
   {
-   "id": "0599fc39",
-   "request": "Installe l'extension du traducteur de texte depuis https://example.com/plugins/traducteur.jar avec le SHA‑256 3a5f8c9e2d4b6a7c9e1f0d3b2a6c8e5f7b9d0c1e2f3a4b5c6d7e8f9a0b1c2d3e.",
-   "target": "extensions",
+   "id": "0f73f887",
+   "request": "Hey, stoppe la caméra, j’ai reçu un appel et je ne veux pas que les gens voient mon arrière‑plan.",
+   "target": "close_camera",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "47612c08",
+   "request": "Ok, montre moi comment tourne le fichier c:\\users\\jean\\desktop\\calc.exe avec les paramètres 5 plus 3, et fais‑le s'arrêter après 10s.",
+   "target": "code_helper",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "7884703c",
+   "request": "Supprime le fichier tests/old_test.py du projet JeuDeMines.",
+   "target": "code_studio",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "4d46bc86",
+   "request": "Déplace la souris à la position 1240, 340.",
+   "target": "computer_control",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "1aac8639",
+   "request": "Ferme l'application Chrome.",
+   "target": "computer_settings",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "17c7fdf1",
+   "request": "Ton initiative de mettre en pause la mise à jour Windows était vraiment bien, bon travail.",
+   "target": "decisions",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "65b7fa5d",
+   "request": "Hey, fais une recherche complète sur les nouvelles régulations européennes concernant les cryptomonnaies en 2025.",
+   "target": "deep_research",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "15ace7f2",
+   "request": "Donne‑moi les stats du bureau : combien de fichiers, taille totale, etc.",
+   "target": "desktop_control",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "014ec6ba",
+   "request": "Ajoute le répertoire D:\\Travail\\Projets\\2025\\Rapports.",
+   "target": "documents",
    "heldout": false,
-   "results": {
-    "2026-10-21": {
-     "chosen": "extensions",
-     "ok": true,
-     "ms": 2583,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "extensions",
-     "ok": true,
-     "ms": 2479,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "extensions",
-     "ok": true,
-     "ms": 2527,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "extensions",
-     "ok": true,
-     "ms": 2545,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "extensions",
-     "ok": true,
-     "ms": 2765,
-     "answer": null
-    }
-   }
+   "results": {}
   },
   {
-   "id": "08a818db",
-   "request": "Pourrais‑tu oublier les notes que j’ai prises sur la réunion du 12 mars avec l’équipe marketing ?",
+   "id": "d6d081b8",
+   "request": "Affiche-moi les huit derniers mails non lus de ma boîte.",
+   "target": "email",
+   "heldout": false,
+   "results": {}
+  },
+  {
+   "id": "5281919a",
+   "request": "Désactive, s’il te plaît, le plugin qui s’appelle auto‑update‑checker, il me dérange trop.",
+   "target": "extensions",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "185198ce",
+   "request": "Eh, j'ai besoin de savoir ce qui prend le plus d'espace sur mon disque, tu pourrais me montrer les plus gros dossiers du bureau, genre les cinq premiers ?",
+   "target": "file_controller",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "00b904b2",
+   "request": "Montre‑moi le résumé du PDF que je viens de déposer.",
+   "target": "file_processor",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "04b308dd",
+   "request": "Ok, cherche un vol du aéroport de 'San Fran' à 'Múnich' le 3 mars, retour le 10 mars, deux personnes, classe business, et note le tout, stp.",
+   "target": "flight_finder",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "03ef029d",
+   "request": "Arrête de te souvenir des anecdotes que j’ai partagées sur le jeu vidéo « Elden Ring » avec le boss final à la Forteresse de la Lune, même si j’ai noté le guide sur Notion.",
    "target": "forget_about",
    "heldout": true,
-   "results": {
-    "2026-10-21": {
-     "chosen": "forget_about",
-     "ok": true,
-     "ms": 994,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "forget_about",
-     "ok": true,
-     "ms": 998,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "forget_about",
-     "ok": true,
-     "ms": 1010,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "forget_about",
-     "ok": true,
-     "ms": 987,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "forget_about",
-     "ok": true,
-     "ms": 1070,
-     "answer": null
-    }
-   }
+   "results": {}
   },
   {
-   "id": "621d2bb3",
-   "request": "Demande l'approbation du but «Apprendre le japonais niveau N5», j’ai déjà acheté le livre et l’app Duolingo.",
+   "id": "1b4088e9",
+   "request": "Euh, j'aimerais bien que mon PC se mette à jour tout seul pendant la nuit, surtout pour ce jeu de tir qu'on appelle 'Call of Duty: Modern Warfare II' sur Steam, genre à 2h30 du matin, et après il s'éteint tout seul quand c'est fini.",
+   "target": "game_updater",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "0c8909c5",
+   "request": "Affiche-moi la liste des objectifs que j'ai déjà définis.",
    "target": "goals",
    "heldout": true,
-   "results": {
-    "2026-10-21": {
-     "chosen": "goals",
-     "ok": true,
-     "ms": 1344,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "goals",
-     "ok": true,
-     "ms": 1313,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "goals",
-     "ok": true,
-     "ms": 1347,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "goals",
-     "ok": true,
-     "ms": 1314,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "goals",
-     "ok": true,
-     "ms": 1427,
-     "answer": null
-    }
-   }
+   "results": {}
   },
   {
-   "id": "14c10f2e",
-   "request": "Active le partage des incidents en mode anonyme, je veux que les données aillent dans Night Shift.",
+   "id": "05777cde",
+   "request": "Désactive l'envoi public de tes incidents, je ne suis plus d'accord avec le mode public.",
    "target": "incidents",
-   "heldout": false,
-   "results": {
-    "2026-10-21": {
-     "chosen": "incidents",
-     "ok": true,
-     "ms": 1111,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "incidents",
-     "ok": true,
-     "ms": 1067,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "incidents",
-     "ok": true,
-     "ms": 1083,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "incidents",
-     "ok": true,
-     "ms": 1074,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "incidents",
-     "ok": true,
-     "ms": 1159,
-     "answer": null
-    }
-   }
+   "heldout": true,
+   "results": {}
   },
   {
-   "id": "df272508",
-   "request": "Est‑ce que tous les plugins que j'ai installés sont actifs ?",
+   "id": "0f2dbadf",
+   "request": "Hey, quels plugins sont actifs sur mon système ? Je vérifie que le module « CalendrierPro » est présent.",
    "target": "local_health_check",
-   "heldout": false,
-   "results": {
-    "2026-10-21": {
-     "chosen": "local_health_check",
-     "ok": true,
-     "ms": 812,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "local_health_check",
-     "ok": true,
-     "ms": 805,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "local_health_check",
-     "ok": true,
-     "ms": 839,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "local_health_check",
-     "ok": true,
-     "ms": 829,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "local_health_check",
-     "ok": true,
-     "ms": 889,
-     "answer": null
-    }
-   }
+   "heldout": true,
+   "results": {}
   },
   {
-   "id": "8905a24d",
-   "request": "Fais un cycle d’apprentissage maintenant, je veux que tu consolides les dernières corrections que je t’ai données.",
+   "id": "1b2beadc",
+   "request": "Pour finir, pourrais‑tu me lister rapidement tous les thèmes que tu surveilles, histoire de voir si j'ai oublié d'enlever quelque chose comme les news sur la météo de Paris ?",
+   "target": "manage_monitor",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "0519ec35",
+   "request": "Hey Matthew, corrige ça : la bonne réponse était que le fichier se trouve dans C:\\Users\\Alex\\Documents\\rapport.docx",
    "target": "matthew",
-   "heldout": false,
-   "results": {
-    "2026-10-21": {
-     "chosen": "matthew",
-     "ok": true,
-     "ms": 987,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "matthew",
-     "ok": true,
-     "ms": 964,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "matthew",
-     "ok": true,
-     "ms": 991,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "matthew",
-     "ok": true,
-     "ms": 1008,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "matthew",
-     "ok": true,
-     "ms": 1061,
-     "answer": null
-    }
-   }
+   "heldout": true,
+   "results": {}
   },
   {
-   "id": "20fc3b4f",
-   "request": "Dis‑moi les arguments nécessaires pour le tool \"interroger‑BD\" du serveur MySQL.",
+   "id": "8ebfffac",
+   "request": "Liste tous les serveurs configurés.",
    "target": "mcp",
-   "heldout": false,
-   "results": {
-    "2026-10-21": {
-     "chosen": "mcp",
-     "ok": true,
-     "ms": 1411,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "mcp",
-     "ok": true,
-     "ms": 1380,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "mcp",
-     "ok": true,
-     "ms": 1413,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "mcp",
-     "ok": true,
-     "ms": 1469,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "mcp",
-     "ok": true,
-     "ms": 1508,
-     "answer": null
-    }
-   }
+   "heldout": true,
+   "results": {}
   },
   {
-   "id": "24758f5c",
-   "request": "Meeting, active l’assistance en direct.",
+   "id": "0dea852a",
+   "request": "Pendant que je parle avec l'équipe du projet Alpha sur Teams, j'aimerais savoir où on en est dans le procès‑verbal, histoire de voir si on a déjà noté les décisions.",
    "target": "meeting",
-   "heldout": false,
-   "results": {
-    "2026-10-21": {
-     "chosen": "meeting",
-     "ok": true,
-     "ms": 1038,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "meeting",
-     "ok": true,
-     "ms": 1010,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "meeting",
-     "ok": true,
-     "ms": 1012,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "meeting",
-     "ok": true,
-     "ms": 1048,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "meeting",
-     "ok": true,
-     "ms": 1109,
-     "answer": null
-    }
-   }
+   "heldout": true,
+   "results": {}
   },
   {
-   "id": "7347e678",
-   "request": "Fais‑moi un trajet de la gare du Nord à l’aéroport Charles‑de‑Gaulle en transport en commun",
+   "id": "1886ca31",
+   "request": "Compare les modèles sur la traduction du texte suivant en anglais : « Bonjour, comment ça va aujourd'hui ? »",
+   "target": "model_compare",
+   "heldout": false,
+   "results": {}
+  },
+  {
+   "id": "fc993ae7",
+   "request": "Donne-moi les cinq dernières musiques reconnues aujourd'hui.",
+   "target": "music",
+   "heldout": false,
+   "results": {}
+  },
+  {
+   "id": "1ba62ff3",
+   "request": "Lance Notepad++ afin que je prenne des notes rapidement.",
+   "target": "open_app",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "1970f16b",
+   "request": "Ouvre le parcours de mon ancien itinéraire, du café 'Le Petit Coin' que j'ai fréquenté l'été dernier, à la plage de Deauville, et montre-moi le chemin en voiture.",
    "target": "open_itinerary",
-   "heldout": false,
-   "results": {
-    "2026-10-21": {
-     "chosen": "open_itinerary",
-     "ok": true,
-     "ms": 1514,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "open_itinerary",
-     "ok": true,
-     "ms": 1467,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "open_itinerary",
-     "ok": true,
-     "ms": 1504,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "open_itinerary",
-     "ok": true,
-     "ms": 1604,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "open_itinerary",
-     "ok": true,
-     "ms": 1652,
-     "answer": null
-    }
-   }
+   "heldout": true,
+   "results": {}
   },
   {
-   "id": "b9692176",
-   "request": "Sur Teams, envoie à Paul que je serai en retard de quinze minutes pour la réunion de cet après‑midi.",
+   "id": "42ab78f4",
+   "request": "Mets la musique en pause.",
+   "target": "phone",
+   "heldout": false,
+   "results": {}
+  },
+  {
+   "id": "17fb8757",
+   "request": "Peux‑tu remplir le formulaire de demande de badge sur le site intranet, en mettant mon nom Marc Dupont et le service R&D ?",
    "target": "pilot",
-   "heldout": false,
-   "results": {
-    "2026-10-21": {
-     "chosen": "pilot",
-     "ok": true,
-     "ms": 1502,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "pilot",
-     "ok": true,
-     "ms": 1486,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "pilot",
-     "ok": true,
-     "ms": 1495,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "pilot",
-     "ok": true,
-     "ms": 1551,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "pilot",
-     "ok": true,
-     "ms": 1583,
-     "answer": null
-    }
-   }
+   "heldout": true,
+   "results": {}
   },
   {
-   "id": "06ebd0d7",
-   "request": "Hey, combien d'espace libre il reste sur la clé USB ?",
+   "id": "593b8e5d",
+   "request": "Lance un check automatique de la clé : dépendances et intégrité.",
    "target": "portable",
-   "heldout": false,
-   "results": {
-    "2026-10-21": {
-     "chosen": "portable",
-     "ok": true,
-     "ms": 1009,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "portable",
-     "ok": true,
-     "ms": 962,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "portable",
-     "ok": true,
-     "ms": 971,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "portable",
-     "ok": true,
-     "ms": 1004,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "portable",
-     "ok": true,
-     "ms": 1037,
-     "answer": null
-    }
-   }
+   "heldout": true,
+   "results": {}
   },
   {
-   "id": "f3c1694f",
-   "request": "Combien de requêtes Gemini reste‑t‑il aujourd’hui pour le modèle Gemini‑1.5‑Flash ?",
+   "id": "038c67ea",
+   "request": "Combien de requêtes Gemini 1.5 restent disponibles pour le projet 'Alpha' avant que le compteur se remette à zéro demain ?",
    "target": "quotas",
    "heldout": true,
-   "results": {
-    "2026-10-21": {
-     "chosen": "quotas",
-     "ok": true,
-     "ms": 673,
-     "answer": null
-    },
-    "2026-10-22": {
-     "chosen": "quotas",
-     "ok": true,
-     "ms": 684,
-     "answer": null
-    },
-    "2026-10-24": {
-     "chosen": "quotas",
-     "ok": true,
-     "ms": 676,
-     "answer": null
-    },
-    "2026-10-25": {
-     "chosen": "quotas",
-     "ok": true,
-     "ms": 721,
-     "answer": null
-    },
-    "2026-11-04": {
-     "chosen": "quotas",
-     "ok": true,
-     "ms": 715,
-     "answer": null
-    }
-   }
+   "results": {}
+  },
+  {
+   "id": "19fb98e3",
+   "request": "Pouvez-vous me rappeler la liste des applications que vous m'aviez suggérées dans la conversation numéro 3 ?",
+   "target": "recall_conversation",
+   "heldout": false,
+   "results": {}
+  },
+  {
+   "id": "1b82d33b",
+   "request": "Récupère la dernière conversation où on a parlé du film « The Last Horizon ».",
+   "target": "recall_episodes",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "00a9398a",
+   "request": "Liste tout ce que tu te souviens de moi.",
+   "target": "recall_memory",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "1a186c23",
+   "request": "Je veux être prévenu le 05/11/2026 à 19 h de l’anniversaire de Paul.",
+   "target": "reminder",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "1dffc833",
+   "request": "Je pense que le dossier de scripts de notre appli de suivi de livraisons, celui qui est dans D:\\Work\\LogisticsApp, il y a peut‑être des fonctions redondantes, j'aimerais avoir un petit aperçu de la structure pour voir où ça coince.",
+   "target": "repository_review",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "a267727f",
+   "request": "Mon film préféré, c’est Inception, je le regarde souvent.",
+   "target": "save_memory",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "4072e81b",
+   "request": "Active la caméra et montre‑moi si la lumière de mon bureau est allumée.",
+   "target": "screen_process",
+   "heldout": false,
+   "results": {}
+  },
+  {
+   "id": "18ffc3ed",
+   "request": "Dis‑moi, comment se porte ton humeur après avoir traité les 12 e‑mails de mon patron ?",
+   "target": "self_state",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "2177f3fb",
+   "request": "Peux-tu dire à mon collègue Thomas sur Telegram que le rapport doit être envoyé d'ici vendredi ?",
+   "target": "send_message",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "5576016e",
+   "request": "Ok, mets fin à la session, arrête l’assistant.",
+   "target": "shutdown",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "00ba81db",
+   "request": "Je veux un récapitulatif de fin de journée, liste les tâches faites et celles en suspens.",
+   "target": "skills",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "1412aa89",
+   "request": "Est-ce que la charge de la RAM dépasse 80 % pendant que je travaille sur Excel ?",
+   "target": "system_status",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "4680a6ab",
+   "request": "Je me suis trompé, remets le fond d'écran que j'avais avant.",
+   "target": "undo",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "0233f305",
+   "request": "Dis‑moi, tu aimes les chats ou les chiens ?",
+   "target": "__chat__",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "044d693a",
+   "request": "Bonne soirée, à demain !",
+   "target": "__chat__",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "0d3a350e",
+   "request": "Peux‑tu reformuler ma dernière phrase, s’il te plaît ?",
+   "target": "__chat__",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "15ad4bdf",
+   "request": "C’est gentil, merci beaucoup !",
+   "target": "__chat__",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "06f4e5a2",
+   "request": "Allume le chauffage du salon qui se trouve dans mon chalet à la montagne.",
+   "target": "__none__",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "098b7cd9",
+   "request": "Active le chauffage de ma maison à 22 °C depuis le salon.",
+   "target": "__none__",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "14bf3f4e",
+   "request": "Porte un discours de motivation lors de ma réunion d'équipe demain.",
+   "target": "__none__",
+   "heldout": true,
+   "results": {}
+  },
+  {
+   "id": "17e6cc69",
+   "request": "Mets‑en place un rendez‑vous avec mon dentiste via le service de réservation médicale de ma clinique.",
+   "target": "__none__",
+   "heldout": true,
+   "results": {}
   }
  ],
  "changes": [
   {
-   "date": "2026-10-25",
-   "title": "Téléphone, appareil principal : messages, appels, SMS, photos, lieux, écran, musique, cartes, mise à jour",
+   "date": "2026-11-24",
+   "title": "Vitrine : plus de commit pour og.png seule, et les deux ères fusionnées",
+   "area": "IA"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "changemet kaggle",
+   "area": "IA"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "Graphe : modèle local sur le PC cerveau (Ollama sans session, qwen3:4b, dernier secours texte)",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "cerveau-service : tâche Matthew-Ollama (modèle local, dernier secours texte) au démarrage, sans session",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "Bascule automatique : le téléphone passe sur Oracle si le PC cerveau est muet, et revient",
    "area": "Interface"
   },
   {
-   "date": "2026-10-24",
-   "title": "Téléphone comme le PC : le pilote dans n'importe quelle appli, la Terre holographique du HUD, une icône",
+   "date": "2026-11-21",
+   "title": "phonevad : mode observation par défaut (la vraie voix du téléphone était sous le seuil : Matthew devenait sour",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "Micro : fin de tour automatique sur le téléphone, et seule la parole part vers Gemini",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "Sauvegarde de SV6 : le programme d'instantané part avec chaque sauvegarde (indépendante du code installé là-ba",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "redeploy-cerveau : chaque git vérifié sur SV6 (PowerShell ne rend que le code de la dernière commande)",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "PC cerveau : sauvegarde, journal d'entraînement, appels de Matthew et redéploiement depuis ce PC",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-21",
+   "title": "Téléphone : les réponses en bulle par-dessus les applis, les boutons ne disparaissent plus",
    "area": "Interface"
   },
   {
-   "date": "2026-10-24",
-   "title": "Voix gemini-3.8-live et téléphone au niveau du HUD : actions locales, fichiers, MIND, assistant par défaut",
+   "date": "2026-11-20",
+   "title": "Dossier de recherche : compétences auto-évolutives et projets open source (docs/recherche)",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Plan : Matthew sur deux PC à la maison (cerveau 24 h/24, PC d'entraînement à la demande, Oracle en secours)",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Matthew : paquet de la session de données du 2026-11-20",
+   "area": "IA"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Matthew : un duel dure 80 min sur ce PC (duelminutes 90)",
+   "area": "IA"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Matthew : heure limite 16 h 30, récupération Kaggle fiable, export GGUF épinglé sur la version d'Ollama",
+   "area": "IA"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Session de données : attente du retour du réseau au lieu de s'arrêter sur une coupure",
+   "area": "IA"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "Voix de secours : reconnaissance en ligne d'abord (pas de pack de langue requis), repli en ligne hors connexio",
    "area": "Interface"
   },
   {
-   "date": "2026-10-24",
-   "title": "Matthew sans PC la nuit : duel apparié, entraînement et duel sur Modal, entraînement de jour",
-   "area": "IA"
-  },
-  {
-   "date": "2026-10-23",
-   "title": "Renommage : Matthew devient Matthew (textes) et matthewassistant (code)",
+   "date": "2026-11-20",
+   "title": "Voix : plus de martèlement quand Gemini est épuisé, voix de secours, moins de sessions",
    "area": "Système"
   },
   {
-   "date": "2026-10-23",
-   "title": "Kaggle : tournoi de réglages sur 2 GPU dans le budget de la nuit, duel rattrapé au réveil du PC",
+   "date": "2026-11-20",
+   "title": "cognition.selftest : calls/ autorisé à importer cognition (compte rendu d'appel, sous try)",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Matthew : paquet de la session de données du 2026-11-19",
    "area": "IA"
   },
   {
-   "date": "2026-10-23",
-   "title": "Kaggle : le noyau attend que le jeu de données neuf soit prêt et vérifie qu'il lui est rattaché",
+   "date": "2026-11-19",
+   "title": "Matthew t'appelle : un vrai appel, de l'écran entrant au raccroché",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Matthew t'appelle : l'appli sonne comme un appel, pour trois motifs choisis",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Entraînement : fp16 sur les cartes d'avant Ampere (T4 de Kaggle)",
    "area": "IA"
   },
   {
-   "date": "2026-10-23",
-   "title": "Kaggle : nom d'utilisateur nettoyé (retour à la ligne du secret), premier lancement réel consigné",
+   "date": "2026-11-19",
+   "title": "Matthew : Kaggle relancé, toujours sans Internet (téléphone du compte non vérifié)",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Matthew : fabrique de données sur Groq, Kaggle relancé depuis le PC Fedora",
    "area": "IA"
   },
   {
-   "date": "2026-10-21",
-   "title": "Matthew : part minimale de 40 % d'exemples sans outil, 2 époques",
+   "date": "2026-11-19",
+   "title": "Matthew : école réparée avec Groq, premier cycle sur le PC Fedora, feuille de route",
    "area": "IA"
   },
   {
-   "date": "2026-10-21",
-   "title": "Matthew : sorties d'outils externes décodées en UTF-8, troisième cycle consigné",
+   "date": "2026-11-19",
+   "title": "Matthew : le PC Fedora prend le relais (Kaggle, Ollama, données, Night Shift)",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "Vitrine : publication possible depuis deux PC sans effacer les chiffres",
    "area": "IA"
   },
   {
-   "date": "2026-10-23",
-   "title": "Kaggle : jeton KGAT (accesstoken, KAGGLEAPITOKEN), piège UTF-16 de PowerShell reconnu, matthew.kaggle token",
+   "date": "2026-11-19",
+   "title": "Vitrine : refonte visuelle complète (direction minérale, caméra pilotée par le scroll)",
    "area": "IA"
   },
   {
-   "date": "2026-10-22",
-   "title": "Oracle : déployé à jour, garde du routage, journal de Matthew rapatrié",
-   "area": "IA"
+   "date": "2026-11-19",
+   "title": "Sauvegarde du PC : un échec dit pourquoi (Tailscale SSH « check ») et ne laisse plus de fichier vide",
+   "area": "Système"
   },
   {
-   "date": "2026-10-22",
-   "title": "Matthew : vitrine fluide avec guide, Direction 3 (spécialités évaluées), Matthew renommé Matthew",
-   "area": "Interface"
-  },
-  {
-   "date": "2026-10-21",
-   "title": "Vitrine : vrai compte à rebours (lu dans le Planificateur) et nuit en direct étape par étape",
-   "area": "IA"
-  },
-  {
-   "date": "2026-10-21",
-   "title": "CI : chronométrage du hook de cognition toléré sous 5 ms sur le runner Windows partagé",
+   "date": "2026-11-19",
+   "title": "resilience : un modèle refusé sur toutes les clés se repose jusqu'à minuit",
    "area": "Fiabilité"
   },
   {
-   "date": "2026-10-21",
-   "title": "CI : actionlint 1.7.12 (timezone des cron), SC2015 du ménage, refus administrateur du runner Windows toléré et",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-21",
-   "title": "CI de vérification : Windows, Python 3.11, audit des commits de la nuit",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-21",
-   "title": "Night Shift : fusion automatique des correctifs entièrement prouvés",
+   "date": "2026-11-19",
+   "title": "resilience : repos par couple (clé, modèle) pour la voix et le texte",
    "area": "Fiabilité"
   },
   {
-   "date": "2026-10-21",
-   "title": "Matthew : la vitrine se construit sans Pillow (runner Linux), relevé par sa première nuit",
-   "area": "IA"
-  },
-  {
-   "date": "2026-10-21",
-   "title": "Night Shift, seconde vitesse : le modèle voit la machine, ruff corrige sans IA",
+   "date": "2026-11-19",
+   "title": "Plusieurs clés Gemini, vraiment : la voix et le texte changent de clé avant de changer de modèle",
    "area": "Fiabilité"
   },
   {
-   "date": "2026-10-21",
-   "title": "Night Shift relevé corrigé : fuseau du briefing, dépendances des extensions, ruff",
+   "date": "2026-11-19",
+   "title": "Données d'Oracle protégées, CI réparée, conversation plus naturelle",
    "area": "Système"
   },
   {
-   "date": "2026-10-21",
-   "title": "Vitrine : défiler facilement sur téléphone, en portrait comme en paysage",
-   "area": "IA"
-  },
-  {
-   "date": "2026-10-21",
-   "title": "Matthew : conversation et refus, juge normalisé, banc de cognition, streaming, HUD",
-   "area": "IA"
-  },
-  {
-   "date": "2026-10-20",
-   "title": "Vitrine publique de Matthew : la regarder apprendre, en lecture seule",
-   "area": "IA"
-  },
-  {
-   "date": "2026-10-20",
-   "title": "Matthew : notre propre modèle, entraîné et promu chaque nuit",
-   "area": "IA"
-  },
-  {
-   "date": "2026-10-20",
-   "title": "changement d ehud ajout de la planète terre",
-   "area": "Interface"
-  },
-  {
-   "date": "2026-10-17",
-   "title": "Portable : auto-réparation, intégrité, batterie, historique, éjection sûre",
+   "date": "2026-11-19",
+   "title": "redeploy.sh : SDK Android trouvé sous Linux (l'APK était construite mais jamais publiée)",
    "area": "Système"
   },
   {
-   "date": "2026-10-17",
-   "title": "Portable : continuité d'identité + preuve du zéro-trace",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-17",
-   "title": "Matthew portable : clé USB nomade, zéro-trace, animée, multi-clés",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-16",
-   "title": "Sonde incidents : vérifier l'effacement d'un vrai nom de fichier, pas du marqueur",
-   "area": "Fiabilité"
-  },
-  {
-   "date": "2026-10-16",
-   "title": "Extensions : installer, examiner, restaurer des plugins en sachant ce qu'ils font",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-16",
-   "title": "Incidents réels : Matthew compte ses vraies erreurs, Night Shift les affiche",
-   "area": "Fiabilité"
-  },
-  {
-   "date": "2026-10-16",
-   "title": "Briefing quotidien : agenda, rappels, sujets suivis sans doublon, à l'heure choisie",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-16",
-   "title": "Allègement : opencv-python-headless (même cv2, sans le Qt embarqué)",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-16",
-   "title": "Réunion : l'aide en direct affiche une réponse quand on te pose une question",
+   "date": "2026-11-19",
+   "title": "Hors-ligne : le même caractère et la même règle d'incertitude qu'en ligne",
    "area": "Voix"
   },
   {
-   "date": "2026-10-16",
-   "title": "Quotas : un registre commun, et des secours quand Gemini est épuisé",
+   "date": "2026-11-19",
+   "title": "Téléphone : plus de « je réfléchis » sans fin quand la voix est coupée",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "runall : journal et base cognitive des suites à côté du dossier personnel jetable",
    "area": "Fiabilité"
   },
   {
-   "date": "2026-10-16",
-   "title": "Quotas gratuits : le quota du jour attend minuit, le pilote commence par les Flash-Lite",
+   "date": "2026-11-19",
+   "title": "decision/ : journal des décisions, arbitre des initiatives, retours appris, actions vérifiées (P0-P3)",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Graphes : dormance vérifiée sur Oracle, sauvegarde quotidienne installée",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Graphes : dormance, voix muette, page santé, banc du téléphone, sauvegarde sur le PC, mise à jour du HUD du PC",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "selftests : les branchements « sous garde » acceptent swallowed (toujours non propagé)",
    "area": "Fiabilité"
   },
   {
-   "date": "2026-10-16",
-   "title": "Pilote : écran verrouillé → arrêt immédiat, sans appel au modèle",
+   "date": "2026-11-13",
+   "title": "main.py : les erreurs avalées sont journalisées (paquet absent : toujours silencieux)",
    "area": "Système"
   },
   {
-   "date": "2026-10-16",
-   "title": "Pilote universel : Matthew prend la main sur n'importe quelle application",
+   "date": "2026-11-13",
+   "title": "HUD du PC : se sait en retard sur GitHub, se met à jour en avance rapide",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Banc du téléphone chaque nuit (server/phonebench.py), affiché sur la page santé",
    "area": "Système"
   },
   {
-   "date": "2026-10-16",
-   "title": "Copilote de réunion : il entend la visio, quelle que soit l'application",
+   "date": "2026-11-13",
+   "title": "Page santé sur Oracle (/sante), ouverte depuis Réglages → Santé de Matthew",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Sauvegarde d'Oracle sur le PC (deployment/pullbackup.sh)",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "capabilities.runall : toutes les suites, isolées des vraies données, fuites signalées",
+   "area": "Fiabilité"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "nightshift.selftest 5 : attendre jusqu'à 15 s la mort du petit-fils (instable sous charge)",
+   "area": "Fiabilité"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Copilote de réunion : arrêt après 2 min de silence total (micro et son coupés)",
    "area": "Voix"
   },
   {
-   "date": "2026-10-16",
-   "title": "Night Shift : la passe sans tâche ne perd plus la mémoire, et les patchs passent enfin",
-   "area": "Fiabilité"
-  },
-  {
-   "date": "2026-10-15",
-   "title": "Night Shift : trois passes par nuit, chacune sur un problème différent",
-   "area": "Fiabilité"
-  },
-  {
-   "date": "2026-10-15",
-   "title": "Windows : cognition et offline ne plantent plus quand leur sortie est un pipe",
-   "area": "IA"
-  },
-  {
-   "date": "2026-10-15",
-   "title": "README : une page courte, une bannière et deux graphes",
+   "date": "2026-11-13",
+   "title": "Matthew muet : /health dit l'état de la voix, le téléphone est prévenu après 5 min",
    "area": "Système"
   },
   {
-   "date": "2026-10-15",
-   "title": "Windows et Linux : toutes les suites vertes sur les deux",
-   "area": "Fiabilité"
+   "date": "2026-11-13",
+   "title": "Dormance : sur Oracle, plus de session Gemini ouverte à vide",
+   "area": "Système"
   },
   {
-   "date": "2026-10-15",
-   "title": "Contexte : une voix sans sortie ni client est différée, jamais « livrée »",
-   "area": "IA"
-  },
-  {
-   "date": "2026-10-15",
-   "title": "HUD : plus aucune trace de l'ancienne interface",
+   "date": "2026-11-13",
+   "title": "Pilote du téléphone : gestes bornés à l'écran, répétitions repérées quel que soit l'ordre des arguments",
    "area": "Interface"
   },
   {
-   "date": "2026-10-14",
-   "title": "Night Shift : meilleur.idee.md devient l'état (fait, reste à faire), v1 retirée",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-14",
-   "title": "Night Shift : phase 2, pas de doublon et clé absente des journaux — prouvés",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-14",
-   "title": "Night Shift : un bon correctif n'est plus rejeté pour des chemins ruff",
-   "area": "Fiabilité"
-  },
-  {
-   "date": "2026-10-14",
-   "title": "Night Shift : réancrer les diffs du modèle (leçon du premier vrai run)",
-   "area": "Fiabilité"
-  },
-  {
-   "date": "2026-10-14",
-   "title": "Night Shift, phases 4 et 5 : mesurer si Matthew s'améliore, réveiller le PC",
-   "area": "Fiabilité"
-  },
-  {
-   "date": "2026-10-14",
-   "title": "Night Shift, phase 3 : la mémoire et le backlog",
-   "area": "Fiabilité"
-  },
-  {
-   "date": "2026-10-14",
-   "title": "Night Shift, phase 2 : une seule tâche IA par nuit, prouvée par les suites",
-   "area": "Fiabilité"
-  },
-  {
-   "date": "2026-10-14",
-   "title": "meilleur.idee.md : phase 1 validée, avec ses preuves",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-14",
-   "title": "Night Shift : clientdesktop mesurable sous Linux, premier run consigné",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-14",
-   "title": "Night Shift, phase 1 : le veilleur de nuit, sans IA",
-   "area": "Fiabilité"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "ajout d'un changement drastique",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "Robustesse, relais hors-ligne, MCP et skills",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "HUD : onglet USAGE — les économies tiennent-elles, quels outils échouent",
+   "date": "2026-11-13",
+   "title": "Pilote du téléphone : garde-fous contre les boucles",
    "area": "Interface"
   },
   {
-   "date": "2026-10-13",
-   "title": "Une seule mémoire, commune à tous les PC",
-   "area": "IA"
+   "date": "2026-11-13",
+   "title": "Pilote du téléphone : ouvrir l'appli par son paquet exact, étapes journalisées",
+   "area": "Interface"
   },
   {
-   "date": "2026-10-13",
-   "title": "Graphe : point de retour V1 et clé TLS après le nettoyage de l'historique",
+   "date": "2026-11-13",
+   "title": "graphe android : applis de l'utilisateur relayées au serveur, essais sur le Redmi",
    "area": "Système"
   },
   {
-   "date": "2026-10-13",
-   "title": "Graphe : états recalculés en fin de session (11/11 suites, 17/17 sondes réelles)",
+   "date": "2026-11-13",
+   "title": "Les applis de l'utilisateur connues du serveur : l'agenda d'Oracle renvoie vers Shared",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "graphes : diagnostics, économie, routines, hors ligne, Opus, mise en route, Auto/Wear, mot d'éveil",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Android : plus aucun texte anglais ni « Matthew » visible (onglet ESPRIT, écran développeur, canaux)",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Mot d'éveil « Hey Matthew » : modèle publié par Oracle, sensibilité, score en direct",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Micro du téléphone en Opus (10 fois moins de données), repli automatique en PCM",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Android : mode hors ligne — Matthew injoignable, le téléphone répond quand même",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "outil phone : routines et journal décrits pour Gemini",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Android : mode économie et habitudes d'applis",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Android : historique cherchable, mise en route guidée, widget vivant",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Android : APK 35 → 15,6 Mo, écran verrouillé, Android Auto/Wear, version suivie",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Diagnostics du téléphone lisibles sur Oracle (/api/phone/diag)",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Android : mise à jour par une page d'Oracle, applis de l'utilisateur, boutons réparés",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "serveur : un téléphone connecté ne passe plus « hors ligne » au bout de 90 s",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Android : ouvrir l'appli relance la connexion (indispensable après une mise à jour)",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Android : la confirmation d'installation ne se perd plus en arrière-plan",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Android : mise à jour réparée et écran de chargement au lancement",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "apkcheck : lire les signataires au format des build-tools 37",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "Android : voix interruptible, quotidien, appairage par QR, jeton chiffré, français",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "graphe deployment : Oracle déployé en 93c2ab5, session Live rétablie",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "meeting : l'alerte de silence n'est plus répétée dans l'en-tête du compte rendu",
+   "area": "Voix"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "clientdesktop selftest : ne plus écrire dans la vraie configuration sous Linux",
+   "area": "Interface"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "gitignore : memory/monitors.json (état des sujets suivis, écrit à l'exécution)",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "resilience : plus de reconnexion en rafale quand tous les modèles Live sont au repos",
    "area": "Fiabilité"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "Ménage : 15 imports inutilisés retirés",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "Cognition : preuve et rappel par le sens (embeddings locaux)",
-   "area": "IA"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "Objectifs : le budget compte ce que Matthew fait, pas seulement ce qu'il déclare",
-   "area": "IA"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "Rappels : Matthew les livre lui-même (HUD, téléphone, voix)",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "main : /api/wake réveille Matthew, interruption à la voix en option",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "Cognition : « name » trouve « name: Teddy » (rappel non déterministe corrigé)",
-   "area": "IA"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "evallab : corpus et graphes en LF, la « dérive » du corpus legacy n'était que des CRLF",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "Vérification réelle des outils : le graphe dit ce qui a été prouvé",
-   "area": "Fiabilité"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "Corrige repositoryreview (client fermé) et YouTube trending (page supprimée)",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "Tokens : contexte Live plafonné, outils allégés, briefing en titres seuls",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "Graphe des capacités : Matthew connaît et montre ce qu'il sait faire",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "Retire l'avatar : visage 3D, presence/, setpresence, visage Android",
-   "area": "Système"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "Cognition phases 7-8 : autonomie contrôlée, oubli par sujet, évaluation",
-   "area": "IA"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "Cognition phase 6 et panneau ESPRIT : modèle de soi, calibration, revue au HUD",
-   "area": "IA"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "Cognition phase 5 : objectifs persistants, approuvés par l'utilisateur",
-   "area": "IA"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "Cognition phases 3-4 : moteur émotionnel, réflexion citée, second avis",
-   "area": "IA"
-  },
-  {
-   "date": "2026-10-13",
-   "title": "Cognition phases 1-2 : constitution, journal d'événements, mémoire avec provenance",
-   "area": "IA"
   }
  ],
- "live": null,
- "next": {
-  "at": "2026-11-05T02:30:00+01:00",
-  "enabled": true
+ "live": {
+  "phase": "exam",
+  "epoch": null,
+  "epochs": 0,
+  "losses": [],
+  "since": "2026-11-24 10:12",
+  "done": 696,
+  "total": 696,
+  "right": 600
  },
+ "next": null,
  "counters": {
-  "tokens": 3279846,
+  "tokens": 4710542,
   "gpu_hours": 1.41,
   "nights": 5,
-  "streak": 1
+  "streak": 2
  },
  "specialties": []
 }
