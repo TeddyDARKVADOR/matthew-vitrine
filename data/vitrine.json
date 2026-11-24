@@ -1682,16 +1682,7 @@
    "area": "Système"
   }
  ],
- "live": {
-  "phase": "exam",
-  "epoch": null,
-  "epochs": 0,
-  "losses": [],
-  "since": "2026-11-24 10:12",
-  "done": 696,
-  "total": 696,
-  "right": 600
- },
+ "live": null,
  "next": null,
  "counters": {
   "tokens": 4759513,
