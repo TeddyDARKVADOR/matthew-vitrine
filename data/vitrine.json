@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-11-25 16:01",
+ "generated": "2026-11-25 16:28",
  "champion": {
   "since": "2026-11-25",
   "base": "Qwen/Qwen3.5-4B",
@@ -1025,7 +1025,7 @@
   }
  ],
  "tokens": {
-  "matthew": 8630387,
+  "matthew": 9030112,
   "school": 831962
  },
  "showcase": [
@@ -1038,7 +1038,7 @@
     "2026-11-25": {
      "chosen": "agenda",
      "ok": true,
-     "ms": 16917,
+     "ms": 18972,
      "answer": null
     }
    }
@@ -1052,7 +1052,7 @@
     "2026-11-25": {
      "chosen": "briefing",
      "ok": true,
-     "ms": 16263,
+     "ms": 15381,
      "answer": null
     }
    }
@@ -1066,7 +1066,7 @@
     "2026-11-25": {
      "chosen": "browser_control",
      "ok": true,
-     "ms": 19386,
+     "ms": 18706,
      "answer": null
     }
    }
@@ -1080,7 +1080,7 @@
     "2026-11-25": {
      "chosen": "capabilities",
      "ok": true,
-     "ms": 17245,
+     "ms": 10366,
      "answer": null
     }
    }
@@ -1094,7 +1094,7 @@
     "2026-11-25": {
      "chosen": "close_camera",
      "ok": true,
-     "ms": 14639,
+     "ms": 8577,
      "answer": null
     }
    }
@@ -1108,7 +1108,7 @@
     "2026-11-25": {
      "chosen": "code_helper",
      "ok": true,
-     "ms": 19134,
+     "ms": 13929,
      "answer": null
     }
    }
@@ -1122,7 +1122,7 @@
     "2026-11-25": {
      "chosen": "code_studio",
      "ok": true,
-     "ms": 18112,
+     "ms": 12108,
      "answer": null
     }
    }
@@ -1136,7 +1136,7 @@
     "2026-11-25": {
      "chosen": "computer_control",
      "ok": true,
-     "ms": 18341,
+     "ms": 14454,
      "answer": null
     }
    }
@@ -1150,7 +1150,7 @@
     "2026-11-25": {
      "chosen": "computer_settings",
      "ok": true,
-     "ms": 17069,
+     "ms": 10710,
      "answer": null
     }
    }
@@ -1164,7 +1164,7 @@
     "2026-11-25": {
      "chosen": "decisions",
      "ok": true,
-     "ms": 16467,
+     "ms": 10592,
      "answer": null
     }
    }
@@ -1178,7 +1178,7 @@
     "2026-11-25": {
      "chosen": "deep_research",
      "ok": true,
-     "ms": 20268,
+     "ms": 12153,
      "answer": null
     }
    }
@@ -1192,7 +1192,7 @@
     "2026-11-25": {
      "chosen": "desktop_control",
      "ok": true,
-     "ms": 17470,
+     "ms": 12861,
      "answer": null
     }
    }
@@ -1206,7 +1206,7 @@
     "2026-11-25": {
      "chosen": "documents",
      "ok": true,
-     "ms": 20073,
+     "ms": 11543,
      "answer": null
     }
    }
@@ -1220,7 +1220,7 @@
     "2026-11-25": {
      "chosen": "email",
      "ok": true,
-     "ms": 17317,
+     "ms": 10899,
      "answer": null
     }
    }
@@ -1234,7 +1234,7 @@
     "2026-11-25": {
      "chosen": "extensions",
      "ok": true,
-     "ms": 16748,
+     "ms": 10375,
      "answer": null
     }
    }
@@ -1248,7 +1248,7 @@
     "2026-11-25": {
      "chosen": "file_controller",
      "ok": true,
-     "ms": 19575,
+     "ms": 14592,
      "answer": null
     }
    }
@@ -1262,7 +1262,7 @@
     "2026-11-25": {
      "chosen": "file_processor",
      "ok": true,
-     "ms": 18357,
+     "ms": 13870,
      "answer": null
     }
    }
@@ -1276,7 +1276,7 @@
     "2026-11-25": {
      "chosen": "flight_finder",
      "ok": true,
-     "ms": 21181,
+     "ms": 17151,
      "answer": null
     }
    }
@@ -1290,7 +1290,7 @@
     "2026-11-25": {
      "chosen": "forget_about",
      "ok": true,
-     "ms": 17292,
+     "ms": 11005,
      "answer": null
     }
    }
@@ -1304,7 +1304,7 @@
     "2026-11-25": {
      "chosen": "game_updater",
      "ok": true,
-     "ms": 20400,
+     "ms": 14357,
      "answer": null
     }
    }
@@ -1318,7 +1318,7 @@
     "2026-11-25": {
      "chosen": "goals",
      "ok": true,
-     "ms": 17214,
+     "ms": 10569,
      "answer": null
     }
    }
@@ -1332,7 +1332,7 @@
     "2026-11-25": {
      "chosen": "incidents",
      "ok": true,
-     "ms": 17359,
+     "ms": 10042,
      "answer": null
     }
    }
@@ -1346,7 +1346,7 @@
     "2026-11-25": {
      "chosen": "local_health_check",
      "ok": true,
-     "ms": 16420,
+     "ms": 8596,
      "answer": null
     }
    }
@@ -1360,7 +1360,7 @@
     "2026-11-25": {
      "chosen": "manage_monitor",
      "ok": true,
-     "ms": 17056,
+     "ms": 9202,
      "answer": null
     }
    }
@@ -1374,7 +1374,7 @@
     "2026-11-25": {
      "chosen": "matthew",
      "ok": true,
-     "ms": 18731,
+     "ms": 11706,
      "answer": null
     }
    }
@@ -1388,7 +1388,7 @@
     "2026-11-25": {
      "chosen": "mcp",
      "ok": true,
-     "ms": 17491,
+     "ms": 9656,
      "answer": null
     }
    }
@@ -1402,7 +1402,7 @@
     "2026-11-25": {
      "chosen": "meeting",
      "ok": true,
-     "ms": 17121,
+     "ms": 9398,
      "answer": null
     }
    }
@@ -1416,7 +1416,7 @@
     "2026-11-25": {
      "chosen": "model_compare",
      "ok": true,
-     "ms": 58886,
+     "ms": 11401,
      "answer": null
     }
    }
@@ -1430,7 +1430,7 @@
     "2026-11-25": {
      "chosen": "music",
      "ok": true,
-     "ms": 17937,
+     "ms": 11125,
      "answer": null
     }
    }
@@ -1444,7 +1444,7 @@
     "2026-11-25": {
      "chosen": "open_app",
      "ok": true,
-     "ms": 17492,
+     "ms": 9214,
      "answer": null
     }
    }
@@ -1458,7 +1458,7 @@
     "2026-11-25": {
      "chosen": "open_itinerary",
      "ok": true,
-     "ms": 18144,
+     "ms": 12743,
      "answer": null
     }
    }
@@ -1472,7 +1472,7 @@
     "2026-11-25": {
      "chosen": "phone",
      "ok": true,
-     "ms": 18637,
+     "ms": 11361,
      "answer": null
     }
    }
@@ -1486,7 +1486,7 @@
     "2026-11-25": {
      "chosen": "pilot",
      "ok": true,
-     "ms": 20398,
+     "ms": 14101,
      "answer": null
     }
    }
@@ -1500,7 +1500,7 @@
     "2026-11-25": {
      "chosen": "portable",
      "ok": true,
-     "ms": 17381,
+     "ms": 9744,
      "answer": null
     }
    }
@@ -1514,7 +1514,7 @@
     "2026-11-25": {
      "chosen": "quotas",
      "ok": true,
-     "ms": 20125,
+     "ms": 12387,
      "answer": null
     }
    }
@@ -1528,7 +1528,7 @@
     "2026-11-25": {
      "chosen": "recall_conversation",
      "ok": true,
-     "ms": 16844,
+     "ms": 11670,
      "answer": null
     }
    }
@@ -1542,7 +1542,7 @@
     "2026-11-25": {
      "chosen": "recall_episodes",
      "ok": true,
-     "ms": 16853,
+     "ms": 11619,
      "answer": null
     }
    }
@@ -1556,7 +1556,7 @@
     "2026-11-25": {
      "chosen": "recall_memory",
      "ok": true,
-     "ms": 15765,
+     "ms": 9008,
      "answer": null
     }
    }
@@ -1570,7 +1570,7 @@
     "2026-11-25": {
      "chosen": "reminder",
      "ok": true,
-     "ms": 9029,
+     "ms": 13150,
      "answer": null
     }
    }
@@ -1584,7 +1584,7 @@
     "2026-11-25": {
      "chosen": "repository_review",
      "ok": true,
-     "ms": 17300,
+     "ms": 12432,
      "answer": null
     }
    }
@@ -1598,7 +1598,7 @@
     "2026-11-25": {
      "chosen": "save_memory",
      "ok": true,
-     "ms": 17206,
+     "ms": 7307,
      "answer": null
     }
    }
@@ -1612,7 +1612,7 @@
     "2026-11-25": {
      "chosen": "screen_process",
      "ok": true,
-     "ms": 17995,
+     "ms": 10883,
      "answer": null
     }
    }
@@ -1626,7 +1626,7 @@
     "2026-11-25": {
      "chosen": "self_state",
      "ok": true,
-     "ms": 15522,
+     "ms": 9496,
      "answer": null
     }
    }
@@ -1640,7 +1640,7 @@
     "2026-11-25": {
      "chosen": "send_message",
      "ok": true,
-     "ms": 18310,
+     "ms": 14198,
      "answer": null
     }
    }
@@ -1654,7 +1654,7 @@
     "2026-11-25": {
      "chosen": "pilot",
      "ok": false,
-     "ms": 15747,
+     "ms": 11642,
      "answer": null
     }
    }
@@ -1668,7 +1668,7 @@
     "2026-11-25": {
      "chosen": "skills",
      "ok": true,
-     "ms": 17726,
+     "ms": 11115,
      "answer": null
     }
    }
@@ -1682,7 +1682,7 @@
     "2026-11-25": {
      "chosen": "system_status",
      "ok": true,
-     "ms": 56825,
+     "ms": 11169,
      "answer": null
     }
    }
@@ -1696,7 +1696,7 @@
     "2026-11-25": {
      "chosen": "undo",
      "ok": true,
-     "ms": 17327,
+     "ms": 10834,
      "answer": null
     }
    }
@@ -1710,7 +1710,7 @@
     "2026-11-25": {
      "chosen": null,
      "ok": true,
-     "ms": 19915,
+     "ms": 18216,
      "answer": "J'aime les deux, mais si je devais choisir, je dirais les chats – ils sont toujours un mystère et toujours amusants. Et toi, tu es plutôt chat ou chien ?"
     }
    }
@@ -1724,7 +1724,7 @@
     "2026-11-25": {
      "chosen": null,
      "ok": true,
-     "ms": 17339,
+     "ms": 9006,
      "answer": "Bonne soirée, à demain !"
     }
    }
@@ -1738,7 +1738,7 @@
     "2026-11-25": {
      "chosen": null,
      "ok": true,
-     "ms": 17830,
+     "ms": 9782,
      "answer": "Bien sûr, je peux reformuler ta dernière phrase."
     }
    }
@@ -1752,7 +1752,7 @@
     "2026-11-25": {
      "chosen": null,
      "ok": true,
-     "ms": 18943,
+     "ms": 11014,
      "answer": "De rien, c'est avec plaisir ! Je suis là si tu as besoin de quoi que ce soit d'autre."
     }
    }
@@ -1766,7 +1766,7 @@
     "2026-11-25": {
      "chosen": null,
      "ok": true,
-     "ms": 19502,
+     "ms": 15398,
      "answer": "Je n'ai pas d'outil pour allumer le chauffage de ton chalet. Je peux par contre vérifier si tu as un agenda de maintenance ou un rappel pour le faire."
     }
    }
@@ -1780,7 +1780,7 @@
     "2026-11-25": {
      "chosen": null,
      "ok": true,
-     "ms": 18216,
+     "ms": 11040,
      "answer": "Je n'ai pas d'outil pour commander le chauffage, je ne peux pas le faire à ta place."
     }
    }
@@ -1794,7 +1794,7 @@
     "2026-11-25": {
      "chosen": null,
      "ok": true,
-     "ms": 17894,
+     "ms": 10206,
      "answer": "Je n'ai pas d'outil pour faire ça pour le moment."
     }
    }
@@ -1808,7 +1808,7 @@
     "2026-11-25": {
      "chosen": null,
      "ok": true,
-     "ms": 19264,
+     "ms": 13414,
      "answer": "Je n'ai pas d'outil pour réserver un rendez-vous médical — je ne peux pas accéder au système de réservation de votre clinique. Je peux par contre vous ouvrir le site de votre dentiste ou vous envoyer un message pour que"
     }
    }
@@ -2222,13 +2222,13 @@
   "epochs": 0,
   "losses": [],
   "since": "2026-11-25 13:41",
-  "done": 683,
+  "done": 722,
   "total": 722,
-  "right": 593
+  "right": 628
  },
  "next": null,
  "counters": {
-  "tokens": 8630387,
+  "tokens": 9030112,
   "gpu_hours": 1.41,
   "nights": 5,
   "streak": 3
