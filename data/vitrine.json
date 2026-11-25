@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-11-25 09:09",
+ "generated": "2026-11-25 09:17",
  "champion": {
   "since": "2026-10-21",
   "base": "Qwen/Qwen3.5-4B",
@@ -950,7 +950,7 @@
   }
  ],
  "tokens": {
-  "matthew": 5030604,
+  "matthew": 5133211,
   "school": 831962
  },
  "showcase": [
@@ -1755,13 +1755,13 @@
   "epochs": 0,
   "losses": [],
   "since": "2026-11-25 09:03",
-  "done": 56,
+  "done": 128,
   "total": 722,
-  "right": 51
+  "right": 110
  },
  "next": null,
  "counters": {
-  "tokens": 5030604,
+  "tokens": 5133211,
   "gpu_hours": 1.41,
   "nights": 5,
   "streak": 2
