@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-11-24 12:02",
+ "generated": "2026-11-25 09:03",
  "champion": {
   "since": "2026-10-21",
   "base": "Qwen/Qwen3.5-4B",
@@ -1350,6 +1350,16 @@
  "changes": [
   {
    "date": "2026-11-24",
+   "title": "PC cerveau : la passerelle de Matthew en tâche Matthew-Passerelle (Tailscale seulement)",
+   "area": "Système"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "Passerelle : jamais d'appel vers un outil que la requête n'a pas proposé",
+   "area": "IA"
+  },
+  {
+   "date": "2026-11-24",
    "title": "Suiveur du tournoi Kaggle sur le PC cerveau : le direct de la vitrine pendant l'entraînement",
    "area": "IA"
   },
@@ -1737,19 +1747,15 @@
    "date": "2026-11-13",
    "title": "apkcheck : lire les signataires au format des build-tools 37",
    "area": "Système"
-  },
-  {
-   "date": "2026-11-13",
-   "title": "Android : voix interruptible, quotidien, appairage par QR, jeton chiffré, français",
-   "area": "Interface"
-  },
-  {
-   "date": "2026-11-13",
-   "title": "graphe deployment : Oracle déployé en 93c2ab5, session Live rétablie",
-   "area": "Système"
   }
  ],
- "live": null,
+ "live": {
+  "phase": "import",
+  "epoch": null,
+  "epochs": 0,
+  "losses": [],
+  "since": "2026-11-25 09:03"
+ },
  "next": null,
  "counters": {
   "tokens": 4948251,
