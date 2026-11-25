@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-11-25 16:28",
+ "generated": "2026-11-25 19:52",
  "champion": {
   "since": "2026-11-25",
   "base": "Qwen/Qwen3.5-4B",
@@ -36,7 +36,7 @@
    "domain": "Système",
    "learned_on": "2026-10-22",
    "examples": 8,
-   "accuracy": 0.875
+   "accuracy": 0.75
   },
   {
    "id": "close_camera",
@@ -81,7 +81,7 @@
    "domain": "Mémoire",
    "learned_on": "2026-10-22",
    "examples": 40,
-   "accuracy": 0.833
+   "accuracy": 0.75
   },
   {
    "id": "undo",
@@ -90,7 +90,7 @@
    "domain": "Bureau",
    "learned_on": "2026-10-22",
    "examples": 43,
-   "accuracy": 1.0
+   "accuracy": 0.917
   },
   {
    "id": "browser_control",
@@ -99,7 +99,7 @@
    "domain": "Bureau",
    "learned_on": "2026-10-22",
    "examples": 27,
-   "accuracy": 0.958
+   "accuracy": 0.833
   },
   {
    "id": "code_helper",
@@ -108,7 +108,7 @@
    "domain": "Code",
    "learned_on": "2026-10-22",
    "examples": 13,
-   "accuracy": 1.0
+   "accuracy": 0.794
   },
   {
    "id": "code_studio",
@@ -117,7 +117,7 @@
    "domain": "Code",
    "learned_on": "2026-10-22",
    "examples": 24,
-   "accuracy": 1.0
+   "accuracy": 0.5
   },
   {
    "id": "computer_control",
@@ -126,7 +126,7 @@
    "domain": "Bureau",
    "learned_on": "2026-10-22",
    "examples": 31,
-   "accuracy": 0.867
+   "accuracy": 0.833
   },
   {
    "id": "computer_settings",
@@ -135,7 +135,7 @@
    "domain": "Système",
    "learned_on": "2026-10-22",
    "examples": 42,
-   "accuracy": 0.833
+   "accuracy": 0.917
   },
   {
    "id": "desktop_control",
@@ -153,7 +153,7 @@
    "domain": "Bureau",
    "learned_on": "2026-10-22",
    "examples": 33,
-   "accuracy": 0.917
+   "accuracy": 0.817
   },
   {
    "id": "file_processor",
@@ -162,7 +162,7 @@
    "domain": "Bureau",
    "learned_on": "2026-10-22",
    "examples": 41,
-   "accuracy": 1.0
+   "accuracy": 0.972
   },
   {
    "id": "flight_finder",
@@ -171,7 +171,7 @@
    "domain": "Infos",
    "learned_on": "2026-10-22",
    "examples": 42,
-   "accuracy": 1.0
+   "accuracy": 0.976
   },
   {
    "id": "game_updater",
@@ -180,7 +180,7 @@
    "domain": "Système",
    "learned_on": "2026-10-22",
    "examples": 44,
-   "accuracy": 1.0
+   "accuracy": 0.861
   },
   {
    "id": "open_app",
@@ -198,7 +198,7 @@
    "domain": "Communication",
    "learned_on": "2026-10-22",
    "examples": 44,
-   "accuracy": 0.952
+   "accuracy": 0.857
   },
   {
    "id": "repository_review",
@@ -207,7 +207,7 @@
    "domain": "Code",
    "learned_on": "2026-10-22",
    "examples": 39,
-   "accuracy": 0.972
+   "accuracy": 0.625
   },
   {
    "id": "send_message",
@@ -243,7 +243,7 @@
    "domain": "Infos",
    "learned_on": "2026-10-22",
    "examples": 31,
-   "accuracy": 0.85
+   "accuracy": 0.575
   },
   {
    "id": "youtube_video",
@@ -252,7 +252,7 @@
    "domain": "Infos",
    "learned_on": "2026-10-22",
    "examples": 36,
-   "accuracy": 0.9
+   "accuracy": 0.75
   },
   {
    "id": "agenda",
@@ -261,7 +261,7 @@
    "domain": "Autres",
    "learned_on": "2026-11-19",
    "examples": 25,
-   "accuracy": 0.75
+   "accuracy": 0.658
   },
   {
    "id": "briefing",
@@ -288,7 +288,7 @@
    "domain": "Noyau",
    "learned_on": "2026-10-22",
    "examples": 29,
-   "accuracy": 0.938
+   "accuracy": 0.896
   },
   {
    "id": "decisions",
@@ -333,7 +333,7 @@
    "domain": "Noyau",
    "learned_on": "2026-10-22",
    "examples": 43,
-   "accuracy": 0.958
+   "accuracy": 0.917
   },
   {
    "id": "forget_about",
@@ -342,7 +342,7 @@
    "domain": "Mémoire",
    "learned_on": "2026-10-22",
    "examples": 32,
-   "accuracy": 0.8
+   "accuracy": 0.7
   },
   {
    "id": "goals",
@@ -351,7 +351,7 @@
    "domain": "Mémoire",
    "learned_on": "2026-10-22",
    "examples": 26,
-   "accuracy": 1.0
+   "accuracy": 0.887
   },
   {
    "id": "incidents",
@@ -369,7 +369,7 @@
    "domain": "Système",
    "learned_on": "2026-10-22",
    "examples": 42,
-   "accuracy": 1.0
+   "accuracy": 0.833
   },
   {
    "id": "matthew",
@@ -378,7 +378,7 @@
    "domain": "Noyau",
    "learned_on": "2026-10-22",
    "examples": 43,
-   "accuracy": 0.792
+   "accuracy": 0.833
   },
   {
    "id": "mcp",
@@ -387,7 +387,7 @@
    "domain": "Noyau",
    "learned_on": "2026-10-22",
    "examples": 9,
-   "accuracy": 1.0
+   "accuracy": 0.944
   },
   {
    "id": "meeting",
@@ -396,7 +396,7 @@
    "domain": "Communication",
    "learned_on": "2026-10-22",
    "examples": 38,
-   "accuracy": 1.0
+   "accuracy": 0.8
   },
   {
    "id": "model_compare",
@@ -441,7 +441,7 @@
    "domain": "Bureau",
    "learned_on": "2026-10-22",
    "examples": 39,
-   "accuracy": 0.583
+   "accuracy": 0.458
   },
   {
    "id": "portable",
@@ -952,6 +952,69 @@
     "web_search": 0.85,
     "youtube_video": 0.9
    }
+  },
+  {
+   "date": "2026-11-25",
+   "score": {
+    "composite": 0.891,
+    "tool_name": 0.96,
+    "tool_args": 0.814,
+    "irrelevance": 0.863,
+    "valid": 1.0,
+    "latency_p50": 4.417
+   },
+   "promoted": false,
+   "examples": 0,
+   "per_tool": {
+    "agenda": 0.658,
+    "briefing": 1.0,
+    "browser_control": 0.833,
+    "capabilities": 0.896,
+    "close_camera": 1.0,
+    "code_helper": 0.794,
+    "code_studio": 0.5,
+    "computer_control": 0.833,
+    "computer_settings": 0.917,
+    "decisions": 1.0,
+    "deep_research": 0.75,
+    "desktop_control": 1.0,
+    "documents": 1.0,
+    "extensions": 0.917,
+    "file_controller": 0.817,
+    "file_processor": 0.972,
+    "flight_finder": 0.976,
+    "forget_about": 0.7,
+    "game_updater": 0.861,
+    "goals": 0.887,
+    "incidents": 1.0,
+    "local_health_check": 0.833,
+    "manage_monitor": 1.0,
+    "matthew": 0.833,
+    "mcp": 0.944,
+    "meeting": 0.8,
+    "model_compare": 0.75,
+    "open_app": 1.0,
+    "open_itinerary": 1.0,
+    "pilot": 0.458,
+    "portable": 1.0,
+    "quotas": 1.0,
+    "recall_episodes": 0.917,
+    "recall_memory": 0.75,
+    "reminder": 0.857,
+    "repository_review": 0.625,
+    "save_memory": 0.958,
+    "screen_process": 0.75,
+    "self_state": 1.0,
+    "send_message": 0.944,
+    "shutdown": 1.0,
+    "skills": 1.0,
+    "system_status": 1.0,
+    "undo": 0.917,
+    "usage_report": 1.0,
+    "weather_report": 1.0,
+    "web_search": 0.575,
+    "youtube_video": 0.75
+   }
   }
  ],
  "cycles": [
@@ -1022,10 +1085,14 @@
   {
    "date": "2026-11-25",
    "outcome": "nouveau champion"
+  },
+  {
+   "date": "2026-11-25",
+   "outcome": "candidat non promu"
   }
  ],
  "tokens": {
-  "matthew": 9030112,
+  "matthew": 9258040,
   "school": 831962
  },
  "showcase": [
@@ -1038,7 +1105,7 @@
     "2026-11-25": {
      "chosen": "agenda",
      "ok": true,
-     "ms": 18972,
+     "ms": 27076,
      "answer": null
     }
    }
@@ -1052,7 +1119,7 @@
     "2026-11-25": {
      "chosen": "briefing",
      "ok": true,
-     "ms": 15381,
+     "ms": 11035,
      "answer": null
     }
    }
@@ -1066,7 +1133,7 @@
     "2026-11-25": {
      "chosen": "browser_control",
      "ok": true,
-     "ms": 18706,
+     "ms": 17062,
      "answer": null
     }
    }
@@ -1080,7 +1147,7 @@
     "2026-11-25": {
      "chosen": "capabilities",
      "ok": true,
-     "ms": 10366,
+     "ms": 12053,
      "answer": null
     }
    }
@@ -1094,7 +1161,7 @@
     "2026-11-25": {
      "chosen": "close_camera",
      "ok": true,
-     "ms": 8577,
+     "ms": 8916,
      "answer": null
     }
    }
@@ -1108,7 +1175,7 @@
     "2026-11-25": {
      "chosen": "code_helper",
      "ok": true,
-     "ms": 13929,
+     "ms": 16468,
      "answer": null
     }
    }
@@ -1122,7 +1189,7 @@
     "2026-11-25": {
      "chosen": "code_studio",
      "ok": true,
-     "ms": 12108,
+     "ms": 17552,
      "answer": null
     }
    }
@@ -1136,7 +1203,7 @@
     "2026-11-25": {
      "chosen": "computer_control",
      "ok": true,
-     "ms": 14454,
+     "ms": 14649,
      "answer": null
     }
    }
@@ -1150,7 +1217,7 @@
     "2026-11-25": {
      "chosen": "computer_settings",
      "ok": true,
-     "ms": 10710,
+     "ms": 15056,
      "answer": null
     }
    }
@@ -1164,7 +1231,7 @@
     "2026-11-25": {
      "chosen": "decisions",
      "ok": true,
-     "ms": 10592,
+     "ms": 13023,
      "answer": null
     }
    }
@@ -1178,7 +1245,7 @@
     "2026-11-25": {
      "chosen": "deep_research",
      "ok": true,
-     "ms": 12153,
+     "ms": 17005,
      "answer": null
     }
    }
@@ -1192,7 +1259,7 @@
     "2026-11-25": {
      "chosen": "desktop_control",
      "ok": true,
-     "ms": 12861,
+     "ms": 11458,
      "answer": null
     }
    }
@@ -1206,7 +1273,7 @@
     "2026-11-25": {
      "chosen": "documents",
      "ok": true,
-     "ms": 11543,
+     "ms": 15022,
      "answer": null
     }
    }
@@ -1220,7 +1287,7 @@
     "2026-11-25": {
      "chosen": "email",
      "ok": true,
-     "ms": 10899,
+     "ms": 12679,
      "answer": null
     }
    }
@@ -1234,7 +1301,7 @@
     "2026-11-25": {
      "chosen": "extensions",
      "ok": true,
-     "ms": 10375,
+     "ms": 11076,
      "answer": null
     }
    }
@@ -1248,7 +1315,7 @@
     "2026-11-25": {
      "chosen": "file_controller",
      "ok": true,
-     "ms": 14592,
+     "ms": 12838,
      "answer": null
     }
    }
@@ -1262,7 +1329,7 @@
     "2026-11-25": {
      "chosen": "file_processor",
      "ok": true,
-     "ms": 13870,
+     "ms": 12591,
      "answer": null
     }
    }
@@ -1276,7 +1343,7 @@
     "2026-11-25": {
      "chosen": "flight_finder",
      "ok": true,
-     "ms": 17151,
+     "ms": 17057,
      "answer": null
     }
    }
@@ -1290,7 +1357,7 @@
     "2026-11-25": {
      "chosen": "forget_about",
      "ok": true,
-     "ms": 11005,
+     "ms": 8718,
      "answer": null
     }
    }
@@ -1304,7 +1371,7 @@
     "2026-11-25": {
      "chosen": "game_updater",
      "ok": true,
-     "ms": 14357,
+     "ms": 14513,
      "answer": null
     }
    }
@@ -1318,7 +1385,7 @@
     "2026-11-25": {
      "chosen": "goals",
      "ok": true,
-     "ms": 10569,
+     "ms": 8364,
      "answer": null
     }
    }
@@ -1332,7 +1399,7 @@
     "2026-11-25": {
      "chosen": "incidents",
      "ok": true,
-     "ms": 10042,
+     "ms": 8882,
      "answer": null
     }
    }
@@ -1346,7 +1413,7 @@
     "2026-11-25": {
      "chosen": "local_health_check",
      "ok": true,
-     "ms": 8596,
+     "ms": 6734,
      "answer": null
     }
    }
@@ -1360,7 +1427,7 @@
     "2026-11-25": {
      "chosen": "manage_monitor",
      "ok": true,
-     "ms": 9202,
+     "ms": 7935,
      "answer": null
     }
    }
@@ -1374,7 +1441,7 @@
     "2026-11-25": {
      "chosen": "matthew",
      "ok": true,
-     "ms": 11706,
+     "ms": 11841,
      "answer": null
     }
    }
@@ -1388,7 +1455,7 @@
     "2026-11-25": {
      "chosen": "mcp",
      "ok": true,
-     "ms": 9656,
+     "ms": 10028,
      "answer": null
     }
    }
@@ -1402,7 +1469,7 @@
     "2026-11-25": {
      "chosen": "meeting",
      "ok": true,
-     "ms": 9398,
+     "ms": 9550,
      "answer": null
     }
    }
@@ -1416,7 +1483,7 @@
     "2026-11-25": {
      "chosen": "model_compare",
      "ok": true,
-     "ms": 11401,
+     "ms": 11174,
      "answer": null
     }
    }
@@ -1430,7 +1497,7 @@
     "2026-11-25": {
      "chosen": "music",
      "ok": true,
-     "ms": 11125,
+     "ms": 9937,
      "answer": null
     }
    }
@@ -1444,7 +1511,7 @@
     "2026-11-25": {
      "chosen": "open_app",
      "ok": true,
-     "ms": 9214,
+     "ms": 8576,
      "answer": null
     }
    }
@@ -1458,7 +1525,7 @@
     "2026-11-25": {
      "chosen": "open_itinerary",
      "ok": true,
-     "ms": 12743,
+     "ms": 11696,
      "answer": null
     }
    }
@@ -1472,7 +1539,7 @@
     "2026-11-25": {
      "chosen": "phone",
      "ok": true,
-     "ms": 11361,
+     "ms": 12375,
      "answer": null
     }
    }
@@ -1486,7 +1553,7 @@
     "2026-11-25": {
      "chosen": "pilot",
      "ok": true,
-     "ms": 14101,
+     "ms": 16250,
      "answer": null
     }
    }
@@ -1500,7 +1567,7 @@
     "2026-11-25": {
      "chosen": "portable",
      "ok": true,
-     "ms": 9744,
+     "ms": 9773,
      "answer": null
     }
    }
@@ -1514,7 +1581,7 @@
     "2026-11-25": {
      "chosen": "quotas",
      "ok": true,
-     "ms": 12387,
+     "ms": 8374,
      "answer": null
     }
    }
@@ -1528,7 +1595,7 @@
     "2026-11-25": {
      "chosen": "recall_conversation",
      "ok": true,
-     "ms": 11670,
+     "ms": 8130,
      "answer": null
     }
    }
@@ -1542,7 +1609,7 @@
     "2026-11-25": {
      "chosen": "recall_episodes",
      "ok": true,
-     "ms": 11619,
+     "ms": 10290,
      "answer": null
     }
    }
@@ -1556,7 +1623,7 @@
     "2026-11-25": {
      "chosen": "recall_memory",
      "ok": true,
-     "ms": 9008,
+     "ms": 8742,
      "answer": null
     }
    }
@@ -1570,7 +1637,7 @@
     "2026-11-25": {
      "chosen": "reminder",
      "ok": true,
-     "ms": 13150,
+     "ms": 10906,
      "answer": null
     }
    }
@@ -1584,7 +1651,7 @@
     "2026-11-25": {
      "chosen": "repository_review",
      "ok": true,
-     "ms": 12432,
+     "ms": 10453,
      "answer": null
     }
    }
@@ -1598,7 +1665,7 @@
     "2026-11-25": {
      "chosen": "save_memory",
      "ok": true,
-     "ms": 7307,
+     "ms": 11585,
      "answer": null
     }
    }
@@ -1612,7 +1679,7 @@
     "2026-11-25": {
      "chosen": "screen_process",
      "ok": true,
-     "ms": 10883,
+     "ms": 10732,
      "answer": null
     }
    }
@@ -1626,7 +1693,7 @@
     "2026-11-25": {
      "chosen": "self_state",
      "ok": true,
-     "ms": 9496,
+     "ms": 5521,
      "answer": null
     }
    }
@@ -1640,7 +1707,7 @@
     "2026-11-25": {
      "chosen": "send_message",
      "ok": true,
-     "ms": 14198,
+     "ms": 9488,
      "answer": null
     }
    }
@@ -1654,7 +1721,7 @@
     "2026-11-25": {
      "chosen": "pilot",
      "ok": false,
-     "ms": 11642,
+     "ms": 6164,
      "answer": null
     }
    }
@@ -1668,7 +1735,7 @@
     "2026-11-25": {
      "chosen": "skills",
      "ok": true,
-     "ms": 11115,
+     "ms": 7835,
      "answer": null
     }
    }
@@ -1682,7 +1749,7 @@
     "2026-11-25": {
      "chosen": "system_status",
      "ok": true,
-     "ms": 11169,
+     "ms": 5424,
      "answer": null
     }
    }
@@ -1696,7 +1763,7 @@
     "2026-11-25": {
      "chosen": "undo",
      "ok": true,
-     "ms": 10834,
+     "ms": 6201,
      "answer": null
     }
    }
@@ -1710,7 +1777,7 @@
     "2026-11-25": {
      "chosen": null,
      "ok": true,
-     "ms": 18216,
+     "ms": 10730,
      "answer": "J'aime les deux, mais si je devais choisir, je dirais les chats – ils sont toujours un mystère et toujours amusants. Et toi, tu es plutôt chat ou chien ?"
     }
    }
@@ -1724,7 +1791,7 @@
     "2026-11-25": {
      "chosen": null,
      "ok": true,
-     "ms": 9006,
+     "ms": 6267,
      "answer": "Bonne soirée, à demain !"
     }
    }
@@ -1738,7 +1805,7 @@
     "2026-11-25": {
      "chosen": null,
      "ok": true,
-     "ms": 9782,
+     "ms": 6860,
      "answer": "Bien sûr, je peux reformuler ta dernière phrase."
     }
    }
@@ -1752,7 +1819,7 @@
     "2026-11-25": {
      "chosen": null,
      "ok": true,
-     "ms": 11014,
+     "ms": 8391,
      "answer": "De rien, c'est avec plaisir ! Je suis là si tu as besoin de quoi que ce soit d'autre."
     }
    }
@@ -1766,8 +1833,8 @@
     "2026-11-25": {
      "chosen": null,
      "ok": true,
-     "ms": 15398,
-     "answer": "Je n'ai pas d'outil pour allumer le chauffage de ton chalet. Je peux par contre vérifier si tu as un agenda de maintenance ou un rappel pour le faire."
+     "ms": 9041,
+     "answer": "Je n'ai pas d'outil pour allumer le chauffage de ton chalet. Je peux cependant vérifier si tu as un agenda ou un briefing à faire."
     }
    }
   },
@@ -1780,7 +1847,7 @@
     "2026-11-25": {
      "chosen": null,
      "ok": true,
-     "ms": 11040,
+     "ms": 7692,
      "answer": "Je n'ai pas d'outil pour commander le chauffage, je ne peux pas le faire à ta place."
     }
    }
@@ -1794,7 +1861,7 @@
     "2026-11-25": {
      "chosen": null,
      "ok": true,
-     "ms": 10206,
+     "ms": 6780,
      "answer": "Je n'ai pas d'outil pour faire ça pour le moment."
     }
    }
@@ -1808,13 +1875,18 @@
     "2026-11-25": {
      "chosen": null,
      "ok": true,
-     "ms": 13414,
-     "answer": "Je n'ai pas d'outil pour réserver un rendez-vous médical — je ne peux pas accéder au système de réservation de votre clinique. Je peux par contre vous ouvrir le site de votre dentiste ou vous envoyer un message pour que"
+     "ms": 9582,
+     "answer": "Je n'ai pas d'outil pour réserver un rendez-vous médical — je ne peux pas accéder au système de réservation de votre clinique. Je peux par contre ouvrir le lien de votre agenda ou vous envoyer un message pour que vous le"
     }
    }
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-25",
+   "title": "Flywheel : un verrou dont le processus est mort est repris tout de suite, pas après 12 h",
+   "area": "IA"
+  },
   {
    "date": "2026-11-25",
    "title": "Vitrine : une ligne de journal par processus, plus 23 fois la même pendant les duels",
@@ -2209,26 +2281,12 @@
    "date": "2026-11-13",
    "title": "Android : la confirmation d'installation ne se perd plus en arrière-plan",
    "area": "Interface"
-  },
-  {
-   "date": "2026-11-13",
-   "title": "Android : mise à jour réparée et écran de chargement au lancement",
-   "area": "Interface"
   }
  ],
- "live": {
-  "phase": "duel",
-  "epoch": null,
-  "epochs": 0,
-  "losses": [],
-  "since": "2026-11-25 13:41",
-  "done": 722,
-  "total": 722,
-  "right": 628
- },
+ "live": null,
  "next": null,
  "counters": {
-  "tokens": 9030112,
+  "tokens": 9258040,
   "gpu_hours": 1.41,
   "nights": 5,
   "streak": 3
