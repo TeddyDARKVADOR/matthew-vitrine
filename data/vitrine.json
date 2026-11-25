@@ -1,17 +1,17 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-11-25 13:11",
+ "generated": "2026-11-25 13:39",
  "champion": {
-  "since": "2026-10-21",
+  "since": "2026-11-25",
   "base": "Qwen/Qwen3.5-4B",
   "score": {
-   "composite": 0.902,
-   "tool_name": 0.974,
-   "tool_args": 0.795,
-   "irrelevance": 0.909,
+   "composite": 0.93,
+   "tool_name": 0.98,
+   "tool_args": 0.914,
+   "irrelevance": 0.863,
    "valid": 1.0,
-   "latency_p50": 1.042
+   "latency_p50": 5.736
   }
  },
  "coverage": {
@@ -54,7 +54,7 @@
    "domain": "Système",
    "learned_on": "2026-10-22",
    "examples": 43,
-   "accuracy": 0.958
+   "accuracy": 1.0
   },
   {
    "id": "shutdown",
@@ -72,7 +72,7 @@
    "domain": "Mémoire",
    "learned_on": "2026-10-22",
    "examples": 26,
-   "accuracy": 1.0
+   "accuracy": 0.958
   },
   {
    "id": "recall_memory",
@@ -126,7 +126,7 @@
    "domain": "Bureau",
    "learned_on": "2026-10-22",
    "examples": 31,
-   "accuracy": 0.967
+   "accuracy": 0.867
   },
   {
    "id": "computer_settings",
@@ -135,7 +135,7 @@
    "domain": "Système",
    "learned_on": "2026-10-22",
    "examples": 42,
-   "accuracy": 1.0
+   "accuracy": 0.833
   },
   {
    "id": "desktop_control",
@@ -153,7 +153,7 @@
    "domain": "Bureau",
    "learned_on": "2026-10-22",
    "examples": 33,
-   "accuracy": 0.967
+   "accuracy": 0.917
   },
   {
    "id": "file_processor",
@@ -198,7 +198,7 @@
    "domain": "Communication",
    "learned_on": "2026-10-22",
    "examples": 44,
-   "accuracy": 0.976
+   "accuracy": 0.952
   },
   {
    "id": "repository_review",
@@ -243,7 +243,7 @@
    "domain": "Infos",
    "learned_on": "2026-10-22",
    "examples": 31,
-   "accuracy": 0.825
+   "accuracy": 0.85
   },
   {
    "id": "youtube_video",
@@ -333,7 +333,7 @@
    "domain": "Noyau",
    "learned_on": "2026-10-22",
    "examples": 43,
-   "accuracy": 0.792
+   "accuracy": 0.958
   },
   {
    "id": "forget_about",
@@ -342,7 +342,7 @@
    "domain": "Mémoire",
    "learned_on": "2026-10-22",
    "examples": 32,
-   "accuracy": 0.7
+   "accuracy": 0.8
   },
   {
    "id": "goals",
@@ -351,7 +351,7 @@
    "domain": "Mémoire",
    "learned_on": "2026-10-22",
    "examples": 26,
-   "accuracy": 0.982
+   "accuracy": 1.0
   },
   {
    "id": "incidents",
@@ -423,7 +423,7 @@
    "domain": "Infos",
    "learned_on": "2026-10-22",
    "examples": 41,
-   "accuracy": 0.972
+   "accuracy": 1.0
   },
   {
    "id": "phone",
@@ -441,7 +441,7 @@
    "domain": "Bureau",
    "learned_on": "2026-10-22",
    "examples": 39,
-   "accuracy": 0.5
+   "accuracy": 0.583
   },
   {
    "id": "portable",
@@ -889,6 +889,69 @@
     "web_search": 0.825,
     "youtube_video": 0.9
    }
+  },
+  {
+   "date": "2026-11-25",
+   "score": {
+    "composite": 0.93,
+    "tool_name": 0.98,
+    "tool_args": 0.914,
+    "irrelevance": 0.863,
+    "valid": 1.0,
+    "latency_p50": 5.736
+   },
+   "promoted": true,
+   "examples": 0,
+   "per_tool": {
+    "agenda": 0.75,
+    "briefing": 1.0,
+    "browser_control": 0.958,
+    "capabilities": 0.938,
+    "close_camera": 1.0,
+    "code_helper": 1.0,
+    "code_studio": 1.0,
+    "computer_control": 0.867,
+    "computer_settings": 0.833,
+    "decisions": 1.0,
+    "deep_research": 0.75,
+    "desktop_control": 1.0,
+    "documents": 1.0,
+    "extensions": 0.958,
+    "file_controller": 0.917,
+    "file_processor": 1.0,
+    "flight_finder": 1.0,
+    "forget_about": 0.8,
+    "game_updater": 1.0,
+    "goals": 1.0,
+    "incidents": 1.0,
+    "local_health_check": 1.0,
+    "manage_monitor": 1.0,
+    "matthew": 0.792,
+    "mcp": 1.0,
+    "meeting": 1.0,
+    "model_compare": 0.75,
+    "open_app": 1.0,
+    "open_itinerary": 1.0,
+    "pilot": 0.583,
+    "portable": 1.0,
+    "quotas": 1.0,
+    "recall_episodes": 0.917,
+    "recall_memory": 0.833,
+    "reminder": 0.952,
+    "repository_review": 0.972,
+    "save_memory": 0.958,
+    "screen_process": 0.875,
+    "self_state": 1.0,
+    "send_message": 0.944,
+    "shutdown": 1.0,
+    "skills": 1.0,
+    "system_status": 1.0,
+    "undo": 1.0,
+    "usage_report": 1.0,
+    "weather_report": 1.0,
+    "web_search": 0.85,
+    "youtube_video": 0.9
+   }
   }
  ],
  "cycles": [
@@ -955,10 +1018,14 @@
   {
    "date": "2026-11-25",
    "outcome": "occupé"
+  },
+  {
+   "date": "2026-11-25",
+   "outcome": "nouveau champion"
   }
  ],
  "tokens": {
-  "matthew": 6217076,
+  "matthew": 6615269,
   "school": 831962
  },
  "showcase": [
@@ -967,392 +1034,784 @@
    "request": "Programme une session de yoga le 10 août 2027 à 07h15, durée 60 minutes, dans le studio Zen.",
    "target": "agenda",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "agenda",
+     "ok": true,
+     "ms": 11996,
+     "answer": null
+    }
+   }
   },
   {
    "id": "1444f94a",
    "request": "S'il te plaît, fais‑moi le briefing.",
    "target": "briefing",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "briefing",
+     "ok": true,
+     "ms": 5293,
+     "answer": null
+    }
+   }
   },
   {
    "id": "038860c2",
    "request": "Je lis cet article sur l’intelligence artificielle dans le domaine de la santé, c’est super long, fais défiler la page vers le bas, disons 1200 pixels, je suis sur Chrome.",
    "target": "browser_control",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "browser_control",
+     "ok": true,
+     "ms": 8434,
+     "answer": null
+    }
+   }
   },
   {
    "id": "3f2f5ae2",
    "request": "Est‑ce que je peux lancer un déploiement depuis le studio ?",
    "target": "capabilities",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "capabilities",
+     "ok": true,
+     "ms": 6287,
+     "answer": null
+    }
+   }
   },
   {
    "id": "0f73f887",
    "request": "Hey, stoppe la caméra, j’ai reçu un appel et je ne veux pas que les gens voient mon arrière‑plan.",
    "target": "close_camera",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "close_camera",
+     "ok": true,
+     "ms": 4305,
+     "answer": null
+    }
+   }
   },
   {
    "id": "47612c08",
    "request": "Ok, montre moi comment tourne le fichier c:\\users\\jean\\desktop\\calc.exe avec les paramètres 5 plus 3, et fais‑le s'arrêter après 10s.",
    "target": "code_helper",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "code_helper",
+     "ok": true,
+     "ms": 8144,
+     "answer": null
+    }
+   }
   },
   {
    "id": "7884703c",
    "request": "Supprime le fichier tests/old_test.py du projet JeuDeMines.",
    "target": "code_studio",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "code_studio",
+     "ok": true,
+     "ms": 8066,
+     "answer": null
+    }
+   }
   },
   {
    "id": "4d46bc86",
    "request": "Déplace la souris à la position 1240, 340.",
    "target": "computer_control",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "computer_control",
+     "ok": true,
+     "ms": 7785,
+     "answer": null
+    }
+   }
   },
   {
    "id": "1aac8639",
    "request": "Ferme l'application Chrome.",
    "target": "computer_settings",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "computer_settings",
+     "ok": true,
+     "ms": 6679,
+     "answer": null
+    }
+   }
   },
   {
    "id": "17c7fdf1",
    "request": "Ton initiative de mettre en pause la mise à jour Windows était vraiment bien, bon travail.",
    "target": "decisions",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "decisions",
+     "ok": true,
+     "ms": 6150,
+     "answer": null
+    }
+   }
   },
   {
    "id": "65b7fa5d",
    "request": "Hey, fais une recherche complète sur les nouvelles régulations européennes concernant les cryptomonnaies en 2025.",
    "target": "deep_research",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "deep_research",
+     "ok": true,
+     "ms": 8063,
+     "answer": null
+    }
+   }
   },
   {
    "id": "15ace7f2",
    "request": "Donne‑moi les stats du bureau : combien de fichiers, taille totale, etc.",
    "target": "desktop_control",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "desktop_control",
+     "ok": true,
+     "ms": 5308,
+     "answer": null
+    }
+   }
   },
   {
    "id": "014ec6ba",
    "request": "Ajoute le répertoire D:\\Travail\\Projets\\2025\\Rapports.",
    "target": "documents",
    "heldout": false,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "documents",
+     "ok": true,
+     "ms": 7581,
+     "answer": null
+    }
+   }
   },
   {
    "id": "d6d081b8",
    "request": "Affiche-moi les huit derniers mails non lus de ma boîte.",
    "target": "email",
    "heldout": false,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "email",
+     "ok": true,
+     "ms": 6846,
+     "answer": null
+    }
+   }
   },
   {
    "id": "5281919a",
    "request": "Désactive, s’il te plaît, le plugin qui s’appelle auto‑update‑checker, il me dérange trop.",
    "target": "extensions",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "extensions",
+     "ok": true,
+     "ms": 6294,
+     "answer": null
+    }
+   }
   },
   {
    "id": "185198ce",
    "request": "Eh, j'ai besoin de savoir ce qui prend le plus d'espace sur mon disque, tu pourrais me montrer les plus gros dossiers du bureau, genre les cinq premiers ?",
    "target": "file_controller",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "file_controller",
+     "ok": true,
+     "ms": 6960,
+     "answer": null
+    }
+   }
   },
   {
    "id": "00b904b2",
    "request": "Montre‑moi le résumé du PDF que je viens de déposer.",
    "target": "file_processor",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "file_processor",
+     "ok": true,
+     "ms": 6963,
+     "answer": null
+    }
+   }
   },
   {
    "id": "04b308dd",
    "request": "Ok, cherche un vol du aéroport de 'San Fran' à 'Múnich' le 3 mars, retour le 10 mars, deux personnes, classe business, et note le tout, stp.",
    "target": "flight_finder",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "flight_finder",
+     "ok": true,
+     "ms": 10620,
+     "answer": null
+    }
+   }
   },
   {
    "id": "03ef029d",
    "request": "Arrête de te souvenir des anecdotes que j’ai partagées sur le jeu vidéo « Elden Ring » avec le boss final à la Forteresse de la Lune, même si j’ai noté le guide sur Notion.",
    "target": "forget_about",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "forget_about",
+     "ok": true,
+     "ms": 5845,
+     "answer": null
+    }
+   }
   },
   {
    "id": "1b4088e9",
    "request": "Euh, j'aimerais bien que mon PC se mette à jour tout seul pendant la nuit, surtout pour ce jeu de tir qu'on appelle 'Call of Duty: Modern Warfare II' sur Steam, genre à 2h30 du matin, et après il s'éteint tout seul quand c'est fini.",
    "target": "game_updater",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "game_updater",
+     "ok": true,
+     "ms": 9640,
+     "answer": null
+    }
+   }
   },
   {
    "id": "0c8909c5",
    "request": "Affiche-moi la liste des objectifs que j'ai déjà définis.",
    "target": "goals",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "goals",
+     "ok": true,
+     "ms": 5657,
+     "answer": null
+    }
+   }
   },
   {
    "id": "05777cde",
    "request": "Désactive l'envoi public de tes incidents, je ne suis plus d'accord avec le mode public.",
    "target": "incidents",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "incidents",
+     "ok": true,
+     "ms": 5946,
+     "answer": null
+    }
+   }
   },
   {
    "id": "0f2dbadf",
    "request": "Hey, quels plugins sont actifs sur mon système ? Je vérifie que le module « CalendrierPro » est présent.",
    "target": "local_health_check",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "local_health_check",
+     "ok": true,
+     "ms": 4408,
+     "answer": null
+    }
+   }
   },
   {
    "id": "1b2beadc",
    "request": "Pour finir, pourrais‑tu me lister rapidement tous les thèmes que tu surveilles, histoire de voir si j'ai oublié d'enlever quelque chose comme les news sur la météo de Paris ?",
    "target": "manage_monitor",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "manage_monitor",
+     "ok": true,
+     "ms": 5310,
+     "answer": null
+    }
+   }
   },
   {
    "id": "0519ec35",
    "request": "Hey Matthew, corrige ça : la bonne réponse était que le fichier se trouve dans C:\\Users\\Alex\\Documents\\rapport.docx",
    "target": "matthew",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "matthew",
+     "ok": true,
+     "ms": 6784,
+     "answer": null
+    }
+   }
   },
   {
    "id": "8ebfffac",
    "request": "Liste tous les serveurs configurés.",
    "target": "mcp",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "mcp",
+     "ok": true,
+     "ms": 5453,
+     "answer": null
+    }
+   }
   },
   {
    "id": "0dea852a",
    "request": "Pendant que je parle avec l'équipe du projet Alpha sur Teams, j'aimerais savoir où on en est dans le procès‑verbal, histoire de voir si on a déjà noté les décisions.",
    "target": "meeting",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "meeting",
+     "ok": true,
+     "ms": 5197,
+     "answer": null
+    }
+   }
   },
   {
    "id": "1886ca31",
    "request": "Compare les modèles sur la traduction du texte suivant en anglais : « Bonjour, comment ça va aujourd'hui ? »",
    "target": "model_compare",
    "heldout": false,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "model_compare",
+     "ok": true,
+     "ms": 6430,
+     "answer": null
+    }
+   }
   },
   {
    "id": "fc993ae7",
    "request": "Donne-moi les cinq dernières musiques reconnues aujourd'hui.",
    "target": "music",
    "heldout": false,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "music",
+     "ok": true,
+     "ms": 5456,
+     "answer": null
+    }
+   }
   },
   {
    "id": "1ba62ff3",
    "request": "Lance Notepad++ afin que je prenne des notes rapidement.",
    "target": "open_app",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "open_app",
+     "ok": true,
+     "ms": 5069,
+     "answer": null
+    }
+   }
   },
   {
    "id": "1970f16b",
    "request": "Ouvre le parcours de mon ancien itinéraire, du café 'Le Petit Coin' que j'ai fréquenté l'été dernier, à la plage de Deauville, et montre-moi le chemin en voiture.",
    "target": "open_itinerary",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "open_itinerary",
+     "ok": true,
+     "ms": 7063,
+     "answer": null
+    }
+   }
   },
   {
    "id": "42ab78f4",
    "request": "Mets la musique en pause.",
    "target": "phone",
    "heldout": false,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "phone",
+     "ok": true,
+     "ms": 7166,
+     "answer": null
+    }
+   }
   },
   {
    "id": "17fb8757",
    "request": "Peux‑tu remplir le formulaire de demande de badge sur le site intranet, en mettant mon nom Marc Dupont et le service R&D ?",
    "target": "pilot",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "pilot",
+     "ok": true,
+     "ms": 9052,
+     "answer": null
+    }
+   }
   },
   {
    "id": "593b8e5d",
    "request": "Lance un check automatique de la clé : dépendances et intégrité.",
    "target": "portable",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "portable",
+     "ok": true,
+     "ms": 5607,
+     "answer": null
+    }
+   }
   },
   {
    "id": "038c67ea",
    "request": "Combien de requêtes Gemini 1.5 restent disponibles pour le projet 'Alpha' avant que le compteur se remette à zéro demain ?",
    "target": "quotas",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "quotas",
+     "ok": true,
+     "ms": 4475,
+     "answer": null
+    }
+   }
   },
   {
    "id": "19fb98e3",
    "request": "Pouvez-vous me rappeler la liste des applications que vous m'aviez suggérées dans la conversation numéro 3 ?",
    "target": "recall_conversation",
    "heldout": false,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "recall_conversation",
+     "ok": true,
+     "ms": 4705,
+     "answer": null
+    }
+   }
   },
   {
    "id": "1b82d33b",
    "request": "Récupère la dernière conversation où on a parlé du film « The Last Horizon ».",
    "target": "recall_episodes",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "recall_episodes",
+     "ok": true,
+     "ms": 5203,
+     "answer": null
+    }
+   }
   },
   {
    "id": "00a9398a",
    "request": "Liste tout ce que tu te souviens de moi.",
    "target": "recall_memory",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "recall_memory",
+     "ok": true,
+     "ms": 4736,
+     "answer": null
+    }
+   }
   },
   {
    "id": "1a186c23",
    "request": "Je veux être prévenu le 05/11/2026 à 19 h de l’anniversaire de Paul.",
    "target": "reminder",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "reminder",
+     "ok": true,
+     "ms": 7254,
+     "answer": null
+    }
+   }
   },
   {
    "id": "1dffc833",
    "request": "Je pense que le dossier de scripts de notre appli de suivi de livraisons, celui qui est dans D:\\Work\\LogisticsApp, il y a peut‑être des fonctions redondantes, j'aimerais avoir un petit aperçu de la structure pour voir où ça coince.",
    "target": "repository_review",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "repository_review",
+     "ok": true,
+     "ms": 6219,
+     "answer": null
+    }
+   }
   },
   {
    "id": "a267727f",
    "request": "Mon film préféré, c’est Inception, je le regarde souvent.",
    "target": "save_memory",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "save_memory",
+     "ok": true,
+     "ms": 6548,
+     "answer": null
+    }
+   }
   },
   {
    "id": "4072e81b",
    "request": "Active la caméra et montre‑moi si la lumière de mon bureau est allumée.",
    "target": "screen_process",
    "heldout": false,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "screen_process",
+     "ok": true,
+     "ms": 6704,
+     "answer": null
+    }
+   }
   },
   {
    "id": "18ffc3ed",
    "request": "Dis‑moi, comment se porte ton humeur après avoir traité les 12 e‑mails de mon patron ?",
    "target": "self_state",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "self_state",
+     "ok": true,
+     "ms": 4433,
+     "answer": null
+    }
+   }
   },
   {
    "id": "2177f3fb",
    "request": "Peux-tu dire à mon collègue Thomas sur Telegram que le rapport doit être envoyé d'ici vendredi ?",
    "target": "send_message",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "send_message",
+     "ok": true,
+     "ms": 7020,
+     "answer": null
+    }
+   }
   },
   {
    "id": "5576016e",
    "request": "Ok, mets fin à la session, arrête l’assistant.",
    "target": "shutdown",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "pilot",
+     "ok": false,
+     "ms": 4800,
+     "answer": null
+    }
+   }
   },
   {
    "id": "00ba81db",
    "request": "Je veux un récapitulatif de fin de journée, liste les tâches faites et celles en suspens.",
    "target": "skills",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "skills",
+     "ok": true,
+     "ms": 5999,
+     "answer": null
+    }
+   }
   },
   {
    "id": "1412aa89",
    "request": "Est-ce que la charge de la RAM dépasse 80 % pendant que je travaille sur Excel ?",
    "target": "system_status",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "system_status",
+     "ok": true,
+     "ms": 4319,
+     "answer": null
+    }
+   }
   },
   {
    "id": "4680a6ab",
    "request": "Je me suis trompé, remets le fond d'écran que j'avais avant.",
    "target": "undo",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": "undo",
+     "ok": true,
+     "ms": 4914,
+     "answer": null
+    }
+   }
   },
   {
    "id": "0233f305",
    "request": "Dis‑moi, tu aimes les chats ou les chiens ?",
    "target": "__chat__",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": null,
+     "ok": true,
+     "ms": 8186,
+     "answer": "J'aime les deux, mais si je devais choisir, je dirais les chats – ils sont toujours un mystère et toujours amusants. Et toi, tu es plutôt chat ou chien ?"
+    }
+   }
   },
   {
    "id": "044d693a",
    "request": "Bonne soirée, à demain !",
    "target": "__chat__",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": null,
+     "ok": true,
+     "ms": 5022,
+     "answer": "Bonne soirée, à demain !"
+    }
+   }
   },
   {
    "id": "0d3a350e",
    "request": "Peux‑tu reformuler ma dernière phrase, s’il te plaît ?",
    "target": "__chat__",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": null,
+     "ok": true,
+     "ms": 5692,
+     "answer": "Bien sûr, je peux reformuler ta dernière phrase."
+    }
+   }
   },
   {
    "id": "15ad4bdf",
    "request": "C’est gentil, merci beaucoup !",
    "target": "__chat__",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": null,
+     "ok": true,
+     "ms": 6796,
+     "answer": "De rien, c'est avec plaisir ! Je suis là si tu as besoin de quoi que ce soit d'autre."
+    }
+   }
   },
   {
    "id": "06f4e5a2",
    "request": "Allume le chauffage du salon qui se trouve dans mon chalet à la montagne.",
    "target": "__none__",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": null,
+     "ok": true,
+     "ms": 7430,
+     "answer": "Je n'ai pas d'outil pour allumer le chauffage de ton chalet. Je peux par contre vérifier si tu as un agenda de maintenance ou un rappel pour le faire."
+    }
+   }
   },
   {
    "id": "098b7cd9",
    "request": "Active le chauffage de ma maison à 22 °C depuis le salon.",
    "target": "__none__",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": null,
+     "ok": true,
+     "ms": 6078,
+     "answer": "Je n'ai pas d'outil pour commander le chauffage, je ne peux pas le faire à ta place."
+    }
+   }
   },
   {
    "id": "14bf3f4e",
    "request": "Porte un discours de motivation lors de ma réunion d'équipe demain.",
    "target": "__none__",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": null,
+     "ok": true,
+     "ms": 5354,
+     "answer": "Je n'ai pas d'outil pour faire ça pour le moment."
+    }
+   }
   },
   {
    "id": "17e6cc69",
    "request": "Mets‑en place un rendez‑vous avec mon dentiste via le service de réservation médicale de ma clinique.",
    "target": "__none__",
    "heldout": true,
-   "results": {}
+   "results": {
+    "2026-11-25": {
+     "chosen": null,
+     "ok": true,
+     "ms": 7002,
+     "answer": "Je n'ai pas d'outil pour réserver un rendez-vous médical — je ne peux pas accéder au système de réservation de votre clinique. Je peux par contre vous ouvrir le site de votre dentiste ou vous envoyer un message pour que"
+    }
+   }
   }
  ],
  "changes": [
@@ -1757,22 +2216,64 @@
    "area": "Interface"
   }
  ],
- "live": {
-  "phase": "exam",
-  "epoch": null,
-  "epochs": 0,
-  "losses": [],
-  "since": "2026-11-25 09:03",
-  "done": 655,
-  "total": 722,
-  "right": 572
- },
+ "live": null,
  "next": null,
  "counters": {
-  "tokens": 6217076,
+  "tokens": 6615269,
   "gpu_hours": 1.41,
   "nights": 5,
   "streak": 3
  },
- "specialties": []
+ "specialties": [
+  {
+   "id": "outil",
+   "label": "Choisir le bon outil",
+   "label_en": "Picking the right tool",
+   "score": 0.98,
+   "floor": 0.8,
+   "reference": null,
+   "n": 361,
+   "delegated": true
+  },
+  {
+   "id": "intention",
+   "label": "Comprendre l'intention",
+   "label_en": "Understanding intent",
+   "score": 1.0,
+   "floor": 0.85,
+   "reference": 0.2,
+   "n": 20,
+   "delegated": true
+  },
+  {
+   "id": "extraction",
+   "label": "Extraire l'essentiel",
+   "label_en": "Structured extraction",
+   "score": 0.938,
+   "floor": 0.8,
+   "reference": 0.0,
+   "n": 8,
+   "delegated": true
+  },
+  {
+   "id": "juge",
+   "label": "Juger un souvenir",
+   "label_en": "Judging a memory",
+   "score": 1.0,
+   "floor": 0.8,
+   "reference": 0.5,
+   "n": 12,
+   "delegated": true
+  },
+  {
+   "id": "planif",
+   "label": "Planifier seul",
+   "label_en": "Planning alone",
+   "score": 1.0,
+   "floor": 0.75,
+   "reference": 1.0,
+   "n": 4,
+   "delegated": true
+  }
+ ]
 }
