@@ -1,7 +1,7 @@
 {
  "schema": "matthew.vitrine/1",
  "name": "Matthew",
- "generated": "2026-11-25 11:42",
+ "generated": "2026-11-25 12:20",
  "champion": {
   "since": "2026-10-21",
   "base": "Qwen/Qwen3.5-4B",
@@ -947,10 +947,18 @@
   {
    "date": "2026-11-24",
    "outcome": "candidat non promu"
+  },
+  {
+   "date": "2026-11-25",
+   "outcome": "occupé"
+  },
+  {
+   "date": "2026-11-25",
+   "outcome": "occupé"
   }
  ],
  "tokens": {
-  "matthew": 5254048,
+  "matthew": 5468086,
   "school": 831962
  },
  "showcase": [
@@ -1349,6 +1357,11 @@
  ],
  "changes": [
   {
+   "date": "2026-11-25",
+   "title": "Vitrine : une ligne de journal par processus, plus 23 fois la même pendant les duels",
+   "area": "IA"
+  },
+  {
    "date": "2026-11-24",
    "title": "PC cerveau : la passerelle de Matthew en tâche Matthew-Passerelle (Tailscale seulement)",
    "area": "Système"
@@ -1742,11 +1755,6 @@
    "date": "2026-11-13",
    "title": "Android : mise à jour réparée et écran de chargement au lancement",
    "area": "Interface"
-  },
-  {
-   "date": "2026-11-13",
-   "title": "apkcheck : lire les signataires au format des build-tools 37",
-   "area": "Système"
   }
  ],
  "live": {
@@ -1755,16 +1763,16 @@
   "epochs": 0,
   "losses": [],
   "since": "2026-11-25 09:03",
-  "done": 217,
+  "done": 138,
   "total": 722,
-  "right": 189
+  "right": 118
  },
  "next": null,
  "counters": {
-  "tokens": 5254048,
+  "tokens": 5468086,
   "gpu_hours": 1.41,
   "nights": 5,
-  "streak": 2
+  "streak": 3
  },
  "specialties": []
 }
